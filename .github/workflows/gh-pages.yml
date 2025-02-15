@@ -13,6 +13,6 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      - run: uv pip install furo myst-parser sphinx-copybutton sphinx-inline-tabs sphinxcontrib.asciinema sphinx-autobuild
+      - run: pip install furo myst-parser sphinx-copybutton sphinx-inline-tabs sphinxcontrib.asciinema sphinx-autobuild
       - run: make clean && make html
       - run: mv _build/ docs/
