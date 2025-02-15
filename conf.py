@@ -16,6 +16,8 @@ exclude_patterns = [
     '.DS_Store',
     '.venv',
     '.gitignore',
+    'README.md',
+    'LICENSE-CC-BY-NC-ND'
 ]
 source_suffix = {
     '.rst': 'restructuredtext',
