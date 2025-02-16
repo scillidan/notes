@@ -1,5 +1,8 @@
 ### [Stable Diffusion web UI for AMDGPUs](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
 
+#### Selfhost
+
+````{tab} From source
 ```sh
 git clone --depth=1 https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu
 cd stable-diffusion-webui-amdgpu
@@ -16,3 +19,4 @@ set COMMANDLINE_ARGS="--use-directml"
 pip install hf_transfer
 webui-user.bat
 ```
+````

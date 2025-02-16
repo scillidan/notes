@@ -6,7 +6,12 @@ ass2srt $1.ass
 ```
 
 ```sh
-# handbrake
+# encode
+av1an -i $1 -v "--cpu-used=3 --end-usage=q --cq-level=30 --threads=8" -w 10 --target-quality 95 -a "-c:a libopus -b:a 192k -ac 2" -l _.log -o _.mp4
+```
+
+```sh
+# encode
 handbrakecli --preset-import-file <preset.json> --input $1 --output _.mp4
 ```
 
@@ -48,4 +53,9 @@ dotnet PgsToSrt.dll --input $1.sup --output _.srt --tesseractlanguage <language>
 ```sh
 # vtt to srt
 vtt_to_srt $1
+```
+
+```sh
+# with kamite
+mpv --input-ipc-server=/./pipe/kamite-mpvsocket --sub-file=$2 --sid=2 --secondary-sid=1 --secondary-sub-visibility=no --save-position-on-quit $1
 ```

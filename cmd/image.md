@@ -6,6 +6,11 @@ agg --theme 1F1F28,FFFFFF,1F1F28,D55FFF,A6E22E,F4BF75,66D9EF,AE81FF,A1EFE4,F8F8F
 ```
 
 ```sh
+# color
+paletter -colors <num> $1
+```
+
+```sh
 # colorscheme
 color-matcher -s $1 -r $2
 ```
@@ -18,6 +23,16 @@ java -jar imagetheming/build/libs/ImageTheming.jar $1 -t=<theme>
 ```sh
 # colorscheme
 pyxelate $1 <output> --factor 9 --upscale 5 --palette 10 --nosvd
+```
+
+```sh
+# crop
+autocrop $1 _crop_$1 0.1
+```
+
+```sh
+# crop face
+autocrop -i pics -o crop -w 400 -H 400 -e png
 ```
 
 ```sh
@@ -66,11 +81,6 @@ gifsicle --lossy=80 -k 128 -O2 --keep-empty $1 -o _.gif
 ```
 
 ```sh
-# paletter
-paletter -colors <num> $1
-```
-
-```sh
 # png optimize
 oxipng -o 4 -i 1 --strip safe *.png
 ```
@@ -83,6 +93,16 @@ faviator --size 512 --text $1 --font-size 12 --font-family "Pridi" --font-color 
 ```sh
 # png to favicon
 favocon $1 -o ./favicon
+```
+
+```sh
+# generate
+node ./fishdraw/fishdraw.js --seed $1 --format smil --speed 2 > _.svg
+```
+
+```sh
+# generate
+node ./legumes/legc --format svg --stem-length 3 --title-text-size 28 --page-margin-x 120 $1 > _.svg
 ```
 
 ```sh

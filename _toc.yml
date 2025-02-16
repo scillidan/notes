@@ -1,0 +1,43 @@
+root: index
+defaults:
+  hidden: True
+  maxdepth: 2
+  numbered: False
+  reversed: False
+  titlesonly: True
+subtrees:
+- caption: ai
+  entries:
+  - glob: ai/*
+- caption: bin
+  entries:
+  - glob: bin/*
+- caption: cmd
+  entries:
+  - glob: cmd/*
+- caption: lib
+  entries:
+  - glob: lib/*
+- caption: opt
+  entries:
+  - glob: opt/*
+- caption: os
+  entries:
+  - glob: os/*
+- caption: serve
+  entries:
+  - glob: serve/*
+- caption: script
+  entries:
+  - glob: script/*
+- caption: web
+  entries:
+  - glob: web/*
+  # - file: doc1
+  #   subtrees:
+  #   - entries:
+  #     - file: doc2
+  #       subtrees:
+  #       - entries:
+  #         - file: doc3
+  # - url: https://example.com

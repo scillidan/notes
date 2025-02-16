@@ -1,7 +1,8 @@
-### LobeChat Server Database
+### Lobe Chat Server Database
 
-#### Docker Compose
+#### Selfhost [^1]
 
+````{tab} Docker compose
 ```sh
 mkdir Docker/lobe-chat-db
 cd Docker/lobe-chat-db
@@ -10,6 +11,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/lobehub/lobe-chat/HEAD/docke
 sed -i 's/localhost/<your_host>/g' docker-compose.yml
 sudo docker compose up -d
 ```
+````
 
 In terminal, you can see:
 
@@ -44,5 +46,12 @@ Casdoor:
     ```
 10. Casdoor → Identity → Applications → LobeChat → Edit → Providers → Add → Select `minio` → Save & Exit
 
-↪ [Deploying LobeChat Server Database Version with Docker Compose](https://lobehub.com/docs/self-hosting/server-database/docker-compose)  
-↪ [[Bug] 无法使用管理员账号登录casdoor](https://github.com/lobehub/lobe-chat/issues/5098)
+#### Deploy with Vercel
+
+- [Deploying Server Database Version on Vercel](https://lobehub.com/docs/self-hosting/server-database/vercel)
+
+#### Reference
+
+- [[Bug] 无法使用管理员账号登录casdoor](https://github.com/lobehub/lobe-chat/issues/5098)
+
+[^1]: [Deploying LobeChat Server Database Version with Docker Compose](https://lobehub.com/docs/self-hosting/server-database/docker-compose)
