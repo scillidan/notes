@@ -36,7 +36,7 @@ jobs:
         with:
           python-version: '3.10'
       - name: Install dependencies
-        run: pip install furo myst-parser sphinx-copybutton sphinx-inline-tabs sphinxcontrib.asciinema sphinx-autobuild
+        run: pip install furo myst-parser sphinx-copybutton sphinx-inline-tabs sphinxcontrib.asciinema sphinx-external-toc
       - name: Build html
         run: make clean && make html
       - name: Setup Pages
