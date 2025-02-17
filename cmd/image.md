@@ -126,21 +126,6 @@ svg2png $1 -w <width> -o _.png
 ```
 
 ```sh
-# take Thumbnail
-mt -n 16 -c 4 --disable-timestamps --header=false $1
-```
-
-```sh
-# take Thumbnail
-mtn -c 4 -r 4 -g 3 -k 000000 -w 1920 -i -t -D 4 -P -o _mtn.png $1
-```
-
-```sh
-# take Thumbnail
-vcsi -w 1920 --metadata-position hidden $1
-```
-
-```sh
 # to svg
 vtracer -i $1 -o _.svg
 ```

@@ -51,6 +51,26 @@ dotnet PgsToSrt.dll --input $1.sup --output _.srt --tesseractlanguage <language>
 ```
 
 ```sh
+# take thumbnail
+mt -n 16 -c 4 --disable-timestamps --header=false $1
+```
+
+```sh
+# take thumbnail
+mtn -c 4 -r 4 -g 3 -k 000000 -w 1920 -i -t -D 4 -P -o _mtn.png $1
+```
+
+```sh
+# take thumbnail
+vcsi -w 1920 --metadata-position hidden $1
+```
+
+```sh
+# take animated video contact sheets
+vimg vcs -c4 -n16 -H270 --avif-fps=20 $1
+```
+
+```sh
 # vtt to srt
 vtt_to_srt $1
 ```

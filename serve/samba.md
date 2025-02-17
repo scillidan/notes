@@ -10,7 +10,7 @@ sudo vim /etc/samba/smb.conf
 
 ```
 workgroup = SAMBAGROUP
-...
+
 [sambashare1]
 comment = Samba Share
 path = /mnt/nvme/sambashare
