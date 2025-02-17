@@ -87,6 +87,12 @@ neovide --server <your_host>:1234
 
 ##### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
+````{tab} Windows 10
+```sh
+git clone https://github.com/folke/lazy.nvim C:\Users\User\AppData\Local\nvim-data\lazy\lazy.nvim
+```
+````
+
 ##### [packer.nvim](https://github.com/wbthomason/packer.nvim) (Cache)
 
 - [How to Install and Use Packer in Neovim/Nvim](https://linovox.com/install-and-use-packer-in-neovim/)

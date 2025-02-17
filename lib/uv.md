@@ -3,8 +3,8 @@
 ````{tab} Arch
 ```sh
 uv python list
-uv python install cpython-3.10.16-linux--x86_64-gnu
-uv python pin cpython-3.10.16-linux-x86_64-gnu
+uv python install 3.10.*
+uv python pin 3.10.*
 cd ~
 uv venv .venv
 ```

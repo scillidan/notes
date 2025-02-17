@@ -1,13 +1,58 @@
-### Ubuntu 22 ARM
+### [Ubuntu](https://ubuntu.com/)
+
+```sh
+# https://ubuntu.com/desktop/wsl
+# wsl --install
+# wsl -d ubuntu
+```
+
+```sh
+sudo apt update && sudo apt upgrade -y
+# sudo apt-get clean && sudo apt-get autoremove
+# timedatectl set-timezone Asia/Shanghai
+# mkdir -p /etc/apt/sources.list.d
+```
 
 #### Use repository mirror
 
 ```sh
-mkdir -p /etc/apt/sources.list.d
 sudo cp /etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources.bak
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 ```
 
+````{tab} Ubuntu 24 [^1]
+```
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/ubuntu
+Suites: noble noble-updates noble-backports
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/ubuntu
+Suites: noble-security
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+```
+````
+
+````{tab} Ubuntu 24 ARM [^1]
+```
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/ubuntu-ports
+Suites: noble noble-updates noble-backports
+Components: main restricted universe multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+Types: deb
+URIs: https://mirrors.ustc.edu.cn/ubuntu-ports
+Suites: noble-security
+Components: main universe restricted multiverse
+Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+```
+````
+
+````{tab} Ubuntu 22 ARM [^1]
 ```
 Types: deb
 URIs: https://mirrors.ustc.edu.cn/ubuntu-ports
@@ -21,8 +66,33 @@ Suites: jammy-security
 Components: main universe restricted multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ```
+````
 
-#### Disable WiFi
+```sh
+sudo apt update
+```
+
+#### Ubuntu 24 ARM
+
+##### Enable WiFi:
+
+```sh
+sudo apt install network-manager
+nmcli d
+sudo nmcli r wifi on
+nmcli d wifi list
+sudo nmcli d wifi connect <ssid> password <password>
+```
+
+- [Establish a Wireless Connection](https://ubuntu.com/core/docs/networkmanager/configure-wifi-connections)
+
+##### Troubleshoot
+
+- [How to fix "Failed to fetch <sources.list links> 404 Not Found [IP: <some_ip>]"](https://askubuntu.com/questions/1348375/how-to-fix-failed-to-fetch-sources-list-links-404-not-found-ip-some-ip)
+
+#### Ubuntu 22 ARM
+
+##### Disable WiFi
 
 ```sh
 sudo ifconfig eth0 up
@@ -69,7 +139,7 @@ sudo ifconfig wlan0 down
 - [Configure a Static IP address for WIFI using Netplan in Ubuntu Server 22.04 on a HP Pavillion Desktop 510-p051a](https://stackoverflow.com/questions/77637274/configure-a-static-ip-address-for-wifi-using-netplan-in-ubuntu-server-22-04-on-a)
 - [No internet connection after ubuntu server 20.04 install, ifconfig not available](https://askubuntu.com/questions/1233934/no-internet-connection-after-ubuntu-server-20-04-install-ifconfig-not-available)
 
-#### Install [Nerd Font](http://nerdfonts.com/)
+##### Install [Nerd Font](http://nerdfonts.com/)
 
 ```sh
 sudo vim /etc/fonts/conf.d/50-enable-fixed.conf
