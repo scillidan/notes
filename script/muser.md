@@ -1,4 +1,4 @@
-### [muser](https://github.com/jordipons/musicnn) [^1] (Cache)
+### [muser](https://github.com/jordipons/musicnn) [^1][^2] (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/jonshamir/muser
@@ -13,7 +13,7 @@ python setup.py install
 cd ..
 uv pip install --force-reinstall filetype==1.2.0 coverage==5.5 toml==0.10.2 eyed3==0.9.7
 # uv pip install --force-reinstall filetype-1.2.0-py2.py3-none-any.whl coverage-5.5-cp310-cp310-manylinux1_x86_64.whl toml-0.10.2-py2.py3-none-any.whl eyed3-0.9.7-py3-none-any.whl
-jupyter-lab
+uv run --with jupyter jupyter lab
 ```
 
 ```sh
@@ -23,4 +23,4 @@ npm run start
 ```
 
 [^1]: [musicnn](https://github.com/jordipons/musicnn)
-[^2]: [Jupyter Notebook in Windows Subsystem for Linux |WSL](https://harshityadav95.medium.com/jupyter-notebook-in-windows-subsystem-for-linux-wsl-8b46fdf0a536)
+[^2]: [Using uv with Jupyter](https://docs.astral.sh/uv/guides/integration/jupyter/)

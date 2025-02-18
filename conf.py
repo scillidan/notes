@@ -8,6 +8,8 @@ extensions = [
     'sphinx_inline_tabs',
 	'sphinx_copybutton',
     'sphinx_external_toc',
+    "sphinxcontrib.jquery",
+    "sphinx_datatables",
 	'sphinxcontrib.asciinema',
 ]
 
@@ -76,6 +78,13 @@ html_theme_options = {
 
 external_toc_path = "_toc.yml"
 external_toc_exclude_missing = False
+
+datatables_version = "1.13.4"
+datatables_class = "sphinx-datatable"
+datatables_options = {
+    'lengthMenu': [20, 50, 100, 200, 500],
+    'pageLength': 100,
+}
 
 sphinxcontrib_asciinema_defaults = {
     'theme': 'solarized-dark',

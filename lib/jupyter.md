@@ -1,7 +1,8 @@
-### [Jupyter](https://github.com/jupyter/jupyter) (Cache)
+### [Jupyter](https://jupyter.org/) (Cache)
 
 ```sh
-pip install --user ipykernel
-ipython kernel install
+pip install jupyterlab
+# pip install --user ipykernel
+# ipython kernel install
 jupyter-lab
 ```

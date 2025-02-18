@@ -72,6 +72,28 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 sudo apt update
 ```
 
+#### Ubuntu 24
+
+##### [Flatpak](https://flatpak.org/)
+
+```sh
+sudo add-apt-repository ppa:flatpak/stable
+sudo apt update
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+reboot
+```
+
+- [Ubuntu Quick Setup](https://flatpak.org/setup/Ubuntu)
+
+```sh
+export GIO_MODULE_DIR=/usr/lib/x86_64-linux-gnu/gio/modules/
+flatpak install flathub
+```
+
+- [TLS support is not available](https://github.com/flatpak/flatpak/issues/1207)
+
 #### Ubuntu 24 ARM
 
 ##### Enable WiFi:

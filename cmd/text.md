@@ -21,6 +21,11 @@ neovide --geometry 100x30 --notabs --frame none -- -u "%LUNARVIM_BASE_DIR%\init.
 ```
 
 ```sh
+# rst to markdown
+pandoc $1 -f rst -t markdown -o _.md
+```
+
+```sh
 # semantic grep
 w2vgrep /C 2 /n /t 0.55 /m "C:\Users\User\Data\Model\googlenews-slim\GoogleNews-vectors-negative300-SLIM.bin" $1 /f $2
 ```
