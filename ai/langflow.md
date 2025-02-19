@@ -1,7 +1,5 @@
 ### [Langflow](https://github.com/langflow-ai/langflow)
 
-#### Selfhost [^1]
-
 ````{tab} pipx
 ```sh
 pipx install langflow

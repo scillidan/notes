@@ -1,7 +1,5 @@
 ### [Dify](https://github.com/langgenius/dify)
 
-#### Selfhost
-
 ````{tab} Docker compose [^1]
 ```sh
 git clone --depth=1 https://github.com/langgenius/dify

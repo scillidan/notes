@@ -1,5 +1,6 @@
 ### [MeloTTS](https://github.com/myshell-ai/MeloTTS)
 
+````{tab} From source
 ```sh
 git clone --depth=1 https://github.com/myshell-ai/MeloTTS
 uv venv
@@ -8,13 +9,16 @@ uv pip install torch torchvision torchaudio --index-url https://download.pytorch
 uv pip install -e .
 python -m unidic download
 ```
+````
+
+#### Usage
 
 ```sh
 melo "Hello" temp.wav --language EN
 melo --device cuda --language EN "<text>" temp.wav && ffplay -autoexit temp.wav
 ```
 
-Start with Web UI [^1]:
+With Web UI [^1]:
 
 ```sh
 uv pip install gradio==4.21.0

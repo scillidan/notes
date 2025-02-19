@@ -1,11 +1,6 @@
 ### [Fish Speech](https://github.com/fishaudio/fish-speech) (Cache)
 
-Edit `API_FLAGS.txt`:
-
-```
---listen 0.0.0.0:<port> \
-```
-
+````{tab} From source
 ```sh
 uv venv
 .venv\Scripts\activate.bat
@@ -15,3 +10,6 @@ uv pip install -e .
 uv pip install hf_transfer
 start.bat
 ```
+````
+
+If serve port used, edit `API_FLAGS.txt`.

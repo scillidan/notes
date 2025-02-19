@@ -10,5 +10,4 @@ uv pip install torch --index-url https://download.pytorch.org/whl/cu121
 uv pip install -e .
 uv pip install hf_transfer
 python -m bark --text "<text>" --output_filename "temp.wav"
-ffplay -autoexit temp.wav
 ```

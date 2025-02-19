@@ -1,7 +1,5 @@
 ### [BallonsTranslator](https://github.com/dmMaze/BallonsTranslator)
 
-#### Selfhost
-
 ````{tab} From source
 ```sh
 git clone --depth=1 https://github.com/dmMaze/BallonsTranslator

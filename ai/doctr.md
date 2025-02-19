@@ -1,7 +1,5 @@
 ### [docTR](https://github.com/mindee/doctr)
 
-#### Selfhost
-
 ````{tab} Form source
 ```sh
 git clone --depth=1 https://github.com/mindee/doctr
