@@ -14,3 +14,9 @@ curl -k https://raw.githubusercontent.com/scillidan/WALLPAP-ENG-resource/main/ta
 # print colors
 curl -k --remote-name-all -o - https://raw.githubusercontent.com/scillidan/color/main/data/{chinese-traditional-colors.md,china-tradition-color-monokuro.md,zhongguose.md,china-tradition-color-320.md,nipponcolors.md} | mdtable2csv | xsv select hex,spelling,name | tidy-viewer -D -a -e | coloro | less -R
 ```
+
+```sh
+# linkding-cli
+# Need jq linkding-cli ramda-cli tidy-viewer xsv
+linkding --url "http://127.0.0.1:8002" --token "<token>" bookmarks all -q $1 | jq ".results[]" | ramda -c -o csv | xsv select tag_names,url,website_title | tidy-viewer -u 45
+```

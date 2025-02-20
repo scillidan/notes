@@ -78,6 +78,13 @@ extra-keys = [[ \
 - [Termux Desktop](https://github.com/adi1090x/termux-desktop)  
 - [termux-desktop-xfce](https://github.com/Yisus7u7/termux-desktop-xfce)
 
+#### LLM
+
+```sh
+pkg install ollama
+ollama pull tinyllama
+```
+
 #### Troubleshoot
 
 - [apt-get update fails to fetch files, “Temporary failure resolving …” error](https://askubuntu.com/questions/91543/apt-get-update-fails-to-fetch-files-temporary-failure-resolving-error)

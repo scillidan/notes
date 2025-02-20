@@ -128,7 +128,8 @@ win32yank
 ```
 
 ```sh
-uv pip install pip_search pipx
+uv pip install pipx
+pipx install deep-translator pip_search
 cargo install autocast grex pipe-rename tidy-viewer trashy
 pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
@@ -145,3 +146,5 @@ fc-cache -fv
 #### Reference
 
 - [WSLg/WSL2 网络配置，终极解决方案 - 镜像网络](https://blog.gazer.win/essay/wsl2-mirrored-network.html)
+- [Cmus](https://cmus.github.io/)
+- [sdcv](https://dushistov.github.io/sdcv/)

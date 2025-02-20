@@ -1,0 +1,16 @@
+#### Resource
+
+- [mpd](https://github.com/MusicPlayerDaemon/MPD) (Cache)
+- [Mopidy](https://mopidy.com/) (Cache)
+  - [Installation - Debian/Ubuntu](https://docs.mopidy.com/stable/installation/debian/)
+- [Calibre-Web-Automated-Book-Downloader](https://github.com/calibrain/calibre-web-automated-book-downloader) (Cache)
+- [CompressioWeb](https://github.com/naamhaiabdullah/compressioweb) (Cache)
+- [VS Code LaTeX Devcontainer](https://github.com/a-nau/latex-devcontainer) (Cache)
+- [Windows](https://github.com/dockur/windows) (Cache)
+- [OSX](https://github.com/dockur/macos) (Cache)
+- [Tolgee](https://github.com/tolgee/tolgee-platform) (TBD)
+- [solidtime](https://github.com/solidtime-io/solidtime)
+- [Plane](https://github.com/makeplane/plane)
+- [Maybe](https://github.com/maybe-finance/maybe)
+- [Mpv Shelf](https://github.com/aramrw/mpv-shelf)
+- [ArchiveBox](https://github.com/ArchiveBox/ArchiveBox)

@@ -36,6 +36,9 @@ subtrees:
 - caption: web
   entries:
   - glob: web/*
+- caption: web-app
+  entries:
+  - glob: web-app/*
   # - file: doc1
   #   subtrees:
   #   - entries:
