@@ -81,40 +81,40 @@ yay
 
 ```sh
 sudo pacman -S \
-asciinema \
-atuin \
-bat \
-cargo \
-chezmoi \
-cmus \
-cronie \
-curl \
-docker \
-docker-compose \
-eza \
-fzf \
-git \
-github-cli \
-harper \
-neovim \
-newsboat \
-nvm \
-openssh \
-pnpm \
-rust \
-rbenv \
-sdcv \
-starship \
-tere \
-tldr \
-tmux \
-tmuxinator \
-translate-shell \
-uv \
-wget \
-yq \
-zsh
-# go
+	asciinema \
+	atuin \
+	bat \
+	cargo \
+	chezmoi \
+	cmus \
+	cronie \
+	curl \
+	docker \
+	docker-compose \
+	eza \
+	fzf \
+	git \
+	github-cli \
+	harper \
+	neovim \
+	newsboat \
+	nvm \
+	openssh \
+	pnpm \
+	rust \
+	rbenv \
+	sdcv \
+	starship \
+	tere \
+	tldr \
+	tmux \
+	tmuxinator \
+	translate-shell \
+	uv \
+	wget \
+	yq \
+	zsh
+	# go
 ```
 
 ```sh
@@ -146,5 +146,3 @@ fc-cache -fv
 #### Reference
 
 - [WSLg/WSL2 网络配置，终极解决方案 - 镜像网络](https://blog.gazer.win/essay/wsl2-mirrored-network.html)
-- [Cmus](https://cmus.github.io/)
-- [sdcv](https://dushistov.github.io/sdcv/)
