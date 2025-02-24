@@ -1,5 +1,13 @@
 ### [mpv](https://mpv.io/)
 
+`mpv.exe` → 新建快捷方式 → 属性 → 快捷方式:
+	```
+	目标 `mpv.exe`
+	起始位置 `mpv_config_dir_for_stream\`
+	```
+
+#### Reference
+
 - [How to toggle second subtitles visibility?](https://www.reddit.com/r/mpv/comments/p2brpk/how_to_toggle_second_subtitles_visibility/)
 - [Is it possible to make delete_file script remove file to recycle bin instead of permanently deleting the file?](https://github.com/zenyd/mpv-scripts/issues/29)
 - [--sub-fonts-dir](https://mpv.io/manual/master/#subtitles)

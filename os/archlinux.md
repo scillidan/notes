@@ -1,4 +1,4 @@
-### [Arch Linux](https://archlinux.org/)
+### [Arch Linux](https://archlinux.org/) (Wait)
 
 Login with [^1]:
 
