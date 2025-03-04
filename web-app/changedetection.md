@@ -1,6 +1,6 @@
 ### [changedetection.io](https://github.com/dgtlmoon/changedetection.io)
 
-![](https://img.shields.io/github/license/dgtlmoon/changedetection.io?label=&style=flat-square)
+![](https://img.shields.io/github/license/dgtlmoon/changedetection.io)
 
 ````{tab} From source
 ```sh

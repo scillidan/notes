@@ -1,6 +1,6 @@
 ### [Cheatsheet Generator](https://github.com/nathanlesage/cheatsheet-generator)
 
-![](https://img.shields.io/github/license/nathanlesage/cheatsheet-generator?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/cheatsheet-generator/master?label=&style=flat-square)](https://github.com/scillidan/cheatsheet-generator)
+![](https://img.shields.io/github/license/nathanlesage/cheatsheet-generator) [![](https://img.shields.io/github/last-commit/scillidan/cheatsheet-generator/master?label=last%20commit%20(fork))](https://github.com/scillidan/cheatsheet-generator)
 
 ````{tab} From source
 ```sh

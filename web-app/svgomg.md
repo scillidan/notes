@@ -1,6 +1,6 @@
 ### [SVGOMG](https://github.com/jakearchibald/svgomg)
 
-![](https://img.shields.io/github/license/jakearchibald/svgomg?label=&style=flat-square)
+![](https://img.shields.io/github/license/jakearchibald/svgomg)
 
 ````{tab} From source
 ```sh

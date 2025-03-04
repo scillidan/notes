@@ -1,6 +1,6 @@
 ### [ePubViewer](https://github.com/pgaskin/ePubViewer)
 
-![](https://img.shields.io/github/license/pgaskin/ePubViewer?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/pgaskin/ePubViewer/main?label=&style=flat-square)](https://github.com/scillidan/ePubViewer) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/pgaskin/ePubViewer) [![](https://img.shields.io/github/last-commit/pgaskin/ePubViewer/main)](https://github.com/scillidan/ePubViewer) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

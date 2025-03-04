@@ -1,6 +1,6 @@
 ### [Streamlit Image Crop](https://github.com/mitsuse/streamlit-image-crop)
 
-![](https://img.shields.io/github/license/mitsuse/streamlit-image-crop?label=&style=flat-square)
+![](https://img.shields.io/github/license/mitsuse/streamlit-image-crop)
 
 ````{tab} From source
 ```sh

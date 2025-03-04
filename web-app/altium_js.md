@@ -1,6 +1,6 @@
 ### [altium.js](https://github.com/gsuberland/altium_js)
 
-![](https://img.shields.io/github/license/gsuberland/altium_js?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/altium_js/main?label=&style=flat-square)](https://github.com/scillidan/altium_js) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/gsuberland/altium_js) [![](https://img.shields.io/github/last-commit/scillidan/altium_js/main)](https://github.com/scillidan/altium_js) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ```sh
 git clone --depth=1 https://github.com/gsuberland/altium_js

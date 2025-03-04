@@ -1,6 +1,6 @@
 ### [CL Calc](https://github.com/ovk/clcalc)
 
-[![](https://img.shields.io/github/last-commit/scillidan/clcalc/master?label=&style=flat-square)](https://github.com/scillidan/clcalc) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+[![](https://img.shields.io/github/last-commit/scillidan/clcalc/master?label=last%20commit%20(fork))](https://github.com/scillidan/clcalc) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

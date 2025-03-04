@@ -1,6 +1,6 @@
 ### [SvgPathEditor](https://github.com/Yqnn/svg-path-editor)
 
-![](https://img.shields.io/github/license/Yqnn/svg-path-editor?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/svg-path-editor/master?label=&style=flat-square)](https://github.com/scillidan/svg-path-editor) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/Yqnn/svg-path-editor) [![](https://img.shields.io/github/last-commit/scillidan/svg-path-editor/master?label=last%20commit%20(fork))](https://github.com/scillidan/svg-path-editor) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

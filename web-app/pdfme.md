@@ -1,6 +1,6 @@
 ### [PDFME](https://github.com/pdfme/pdfme)
 
-![](https://img.shields.io/github/license//pdfme/pdfme?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/pdfme/main?label=&style=flat-square)](https://github.com/scillidan/pdfme)
+![](https://img.shields.io/github/license//pdfme/pdfme) [![](https://img.shields.io/github/last-commit/scillidan/pdfme/main)](https://github.com/scillidan/pdfme)
 
 ````{tab} From source
 ```sh

@@ -1,6 +1,6 @@
 ### [FocusTide](https://github.com/Hanziness/FocusTide)
 
-![](https://img.shields.io/github/license/Hanziness/FocusTide?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/FocusTide/main?label=&style=flat-square)](https://github.com/scillidan/FocusTide) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/Hanziness/FocusTide) [![](https://img.shields.io/github/last-commit/scillidan/FocusTide/main)](https://github.com/scillidan/FocusTide) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

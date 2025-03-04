@@ -1,6 +1,6 @@
 ### [tikzcd-editor](https://github.com/yishn/tikzcd-editor)
 
-![](https://img.shields.io/github/license/yishn/tikzcd-editor?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/tikzcd-editor/master?label=&style=flat-square)](https://github.com/scillidan/tikzcd-editor)
+![](https://img.shields.io/github/license/yishn/tikzcd-editor) [![](https://img.shields.io/github/last-commit/scillidan/tikzcd-editor/master?label=last%20commit%20(fork))](https://github.com/scillidan/tikzcd-editor)
 
 ````{tab} From source
 ```sh

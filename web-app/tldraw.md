@@ -1,6 +1,6 @@
 ### [tldraw](https://github.com/tldraw/tldraw)
 
-![](https://img.shields.io/github/license/tldraw/tldraw?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/tldraw/main?label=&style=flat-square)](https://github.com/scillidan/tldraw)
+![](https://img.shields.io/github/license/tldraw/tldraw) [![](https://img.shields.io/github/last-commit/scillidan/tldraw/main)](https://github.com/scillidan/tldraw)
 
 ````{tab} From source
 ```sh

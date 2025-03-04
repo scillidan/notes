@@ -1,6 +1,6 @@
 ### [Reference](https://github.com/Fechin/reference)
 
-![](https://img.shields.io/github/license/Fechin/reference?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/reference/main?label=&style=flat-square)](https://github.com/scillidan/reference) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/Fechin/reference) [![](https://img.shields.io/github/last-commit/scillidan/reference/main)](https://github.com/scillidan/reference) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

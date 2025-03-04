@@ -1,6 +1,6 @@
 ### [Snippet Box](https://github.com/pawelmalak/snippet-box)
 
-![](https://img.shields.io/github/license/pawelmalak/snippet-box?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/snippet-box/master?label=&style=flat-square)](https://github.com/scillidan/snippet-box)
+![](https://img.shields.io/github/license/pawelmalak/snippet-box) [![](https://img.shields.io/github/last-commit/scillidan/snippet-box/master?label=last%20commit%20(fork))](https://github.com/scillidan/snippet-box)
 
 ````{tab} From source
 ```sh

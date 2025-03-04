@@ -1,6 +1,6 @@
 ### [Localpdf.tech](https://github.com/julianfbeck/localpdfmerger)
 
-![](https://img.shields.io/github/license/julianfbeck/localpdfmerger?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/localpdfmerger/main?label=&style=flat-square)](https://github.com/scillidan/localpdfmerger) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/julianfbeck/localpdfmerger) [![](https://img.shields.io/github/last-commit/scillidan/localpdfmerger/main)](https://github.com/scillidan/localpdfmerger) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

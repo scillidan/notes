@@ -1,6 +1,6 @@
 ### [Album App for Django](https://github.com/jobsta/albumapp-django)
 
-![](https://img.shields.io/github/license/jobsta/albumapp-django?label=&style=flat-square)
+![](https://img.shields.io/github/license/jobsta/albumapp-django)
 
 ````{tab} From source
 ```sh

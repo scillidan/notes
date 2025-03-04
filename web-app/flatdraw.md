@@ -1,6 +1,6 @@
 ### [Flatdraw](https://github.com/diogocapela/flatdraw)
 
-![](https://img.shields.io/github/license/diogocapela/flatdraw?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/flatdraw/main?label=&style=flat-square)](https://github.com/scillidan/flatdraw)
+![](https://img.shields.io/github/license/diogocapela/flatdraw) [![](https://img.shields.io/github/last-commit/scillidan/flatdraw/main)](https://github.com/scillidan/flatdraw)
 
 ````{tab} From source
 ```sh

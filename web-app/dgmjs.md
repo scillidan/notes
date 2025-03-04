@@ -1,6 +1,6 @@
 ### [DGM.js](https://github.com/dgmjs/dgmjs)
 
-![](https://img.shields.io/github/license/dgmjs/dgmjs?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/dgmjs/main?label=&style=flat-square)](https://github.com/scillidan/dgmjs)
+![](https://img.shields.io/github/license/dgmjs/dgmjs) [![](https://img.shields.io/github/last-commit/scillidan/dgmjs/main)](https://github.com/scillidan/dgmjs)
 
 ````{tab} From source
 ```sh

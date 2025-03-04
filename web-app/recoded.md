@@ -1,6 +1,6 @@
 ### [recoded](https://github.com/siddharthroy12/recoded)
 
-![](https://img.shields.io/github/license/siddharthroy12/recoded?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan//main?label=&style=flat-squarerecoded)](https://github.com/scillidan/recoded) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/siddharthroy12/recoded) [![](https://img.shields.io/github/last-commit/scillidan//mainrecoded)](https://github.com/scillidan/recoded) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

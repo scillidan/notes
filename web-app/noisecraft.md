@@ -1,6 +1,6 @@
 ### [NoiseCraft](https://github.com/maximecb/noisecraft)
 
-![](https://img.shields.io/github/license/maximecb/noisecraft?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/noisecraft/main?label=&style=flat-square)](https://github.com/scillidan/noisecraft)
+![](https://img.shields.io/github/license/maximecb/noisecraft) [![](https://img.shields.io/github/last-commit/scillidan/noisecraft/main)](https://github.com/scillidan/noisecraft)
 
 ````{tab} From source
 ```sh

@@ -1,6 +1,6 @@
 ### [Flowchart Fun](https://github.com/tone-row/flowchart-fun)
 
-![](https://img.shields.io/github/license/tone-row/flowchart-fun?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/flowchart-fun/main?label=&style=flat-square)](https://github.com/scillidan/flowchart-fun) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/tone-row/flowchart-fun) [![](https://img.shields.io/github/last-commit/scillidan/flowchart-fun/main)](https://github.com/scillidan/flowchart-fun) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh
