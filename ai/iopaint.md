@@ -1,4 +1,4 @@
-### [IOPaint](https://github.com/Sanster/IOPaint)
+### [IOPaint](https://github.com/Sanster/IOPaint) (Bug)
 
 ````{tab} From source
 ```sh

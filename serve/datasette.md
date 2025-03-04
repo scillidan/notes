@@ -9,8 +9,6 @@ uv venv
 .venv\Scripts\activate.bat
 uv pip install datasette
 uv pip install datasette-sitemap datasette-block-robots datasette-backup datasette-parquet datasette-search-all datasette-render-images datasette-media datasette-render-markdown datasette-multiline-links datasette-external-links-new-tabs datasette-copyable
-# pipx install csvs-to-sqlite
-# csvs-to-sqlite database.csv database.db
 # pipx install sqlite-utils
 # sqlite-utils enable-fts <database.db> <table> <column_1> <column_2>
 datasette serve <database.db>

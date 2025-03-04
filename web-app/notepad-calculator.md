@@ -1,0 +1,10 @@
+### [Notepad Calculator Prototype](https://github.com/SteveRidout/notepad-calculator)
+
+![](https://img.shields.io/github/license/SteveRidout/notepad-calculator?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/notepad-calculator/master?label=&style=flat-square)](https://github.com/scillidan/notepad-calculator) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+
+```sh
+git clone --depth=1 https://github.com/SteveRidout/notepad-calculator
+cd notepad-calculator
+```
+
+Open `index.html`.

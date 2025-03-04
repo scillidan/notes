@@ -1,4 +1,4 @@
-### [Cargo](https://doc.rust-lang.org/cargo/)
+### [Rust](https://www.rust-lang.org/)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh

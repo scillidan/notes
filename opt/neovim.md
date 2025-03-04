@@ -83,7 +83,7 @@ neovide --server <your_host>:1234
 - [How to Install and Use nvim cmp Autocompletion](https://linovox.com/install-and-use-nvim-cmp/)
 - [Autocomplete with nvim-cmp](https://www.jonashietala.se/blog/2024/05/26/autocomplete_with_nvim-cmp/)
 
-#### Extension
+#### Resource
 
 ##### [lazy.nvim](https://github.com/folke/lazy.nvim)
 
@@ -101,12 +101,19 @@ git clone https://github.com/folke/lazy.nvim C:\Users\User\AppData\Local\nvim-da
 
 ```sh
 :MasonUpdate
+# :MasonInstall emmet-language-server
+# :MasonInstall html-lsp
+# :MasonInstall css-lsp
+# :MasonInstall tailwindcss-language-server
+# :MasonInstall nextls
+# :MasonInstall typescript-language-server
+# :MasonInstall eslint-lsp
+:MasonInstall ltex-ls
+:MasonInstall harper-ls
 :MasonInstall python-lsp-server
 :MasonInstall lua-language-server
 :MasonInstall luacheck
 :MasonInstall luaformatter
-:MasonInstall ltex-ls
-:MasonInstall harper-ls
 ```
 
 ##### [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
@@ -117,14 +124,26 @@ git clone https://github.com/folke/lazy.nvim C:\Users\User\AppData\Local\nvim-da
 
 ##### [nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs)
 
+````{tab} Windows 10
+```sh
+mkdir C:\Users\User\AppData\Local\nvim-data\devdocs
+```
+````
+
 ```sh
 :DevdocFetch
 :DevdocInstall html
 :DevdocInstall css
 :DevdocInstall javascript
 :DevdocInstall http
-:DevdocInstall latex
+# :DevdocInstall tailwindcss
+# :DevdocInstall nextjs
+# :DevdocInstall typescript
+# :DevdocInstall eslint
+# :DevdocInstall electron
+# :DevdocInstall react-18
 :DevdocInstall bash
+:DevdocInstall latex
 ```
 
 ##### [rime-ls](https://github.com/wlh320/rime-ls)
@@ -136,6 +155,12 @@ git fetch --tags
 git checkout v0.4.1
 ```
 
+````{tab} Windows 10
+```sh
+cargo build --release
+```
+````
+
 ````{tab} Arch
 ```sh
 sudo pacman -S librime
@@ -144,8 +169,18 @@ cargo build --release
 
 ````{tab} Ubuntu 24 ARM
 ```sh
-sudo apt install librime-dev
+sudo apt install build-essential libclang-dev librime-dev
 rustup target add aarch64-unknown-linux-gnu
+cargo build --target aarch64-unknown-linux-gnu --release
+```
+````
+
+````{tab} Termux
+```sh
+# cargo install cargo-ndk
+# rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android i686-linux-android
+# cargo ndk -t aarch64-linux-android build --release
+pkg install rust
 cargo build --target aarch64-unknown-linux-gnu --release
 ```
 ````
@@ -157,6 +192,19 @@ ln ~/.cargo/tmp/release/rime_ls ~/.local/bin/rime_ls
 ##### [cmp-lsp-rimels](https://github.com/liubianshi/cmp-lsp-rimels)
 
 - [莫名奇妙的参数类型错误](https://github.com/liubianshi/cmp-lsp-rimels/issues/1)
+
+##### Latex
+
+````{tab} Arch
+```sh
+sudo pacman -S texlab zathura
+```
+````
+
+- [opt/latex](opt/latex.html)
+- [Neovim as a LaTex Development Environment](https://blog.epheme.re/software/nvim-latex.html)
+- [使用 Neovim 和 vimtex 高效撰写 LaTeX 学术论文](https://sspai.com/post/64080)
+- [opt/texlive](/opt/texlive.html)
 
 ##### [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
 

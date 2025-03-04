@@ -1,8 +1,47 @@
 ### Termux
 
 ```sh
-pkg update && pkg upgrade
-pkg install curl wget git vim
+pkg update
+pkg upgrade
+pkg install asciinema \
+  atuin \
+  bat \
+  chezmoi \
+  curl \
+  eza \
+  fzf \
+  gh \
+  git \
+  libandroid-stub \
+  neovim \
+  newsboat \
+  nodejs-lts \
+  sdcv \
+  starship \
+  tere \
+  tealdeer \
+  tmux \
+  translate-shell \
+  uv \
+  vim \
+  wget \
+  yq \
+  zsh
+```
+
+```sh
+python -m pip install pipx
+pipx install deep-translator
+```
+
+```sh
+tar -xzf harper-cli-aarch64-unknown-linux-gnu.tar.gz
+chmod +x harper-cli
+mv ./harper-cli ~/.local/bin/
+```
+
+```sh
+tldr --update
 ```
 
 #### About Username
@@ -40,8 +79,7 @@ ls /usr
 #### Install [Nerd Font](https://www.nerdfonts.com/font-downloads) [^3]
 
 ```sh
-wget https://raw.githubusercontent.com/scillidan/Nerd-Sarasa-Merge/main/MonaspiceArNFP-SarasaGothicSC-WFMSansSC.ttf -O font.ttf
-cp font.ttf ~/.termux/font.ttf
+wget https://raw.githubusercontent.com/scillidan/Nerd-Sarasa-Merge/main/MonaspiceArNFP-SarasaGothicSC-WFMSansSC.ttf -O ~/.termux/font.ttf
 termux-reload-settings
 ```
 

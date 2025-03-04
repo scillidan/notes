@@ -1,15 +1,19 @@
+[^1]: [alarm login?](https://github.com/altreact/archbk/issues/9)
+[^2]: [Network configuration/Wireless](https://wiki.archlinux.org/title/Network_configuration/Wireless)
+[^3]: [Pacman Home Page](https://pacman.archlinux.page/)
+
 ### [Arch Linux](https://archlinux.org/) (Wait)
 
-Login with [^1]:
+#### Login
+
+With [^1]:
 
 ```
 username: root
 password: root
 ```
 
-[^1]: [alarm login?](https://github.com/altreact/archbk/issues/9)
-
-[Wireless](https://wiki.archlinux.org/title/Network_configuration/Wireless) configure (Optional):
+#### Wireless configure [^2] (Optional):
 
 ```sh
 ip link
@@ -24,7 +28,7 @@ station wlan0 connect "<ssid>"
 ping archlinux.org
 ```
 
-### [Pacman](https://pacman.archlinux.page/)
+### UsedPacman
 
 ```sh
 sudo pacman -S vim
@@ -234,7 +238,7 @@ ip addr show
 Get your `ip` of `inet`. On client machine:
 
 ```sh
-ssh <user>@<ip>
+ssh <username>@<ip>
 ```
 
 ### [Xfce](https://wiki.archlinux.org/title/Xfce)

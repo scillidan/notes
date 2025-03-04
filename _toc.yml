@@ -15,9 +15,15 @@ subtrees:
 - caption: cmd
   entries:
   - glob: cmd/*
+- caption: data
+  entries:
+  - glob: data/*
 - caption: hardware
   entries:
   - glob: hardware/*
+- caption: keymap
+  entries:
+  - glob: keymap/*
 - caption: lib
   entries:
   - glob: lib/*

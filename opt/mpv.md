@@ -1,5 +1,16 @@
 ### [mpv](https://mpv.io/)
 
+
+````{tab} From source (Cache)
+```sh
+git clone --depth=1 https://github.com/mpv-player/mpv
+cd mpv
+git fetch --tags
+git checkout v0.38.0
+```
+````
+
+
 `mpv.exe` → 新建快捷方式 → 属性 → 快捷方式:
 	```
 	目标 `mpv.exe`

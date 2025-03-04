@@ -19,18 +19,16 @@ gem install bundler
 bundle install
 ```
 
-1. Get `curl-*-win64-mingw.zip` from [curl for Windows](https://curl.se/windows/).
-2. Decompress it to `curl\`.
-3. `cp curl\bin\libcurl-x64.dll <RBENV_ROOT>\3.3.4-1\bin\libcurl.dll` [^1]. 
-
-
-1. Get `Binaries` from [Gzip for Windows](https://gnuwin32.sourceforge.net/packages/gzip.htm).
-2. Decompress it to `gzip\`.
-3. Add `gzip\bin` into `PATH`.
-4. `mklink gzip\bin\gunzip.exe gzip\bin\gzip.exe` [^2].
+```sh
+scoop install curl gzip
+cd ...\Scoop\shims
+cp gzip.exe gunzip.exe
+cp gzip.shim gunzip.shim
+```
 
 ```pwsh
-bundle exec thor docs:download bash
+bunder exec thor docs:list
+bundle exec thor docs:download html
 bundle exec rackup
 ```
 

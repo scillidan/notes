@@ -1,9 +1,12 @@
 ### [Instant Recipe Search](https://github.com/typesense/showcase-recipe-search) (Cache)
 
-````{tab} Windows 10 (Cache)
 ```sh
 git clone --depth=1 https://github.com/typesense/showcase-recipe-search
 cd showcase-recipe-search
+```
+
+````{tab} Windows 10 (Cache)
+```sh
 rbenv install 2.7.2
 rbenv shell 2.7.2
 gem install bundler -v 2.4.22
@@ -27,6 +30,7 @@ yarn start
 ````{tab} Arch
 ```sh
 sudo pacman -S rbenv
-rbenv init
+yay -S ruby-build
+rvm install 2.7.2
 ```
 ````

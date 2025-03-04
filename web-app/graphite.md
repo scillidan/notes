@@ -1,6 +1,6 @@
 ### [Graphite](https://github.com/GraphiteEditor/Graphite) (Cache)
 
-````{tab} Ubuntu 24 ARM
+````{tab} Ubuntu 24 ARM [^1]
 ```sh
 cargo install cargo-watch
 cargo install wasm-pack
@@ -14,6 +14,6 @@ npm install vite --save-dev
 npm run build
 pm2 serve dist 4321 --name graphite --spa
 ```
+````
 
 [^1]: [Project setup](https://graphite.rs/volunteer/guide/project-setup/)
-````

@@ -1,0 +1,23 @@
+### [Kiwix JS](https://github.com/kiwix/kiwix-js-pwa)
+
+![](https://img.shields.io/github/license/kiwix/kiwix-js-pwa?label=&style=flat-square) [![](https://img.shields.io/github/last-commit/scillidan/kiwix-js-pwa/main?label=&style=flat-square)](https://github.com/scillidan/kiwix-js-pwa) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+
+````{tab} From source
+```sh
+git clone --depth=1 https://github.com/kiwix/kiwix-js-pwa
+cd kiwix-js-pwa
+npm install
+npm run build
+npm run serve
+```
+````
+
+````{tab} PM2
+```sh
+pm2 serve dist 5173 --name kiwix-js-pwa --spa --env production
+```
+````
+
+1. Visit `localhost:5173`.
+2. Setting → Use Private File System → Add file(s) → Add to OPFS → Select your `.zim` → Wait for it to complete → Install PWA (Optional).
+3. If you clean up the cache of browser, you need to do it again.

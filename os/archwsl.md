@@ -101,12 +101,14 @@ sudo pacman -S \
 	nvm \
 	openssh \
 	pnpm \
+	python-pipx \
 	rust \
 	rbenv \
 	sdcv \
 	starship \
 	tere \
 	tldr \
+	texlab \
 	tmux \
 	tmuxinator \
 	translate-shell \
@@ -123,12 +125,12 @@ act \
 gvm \
 lazydocker-bin \
 paru \
+ruby-build \
 texlive-installer \
 win32yank
 ```
 
 ```sh
-uv pip install pipx
 pipx install deep-translator pip_search
 cargo install autocast grex pipe-rename tidy-viewer trashy
 pnpm add -g clean-css html-minifier js-beautify prettier svgo terser

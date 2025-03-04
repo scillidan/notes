@@ -2,7 +2,7 @@
 
 #### Selfhost
 
-````{tab} pnpm
+````{tab} From source
 ```sh
 git clone --depth=1 https://github.com/lobehub/lobe-chat
 cd lobe-chat
