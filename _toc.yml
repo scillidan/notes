@@ -18,6 +18,9 @@ subtrees:
 - caption: data
   entries:
   - glob: data/*
+- caption: data-opt
+  entries:
+  - glob: data-opt/*
 - caption: hardware
   entries:
   - glob: hardware/*
