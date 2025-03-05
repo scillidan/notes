@@ -83,7 +83,7 @@ datatables_version = "1.13.4"
 datatables_class = "sphinx-datatable"
 datatables_options = {
     'lengthMenu': [20, 50, 100, 200, 500],
-    'pageLength': 100,
+    'pageLength': 50,
 }
 
 sphinxcontrib_asciinema_defaults = {
