@@ -2,7 +2,7 @@ Asset
 ~~~~~~~~~~
 
 .. csv-table::
-    :header: tag ,mark ,url, subscribe
+    :header: tag, mark, url, subscribe
     :class: sphinx-datatable
 
     "font","cache","[Consolas-with-Yahei](https://github.com/crvdgc/Consolas-with-Yahei)",""

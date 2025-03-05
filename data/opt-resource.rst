@@ -1,5 +1,5 @@
 Opt resource
-~~~~~~~~~~
+~~~~~~~~~~~~
 
 .. csv-table::
     :header: opt, tag, mark, url, subscribe
