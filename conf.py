@@ -8,9 +8,9 @@ extensions = [
     'sphinx_inline_tabs',
 	'sphinx_copybutton',
     'sphinx_external_toc',
-    "sphinxcontrib.jquery",
-    "sphinx_datatables",
-	'sphinxcontrib.asciinema',
+    'sphinxcontrib.jquery',
+    'sphinx_datatables',
+	'sphinxcontrib.asciinema'
 ]
 
 exclude_patterns = [
@@ -87,8 +87,9 @@ datatables_options = {
 }
 
 sphinxcontrib_asciinema_defaults = {
-    'theme': 'solarized-dark',
-    'preload': 1,
-    'font-size': '15px',
-#    'path': 'path/to/castdir'
+    'theme': 'asciinema',
+    # 'font-size': 'small',
+    # 'font-family': 'Sarasa Mono SC',
+    # 'line-height': '1.3',
+    # 'path': 'asciinema'
 }

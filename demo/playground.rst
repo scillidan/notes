@@ -1,0 +1,1 @@
+.. asciinema:: setup.cast

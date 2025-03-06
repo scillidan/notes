@@ -18,16 +18,16 @@ sudo vim /etc/tigervnc/vncserver.users
 For example, used [Xfce](https://www.xfce.org/) as desktop:
 
 ```sh
-sudo pacman -S xfce
+sudo pacman -S xfce4 xfce4-goodies
 # rm -rf ~/.vnc
-mkdir ~/.vnc 
+# mkdir ~/.vnc
 vim ~/.vnc/config
 ```
 
 ```
 session=xfce
 geometry=1280x720
-localhost
+# localhost
 alwaysshared
 ```
 
@@ -35,15 +35,31 @@ alwaysshared
 vncserver :1
 # sudo systemctl enable --now vncserver@:1
 ```
+````
 
-On client liked Windows 10, used [TightVNC](https://www.tightvnc.com/download.php):
+````{tab} ArchWSL [^4]
+```sh
+vim ~/vncstart.sh
+```
+
+```bash
+#!/bin/bash
+vncserver -kill :1 > /dev/null 2>&1
+rm -f /tmp/.X1-lock
+rm -f /tmp/.X11-unix/X1
+vncserver :1
+```
 
 ```sh
-tvnviewer <arch_host>::5901 -password=<vncpasswd>
+chmod u+x ~/vncstart.sh
+```
+
+```sh
+vncstart
 ```
 ````
 
-````{tab} Ubuntu 22 ARM [^4] (Cache)
+````{tab} Ubuntu 22 ARM [^5] (Cache)
 ```sh
 sudo apt install xfce4 xfce4-goodies
 sudo apt install tightvncserver
@@ -97,7 +113,14 @@ sudo systemctl status vncserver@1
 ```
 ````
 
+On client liked Windows 10, used [TightVNC](https://www.tightvnc.com/download.php):
+
+```sh
+tvnviewer <host>::5901 -password=<vncpasswd>
+```
+
 [^1]: [Setting up tigervncserver on arch linux (raspberry-pi)](https://rushichaudhari.github.io/posts/2020-10-29-setting-up-tigervncserver-on-arch-linux-raspberry-pi/)
 [^2]: [TigerVNC Server in Manjaro (Arch Linux) - Headless Guide 2021!](https://www.youtube.com/watch?v=w1HS_xVnFFo)
 [^3]: [How to Install & Configure VNC Server on Ubuntu 22.04](https://bytexd.com/how-to-install-configure-vnc-server-on-ubuntu/)
-[^4]: [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)
+[^4]: [Using Graphical User Interface in WSL](https://hackmd.io/@heymosbrother/ryQS8PWa9)
+[^5]: [How to Install and Configure VNC on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-22-04)

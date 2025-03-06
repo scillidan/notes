@@ -175,13 +175,23 @@ cargo build --target aarch64-unknown-linux-gnu --release
 ```
 ````
 
-````{tab} Termux
+````{tab} Termux (Cache)
+On Windows 10:
+
 ```sh
-# cargo install cargo-ndk
-# rustup target add aarch64-linux-android armv7-linux-androideabi x86_64-linux-android i686-linux-android
-# cargo ndk -t aarch64-linux-android build --release
-pkg install rust
-cargo build --target aarch64-unknown-linux-gnu --release
+subl cargo.toml
+```
+
+```toml
+[dependencies]
+librime-sys = { git = "https://github.com/lotem/librime-sys" }
+```
+
+```sh
+cargo install cargo-ndk
+rustup target add aarch64-linux-android
+# rustup target add armv7-linux-androideabi x86_64-linux-android i686-linux-android
+cargo ndk -t aarch64-linux-android build --release
 ```
 ````
 
