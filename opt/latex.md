@@ -47,3 +47,5 @@ xelatex geneve_1564.tex
 ##### [menukeys](https://ctan.org/pkg/menukeys)
 
 ##### [ctex](https://ctan.org/pkg/ctex)
+
+##### [adjustbox](https://github.com/MartinScharrer/adjustbox)

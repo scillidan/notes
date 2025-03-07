@@ -161,15 +161,19 @@ cargo build --release
 ```
 ````
 
-````{tab} Arch
+````{tab} Ubuntu 24 [^1] (Cache)
 ```sh
-sudo pacman -S librime
-cargo build --release
+sudo apt install build-essential librime-dev rustup
+rustup default stable
+rustup target add aarch64-unknown-linux-gnu
+cargo build --target aarch64-unknown-linux-gnu --release
+```
 ````
 
-````{tab} Ubuntu 24 ARM
+````{tab} Ubuntu 24 ARM (Cache)
 ```sh
-sudo apt install build-essential libclang-dev librime-dev
+sudo apt install build-essential libclang-dev librime-dev rustup
+rustup default stable
 rustup target add aarch64-unknown-linux-gnu
 cargo build --target aarch64-unknown-linux-gnu --release
 ```
@@ -225,3 +229,5 @@ sudo pacman -S texlab zathura
 ````{tab} Windows 10
 - [nvim-treesitter doesn't seem to work in windows.](https://github.com/nvim-treesitter/nvim-treesitter/issues/2135)
 ````
+
+[^1]: [install JDK and Android SDK on Linux Ubuntu](https://gist.github.com/EmadAdly/dfd18bf1ed7380fb9754ef798d23ec3b)
