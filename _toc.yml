@@ -12,15 +12,9 @@ subtrees:
 - caption: bin
   entries:
   - glob: bin/*
-- caption: cmd
+- caption: command
   entries:
-  - glob: cmd/*
-- caption: data
-  entries:
-  - glob: data/*
-- caption: data-opt
-  entries:
-  - glob: data-opt/*
+  - glob: command/*
 - caption: hardware
   entries:
   - glob: hardware/*
@@ -36,12 +30,12 @@ subtrees:
 - caption: os
   entries:
   - glob: os/*
-- caption: serve
-  entries:
-  - glob: serve/*
 - caption: script
   entries:
   - glob: script/*
+- caption: serve
+  entries:
+  - glob: serve/*
 - caption: web
   entries:
   - glob: web/*

@@ -1,4 +1,4 @@
-### [Sphinx](https://www.sphinx-doc.org/en/master/)
+### [Sphinx](https://www.sphinx-doc.org/en/master/) [^1][^2]
 
 ```sh
 mkdir <site>
@@ -13,10 +13,8 @@ make html
 # sphinx-autobuild . _bulid
 ```
 
-#### Reference
+#### Resource
 
-- [Furo](https://github.com/pradyunsg/furo)
-- [Markdown](https://www.sphinx-doc.org/en/master/usage/markdown.html)
 - [Sphinx Inline Tabs](https://github.com/pradyunsg/sphinx-inline-tabs)
 - [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild)
 - [sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)
@@ -24,7 +22,7 @@ make html
 - [Sphinx DataTables](https://sharm294.github.io/sphinx-datatables/)
 - [sphinxcontrib-asciinema](https://github.com/divi255/sphinxcontrib.asciinema)
 
-#### Resource
+#### Resource cache
 
 - [autoclasstoc](https://autoclasstoc.readthedocs.io/en/latest/)
 - [Read the Docs Sphinx Theme](https://github.com/readthedocs/sphinx_rtd_theme)
@@ -37,6 +35,8 @@ make html
 - [sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)
 - [sphinxcontrib-programoutput](https://github.com/OpenNTI/sphinxcontrib-programoutput)
 - [sphinxcontrib.autoprogram](https://pythonhosted.org/sphinxcontrib-autoprogram/)
+- [sphinxcontrib-images](https://github.com/sphinx-contrib/images)
+- [sphinx-preview](https://github.com/useblocks/sphinx-preview)
 
 #### Note
 
@@ -48,3 +48,6 @@ H3 ~
 H4 ^
 H5 "
 ```
+
+[^1]: [Furo](https://github.com/pradyunsg/furo)
+[^2]: [Markdown](https://www.sphinx-doc.org/en/master/usage/markdown.html)

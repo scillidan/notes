@@ -31,14 +31,16 @@ pip install -r requirements.txt
 pip install matplotlib
 ```
 
-Edit `tools/tagger.py`:
+Edit `tools/tagger.py`, `playlist-creator.py`:
 
 ```py
 # %matplotlib inline
 ```
 
 ```sh
-pytthon tools/tagger.py
+python tools/tagger.py
+pip install eyed3
+python tools/playlist-creator.py
 ```
 
 ```sh
