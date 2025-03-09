@@ -19,7 +19,7 @@
 - `1+2 (example)` [Calc Package](https://keypirinha.com/packages/calc.html)
 - `String` [String Package](https://keypirinha.com/packages/string.html)
 
-#### 3rd
+#### 3rd packages
 
 - `PackageControl` [Keypirinha Package Control](https://github.com/ueffel/Keypirinha-PackageControl)
 - `Open recent` [Keypirinha Plugin: Recent Items](https://github.com/s-oram/keypirinha-recent_items)

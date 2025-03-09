@@ -1,6 +1,7 @@
 ### [video-gif-web-converter](https://github.com/nabigraphics/video-gif-web-converter)
 
-![](https://img.shields.io/github/license/nabigraphics/video-gif-web-converter) [![](https://img.shields.io/github/last-commit/scillidan/video-gif-web-converter/main)](https://github.com/scillidan/video-gif-web-converter)
+![](https://img.shields.io/github/license/nabigraphics/video-gif-web-converter)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/video-gif-web-converter/main)](https://github.com/scillidan/video-gif-web-converter)
 
 ````{tab} From source
 ```sh

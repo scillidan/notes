@@ -26,4 +26,4 @@ pm2 startup
 
 #### Cross-reference
 
-- [pm2-installer](../../script/pm2-installer.html)
+- [pm2-installer](https://scillidan.github.io/notes/script/pm2-installer.html)

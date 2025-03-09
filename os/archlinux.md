@@ -238,7 +238,7 @@ sudo pacman -S i3
 
 ##### [Sway](https://swaywm.org/) [^11] (Cache)
 
-##### [Thunar]
+##### Thunar
 
 - Thunar → View → Show Hidden Files
 - Thunar → View → Configure Toolbar

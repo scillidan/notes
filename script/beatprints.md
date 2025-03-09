@@ -35,4 +35,8 @@ client_id = "SPOTIFY_CLIENT_ID"
 client_secret = "SPOTIFY_CLIENT_SECRET"
 ```
 
+#### Resource
+
+- [beatprints_from_csv.py](https://gist.github.com/scillidan/203fd0ce69800709e4c3057404f813be)
+
 [^1]: [CLI Setup](https://beatprints.readthedocs.io/en/latest/guidebook/cli.html)

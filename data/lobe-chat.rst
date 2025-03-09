@@ -105,3 +105,17 @@ Lobe Chat
     "cache","tool","Design","AI Image Prompt Architect","AI图像提示建筑师","https://lobechat.com/discover/assistant/9-somboon"
     "cache","tool","Design","PromptGPT","","https://lobechat.com/discover/assistant/prompt-gpt"
     "cache","tool","Programming","Cron Expression Assistant","Cron 表达式助手","https://lobechat.com/discover/assistant/crontab-generate"
+
+.. csv-table::
+    :header: mark, group, category, plugin, plugin[zh_cn], url
+    :class: sphinx-datatable
+
+    "cache","","Web Search","Bing_websearch","必应网页搜索","https://lobechat.com/discover/plugin/Bingsearch-identifier"
+    "cache","","Utility Tools","SEO","","https://lobechat.com/discover/plugin/SEO"
+    "cache","","Utility Tools","Access Google Sheet","访问Google表格","https://lobechat.com/discover/plugin/access_google_sheets"
+    "cache","","Web Search","Bilibili","哔哩哔哩","https://lobechat.com/discover/plugin/bilibili"
+    "cache","","Utility Tools","Git OSS Stats","","https://lobechat.com/discover/plugin/gitUserRepoStats"
+    "mark","","Web Search","Search Engine","搜索引擎","https://lobechat.com/discover/plugin/search-engine"
+    "cache","","Utility Tools","Website Crawler","网站爬虫","https://lobechat.com/discover/plugin/website-crawler"
+    "cache","","Gaming & Entertainment","Steam","","https://lobechat.com/discover/plugin/steam"
+    "cache","","Web Search","Web","网页","https://lobechat.com/discover/plugin/web"

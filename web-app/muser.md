@@ -1,6 +1,7 @@
 ### [Muser](https://github.com/jonshamir/muser)
 
-![](https://img.shields.io/github/license/jonshamir/muser) [![](https://img.shields.io/github/last-commit/scillidan/muser/master?label=last%20commit%20(fork))](https://github.com/scillidan/muser) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/jonshamir/muser)
+![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ```sh
 git clone --depth=1 https://github.com/jonshamir/muser
@@ -30,12 +31,26 @@ pip install -r requirements.txt
 pip install matplotlib
 ```
 
+Edit `tools/tagger.py`:
+
+```py
+# %matplotlib inline
+```
+
+```sh
+pytthon tools/tagger.py
+```
+
 ```sh
 npm install
 npm install --save-dev cross-env
 npm run start
 # set NODE_ENV=development && node tools/bundler.js
 ```
+
+#### Resource
+
+- [batch_muser_tagger.py](https://gist.github.com/scillidan/92b36835451da63a247e287e6753ea5c)
 
 [^1]: [Instruction how to install the package to solve dependency issues](https://github.com/jordipons/musicnn/issues/28)
 [^2]: [Install TensorFlow with pip](https://www.tensorflow.org/install/pip)

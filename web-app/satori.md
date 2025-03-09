@@ -1,6 +1,7 @@
 ### [Satori](https://github.com/vercel/satori)
 
-![](https://img.shields.io/github/license/vercel/satori) [![](https://img.shields.io/github/last-commit/scillidan/satori/main)](https://github.com/scillidan/satori)
+![](https://img.shields.io/github/license/vercel/satori)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/satori/main?label=last%20commit%20(fork))](https://github.com/scillidan/satori)
 
 ````{tab} From source
 ```sh

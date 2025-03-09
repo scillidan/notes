@@ -36,13 +36,15 @@ ollama list
 
 If you used on local network, add these into PATH [^3]:
 
-- `OLLAMA_HOST=0.0.0.0`
-- `OLLAMA_ORIGINS=*`
+```
+OLLAMA_HOST=0.0.0.0
+OLLAMA_ORIGINS=*
+```
 
 #### Cross-reference
 
-- [Continue](../continue.html)
-- [Immersive Translate](../../opt/immersivet-ranslate.html)
+- [Continue](https://scillidan.github.io/notes/ai/continue.html)
+- [Immersive Translate](https://scillidan.github.io/notes/opt/immersive-translate.html)
 
 [^1]: [Running Ollama on the Raspberry Pi](https://pimylifeup.com/raspberry-pi-ollama)  
 [^2]: [Run LLMs Locally on Raspberry Pi Using Ollama AI](https://itsfoss.com/raspberry-pi-ollama-ai-setup/)

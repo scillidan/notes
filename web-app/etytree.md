@@ -1,6 +1,8 @@
 ### [etytree](https://github.com/agmmnn/etytree)
 
-![](https://img.shields.io/github/license/agmmnn/etytree) [![](https://img.shields.io/github/last-commit/scillidan/etytree/main)](https://github.com/scillidan/etytree) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/agmmnn/etytree)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/etytree/main?label=last%20commit%20(fork))](https://github.com/scillidan/etytree)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

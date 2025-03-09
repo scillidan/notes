@@ -1,5 +1,11 @@
 ### [Black Candy](https://github.com/blackcandy-org/blackcandy)
 
+````{tab} Docker compose [^1]
+```sh
+
+```
+````
+
 ```sh
 mkdir blackcandy
 cd blackcandy
@@ -23,7 +29,7 @@ services:
         condition: any
 ```
 
-↪ [Media Files Mounts](https://github.com/blackcandy-org/blackcandy#media-files-mounts)
-
 1. Visit `http://<your_host>:3000`
 2. User → Settings → Library → Sync
+
+[^1]: [Media Files Mounts](https://github.com/blackcandy-org/blackcandy#media-files-mounts)

@@ -1,6 +1,8 @@
 ### [PDF.js](https://github.com/mozilla/pdf.js)
 
-![](https://img.shields.io/github/license/mozilla/pdf.js) [![](https://img.shields.io/github/last-commit/scillidan/pdf.js/main)](https://github.com/scillidan/pdf.js) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/mozilla/pdf.js)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/pdf.js/main?label=last%20commit%20(fork))](https://github.com/scillidan/pdf.js)<br />
+![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source [^1]
 Install [GTK 2](https://github.com/Automattic/node-canvas/wiki/Installation:-Windows#2-installing-gtk-2).

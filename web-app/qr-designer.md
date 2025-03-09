@@ -1,6 +1,8 @@
 ### [QR code designer](https://github.com/kochrt/qr-designer)
 
-![](https://img.shields.io/github/license/kochrt/qr-designer) [![](https://img.shields.io/github/last-commit/scillidan/qr-designer/main)](https://github.com/scillidan/qr-designer) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/kochrt/qr-designer)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/qr-designer/main?label=last%20commit%20(fork))](https://github.com/scillidan/qr-designer)<br />
+![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source
 ```sh

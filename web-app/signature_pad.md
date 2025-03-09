@@ -1,6 +1,8 @@
 ### [Signature Pad](https://github.com/szimek/signature_pad)
 
-![](https://img.shields.io/github/license/szimek/signature_pad) [![](https://img.shields.io/github/last-commit/scillidan/signature_pad/main)](https://github.com/scillidan/signature_pad) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/szimek/signature_pad)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/signature_pad/main?label=last%20commit%20(fork))](https://github.com/scillidan/signature_pad)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

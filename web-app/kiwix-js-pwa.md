@@ -1,6 +1,8 @@
 ### [Kiwix JS](https://github.com/kiwix/kiwix-js-pwa)
 
-![](https://img.shields.io/github/license/kiwix/kiwix-js-pwa) [![](https://img.shields.io/github/last-commit/scillidan/kiwix-js-pwa/main)](https://github.com/scillidan/kiwix-js-pwa) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/kiwix/kiwix-js-pwa)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/kiwix-js-pwa/main?label=last%20commit%20(fork))](https://github.com/scillidan/kiwix-js-pwa)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

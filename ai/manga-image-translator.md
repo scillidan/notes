@@ -1,6 +1,7 @@
 ### [Image/Manga Translator](https://github.com/zyddnys/manga-image-translator)
 
-![](https://img.shields.io/github/license/zyddnys/manga-image-translator)[![](https://img.shields.io/github/last-commit/scillidan/manga-image-translator/main)](https://github.com/scillidan/manga-image-translator)
+![](https://img.shields.io/github/license/zyddnys/manga-image-translator)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/manga-image-translator/main?label=last%20commit%20(fork))](https://github.com/scillidan/manga-image-translator)
 
 ````{tab} From source
 ```sh

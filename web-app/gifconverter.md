@@ -1,6 +1,8 @@
 ### [gifconverter](https://github.com/marshallku/gifconverter)
 
-![](https://img.shields.io/github/license/marshallku/gifconverter) [![](https://img.shields.io/github/last-commit/scillidan/gifconverter/main)](https://github.com/scillidan/gifconverter) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/marshallku/gifconverter)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/gifconverter/main?label=last%20commit%20(fork))](https://github.com/scillidan/gifconverter)<br />
+![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source
 ```sh

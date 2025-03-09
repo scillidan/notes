@@ -1,6 +1,8 @@
 ### [Favycon](https://github.com/ruisaraiva19/favycon)
 
-![](https://img.shields.io/github/license/ruisaraiva19/favycon) [![](https://img.shields.io/github/last-commit/scillidan/favycon/main)](https://github.com/scillidan/favycon) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/ruisaraiva19/favycon)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/favycon/main?label=last%20commit%20(fork))](https://github.com/scillidan/favycon)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

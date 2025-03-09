@@ -1,6 +1,7 @@
 ### [Gifsicle Wasm Browser](https://github.com/renzhezhilu/gifsicle-wasm-browser)
 
-![](https://img.shields.io/github/license/renzhezhilu/gifsicle-wasm-browser) [![](https://img.shields.io/github/last-commit/scillidan/gifsicle-wasm-browser/main)](https://github.com/scillidan/gifsicle-wasm-browser)
+![](https://img.shields.io/github/license/renzhezhilu/gifsicle-wasm-browser)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/gifsicle-wasm-browser/main?label=last%20commit%20(fork))](https://github.com/scillidan/gifsicle-wasm-browser)
 
 ````{tab} From source
 ```sh

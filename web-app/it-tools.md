@@ -1,3 +1,5 @@
 ### [IT-TOOLS](https://github.com/CorentinTh/it-tools)
 
-![](https://img.shields.io/github/license/CorentinTh/it-tools) [![](https://img.shields.io/github/last-commit/scillidan/it-tools/main)](https://github.com/scillidan/it-tools) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/CorentinTh/it-tools)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/it-tools/main?label=last%20commit%20(fork))](https://github.com/scillidan/it-tools)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)

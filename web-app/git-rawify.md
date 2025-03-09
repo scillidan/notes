@@ -1,6 +1,8 @@
 ### [GIT.RAWify](https://github.com/emmanpbarrameda/GIT.RAWify)
 
-![](https://img.shields.io/github/license/emmanpbarrameda/GIT.RAWify) [![](https://img.shields.io/github/last-commit/scillidan/GIT.RAWify/main)](https://github.com/scillidan/GIT.RAWify) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/emmanpbarrameda/GIT.RAWify)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/GIT.RAWify/main?label=last%20commit%20(fork))](https://github.com/scillidan/GIT.RAWify)<br />
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh

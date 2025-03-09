@@ -1,4 +1,4 @@
-### [Tailscale](https://tailscale.com) [^1]
+### [Tailscale](https://tailscale.com)
 
 ```sh
 curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.noarmor.gpg | sudo tee /usr/share/keyrings/tailscale-archive-keyring.gpg >/dev/null

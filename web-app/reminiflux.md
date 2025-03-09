@@ -1,6 +1,8 @@
 ### [reminiflux](https://github.com/reminiflux/reminiflux)
 
-![](https://img.shields.io/github/license/reminiflux/reminiflux) [![](https://img.shields.io/github/last-commit/scillidan/reminiflux/source)](https://github.com/scillidan/reminiflux) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/reminiflux/reminiflux)
+[![](https://img.shields.io/github/last-commit/scillidan/reminiflux/source)](https://github.com/scillidan/reminiflux)
+![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source
 ```sh
