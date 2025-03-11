@@ -103,6 +103,7 @@ sudo pacman -S \
 	nvm \
 	openssh \
 	pnpm \
+	presenterm \
 	python-pipx \
 	rust \
 	rbenv \

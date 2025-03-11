@@ -1,6 +1,6 @@
 ### [Docker](https://www.docker.com/)
 
-````{tab} Ubuntu 22 ARM [^1]
+````{tab} Ubuntu 22/24 ARM [^1]
 ```sh
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 sudo apt-get update

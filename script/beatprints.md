@@ -8,10 +8,10 @@
 ```sh
 git clone --depth=1 https://github.com/TrueMyst/BeatPrints
 cd BeatPrints
-uv.exe venv --python cpython-3.10.11-windows-x86_64-none
+uv venv
 .venv\Scripts\activate.bat
 uv pip install -e .
-# uv pip install python-dotenv
+uv pip install python-dotenv
 ```
 
 ```sh
@@ -37,6 +37,7 @@ client_secret = "SPOTIFY_CLIENT_SECRET"
 
 #### Resource
 
+- [Add new themes to BeatPrints](https://github.com/TrueMyst/BeatPrints/issues/25)
 - [beatprints_from_csv.py](https://gist.github.com/scillidan/203fd0ce69800709e4c3057404f813be)
 
 [^1]: [CLI Setup](https://beatprints.readthedocs.io/en/latest/guidebook/cli.html)

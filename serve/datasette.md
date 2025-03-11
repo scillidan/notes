@@ -14,6 +14,7 @@ uv pip install datasette-sitemap datasette-block-robots datasette-backup dataset
 # sqlite-utils insert database.db table table.csv --csv
 # sqlite-utils drop-table database.db table
 # sqlite-utils enable-fts database.db table column_1 column_2
+# sqlite-utils insert-files resource.db latex media/*.jpg
 datasette serve database.db
 datasette serve database_1.db database_2.db -m metadata.yml
 ```
@@ -48,7 +49,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install dependencies
-        run: pip install datasette datasette-sitemap datasette-block-robots datasette-backup datasette-search-all datasette-render-images datasette-media datasette-render-markdown datasette-multiline-links datasette-external-links-new-tabs datasette-copyable datasette-publish-vercel
+        run: pip install datasette datasette-sitemap datasette-block-robots datasette-backup datasette-search-all datasette-ripgrep datasette-render-images datasette-media datasette-render-markdown datasette-multiline-links datasette-external-links-new-tabs datasette-copyable datasette-publish-vercel
       - name: Deploy Datasette using Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
@@ -81,6 +82,7 @@ Vercel → Project `database` → Settings → Build and Deployment → Node.js 
 - [datasette-insert](https://github.com/simonw/datasette-insert)
 - [datasette-export](https://github.com/simonw/datasette-export)
 - [datasette-mutable-downloads](https://github.com/cldellow/datasette-mutable-downloads)
+- [datasette-render-images](https://github.com/simonw/datasette-render-images)
 
 [^1]: [Metadata](https://docs.datasette.io/en/stable/metadata.html)
 [^2]: [sqlite-utils](https://github.com/simonw/sqlite-utils)
