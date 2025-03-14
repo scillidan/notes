@@ -1,6 +1,5 @@
 ### [mpv](https://mpv.io/)
 
-
 ````{tab} From source (Cache)
 ```sh
 git clone --depth=1 https://github.com/mpv-player/mpv
@@ -10,12 +9,14 @@ git checkout v0.38.0
 ```
 ````
 
+#### Usage
 
 `mpv.exe` → 新建快捷方式 → 属性 → 快捷方式:
-	```
-	目标 `mpv.exe`
-	起始位置 `mpv_config_dir_for_stream\`
-	```
+
+```
+目标 `mpv.exe`
+起始位置 `mpv_config_dir_for_stream\`
+```
 
 #### Reference
 

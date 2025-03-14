@@ -1,14 +1,16 @@
 ### [Paspberry Pi Imager](https://www.raspberrypi.com/software/)
 
+#### Usage
+
 1. Choose Device
 2. 选择操作系统 → Other general-purpose OS → Ubuntu → `Ubuntu Server 22.04.4 LTS (64-bit)` → 编辑设置:
     1. General
     ```
     设置主机名 `ubuntu22`
-    Username `User`
-    Password `Password`
+    Username `user`
+    Password `password`
     热点名 `SSID`
-    Password `WifiPassword`
+    Password `wifi_password`
     Wifi国家 `CN`
     ```
     2. Services → 开启SSH服务 (On) → 只允许使用公匙登录 (On)

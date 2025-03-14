@@ -1,5 +1,7 @@
 ### [Wallpaper Engine](https://wallpaperengine.io/)
 
+#### Usage
+
 1. 新建 → ... → 关闭
 2. 编辑 → 在资源管理器中打开 → .json
 3. 文件 → 打开最近的项目 → .json

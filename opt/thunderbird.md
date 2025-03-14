@@ -1,5 +1,7 @@
 ### [Thunderbird](https://www.thunderbird.net/)
 
+#### Menu setting
+
 ````{tab} Outlook email
 1. [Outlook](https://outlook.live.com) email → Settings → Mail → Forwarding and IMAP → POP and IMAP
 2. Enable `POP`, `IMAP`

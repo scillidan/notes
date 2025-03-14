@@ -741,6 +741,11 @@ flatpak install flathub com.tencent.WeChat
 
 - [Desktop entries](https://wiki.archlinux.org/title/desktop_entries)
 
+#### Cross-reference
+
+- [Xfce](https://scillidan.github.io/notes/opt/xfce.html)
+- [Rofi](https://scillidan.github.io/notes/opt/rofi.html)
+
 [^1]: [alarm login?](https://github.com/altreact/archbk/issues/9)
 [^2]: [Network configuration/Wireless](https://wiki.archlinux.org/title/Network_configuration/Wireless)
 [^3]: [10 Things You MUST DO After Installing Arch Linux (2023)](https://www.youtube.com/watch?v=odgD_RdJjCU)

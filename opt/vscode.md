@@ -1,6 +1,6 @@
 ### [VS Code](https://code.visualstudio.com)
 
-Settings → Features → Terminal → Edit in settings.json:
+Settings → Open Settings (JSON)
 
 ```sh
 {
@@ -13,7 +13,9 @@ Settings → Features → Terminal → Edit in settings.json:
             "args": [
                 "/k C:\\Users\\User\\Usr\\Opt\\cmder_mini\\vendor\\init.bat"
             ]
-        },
-    }
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Cmder",
+    "terminal.integrated.tabs.enableAnimation": false
 }
 ```

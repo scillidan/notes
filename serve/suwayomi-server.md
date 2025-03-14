@@ -30,15 +30,14 @@ sudo systemctl status suwayomi-server
 ```
 ````
 
-#### Setting
+#### Menu setting
 
-1. Visit `http://<your_host>:4567`.
-2. The service may take several minutes to start until you can see it.
+1. Visit `http://<your_host>:4567`
+2. The service may take several minutes to start until you can see it
 3. Suwayomi → Settings → Brower settings → Extension repositories → Add repository:
-
-```
-https://raw.githubusercontent.com/ThePBone/tachiyomi-extensions-revived/repo/index.min.json
-```
+	```
+	https://raw.githubusercontent.com/ThePBone/tachiyomi-extensions-revived/repo/index.min.json
+	```
 
 [^1]: [can you make it easier to install on ubuntu , and tutorial need to update](https://github.com/Suwayomi/Suwayomi-Server/issues/896)
 [^2]: [Tachiyomi Extensions Revived](https://github.com/timschneeb/tachiyomi-extensions-revived)

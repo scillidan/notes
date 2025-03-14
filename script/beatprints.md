@@ -35,7 +35,7 @@ client_id = "SPOTIFY_CLIENT_ID"
 client_secret = "SPOTIFY_CLIENT_SECRET"
 ```
 
-#### Resource
+#### Reference
 
 - [Add new themes to BeatPrints](https://github.com/TrueMyst/BeatPrints/issues/25)
 - [beatprints_from_csv.py](https://gist.github.com/scillidan/203fd0ce69800709e4c3057404f813be)

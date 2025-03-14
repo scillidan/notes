@@ -20,10 +20,5 @@ magic-pdf --help
 ```
 ````
 
-#### Reference
-
-- [magic-html - 通用HTML数据提取器](https://github.com/opendatalab/magic-html)
-- [magic-doc](https://github.com/opendatalab/magic-doc)
-
 [^1]: [Windows10/11](https://github.com/opendatalab/MinerU/blob/master/docs/README_Windows_CUDA_Acceleration_zh_CN.md)
 [^2]: [quincyqiang/mineru](https://hub.docker.com/r/quincyqiang/mineru)

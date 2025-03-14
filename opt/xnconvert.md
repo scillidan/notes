@@ -1,5 +1,7 @@
 ### [XnConvert](https://www.xnview.com/en/xnconvert/)
 
+#### Menu setting
+
 设置 → 读取格式设置 → 写入 → JPEG [^1]:
 
 ```

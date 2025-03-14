@@ -1,4 +1,6 @@
-### [HiBit Uninstaller](https://hibitsoft.ir/Uninstaller.html)
+### [HiBit Uninstaller](https://hibitsoft.ir/Uninstaller.html) (Cache)
+
+#### Menu setting
 
 - 工具 → 垃圾文件清理程序 → 忽略列表 → 右键 → 添加文件夹
   - `C:\Users\User\AppData\Roaming\fnm\node-versions`

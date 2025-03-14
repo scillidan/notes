@@ -39,7 +39,8 @@ sudo vim /etc/docker/daemon.json
     "https://docker.1panel.live",
     "https://proxy.1panel.live",
     "https://dockerproxy.1panel.live"
-  ]
+  ],
+  "experimental": true
 }
 ```
 ````

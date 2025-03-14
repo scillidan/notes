@@ -1,6 +1,6 @@
 ### [GPi CASE 2](https://retroflag.com/gpi_case_2.html)
 
-Flash OS to SD card:
+#### Flash OS to SD card
 
 1. Get [SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/). Use it to format SD card.
 2. Get [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
@@ -20,7 +20,7 @@ RetroPie used [EmulationStation](https://gitlab.com/es-de/emulationstation-de) a
 - [Renpy Documentation - Raspberry Pi](https://www.renpy.org/doc/html/raspi.html)
 - [FAQ - How can I recover my RetroPie after enabling the desktop OpenGL driver?](https://retropie.org.uk/docs/FAQ/#how-can-i-recover-my-retropie-after-enabling-the-desktop-opengl-driver)
 
-#### Emulator [Löve](https://love2d.org/) (Experimental) [^1] (Cache)
+#### Emulator [Löve](https://love2d.org/) (Experimental) [^1][^2] (Cache)
 
 1. Config → RetroPie Setup → Manage packages → Manage optional packages → love-0.10.2, love
 2. `mv <game>.love <path>/roms/love/``
@@ -56,12 +56,9 @@ cd mari0-1.6.2/mari0-1.6.2
 mv mari0-1.6.2.love <RetroPie>/home/pi/RetroPie/roms/love/
 ```
 
-[^1]: [RetroPie Docs - Love](https://retropie.org.uk/docs/Love/)
-[^2]: [PyGame LÖVE (love2d) in RecalBox](https://forum.recalbox.com/topic/19222/pygame-l%C3%B6ve-love2d-in-recalbox)
-
 #### [Recalbox](https://www.recalbox.com/)
 
-Enable SSH:
+##### Enable SSH
 
 1. Menu → Network Name → Enable WiFi → On
 2. Network Name → <SSID>
@@ -74,23 +71,23 @@ Enable SSH:
 	password `recalboxroot`
 	```
 
-Update games lists:
+#####  Update games lists
 
 Menu → UI Settings → Update Games Lists
 
-[Add a Bluetooth controller](https://wiki.recalbox.com/en/basic-usage/first-use-and-configuration):
+##### [Add a Bluetooth controller](https://wiki.recalbox.com/en/basic-usage/first-use-and-configuration):
 
 Menu → Controller settings → Pair a bluetooth controller
 
-[Add themes into frontend](https://wiki.recalbox.com/en/tutorials/frontend-customization/add-themes-into-emulationstation):
+##### [Add themes into frontend](https://wiki.recalbox.com/en/tutorials/frontend-customization/add-themes-into-emulationstation):
 
 `share\themes
 
-Hide preinstalled games:
+##### Hide preinstalled games
 
 Menu → UI Settings → Game Filters → Hide Preinstalled Games
 
-Transferring Roms:
+##### Transferring Roms
 
 WinSCP → Synchronize:
 
@@ -105,8 +102,8 @@ Caomparion criteria `Modification time`
 
 ##### [Cave Story MD](https://github.com/andwn/cave-story-md)
 
-1. Get `doukutsu-zh.bin.zip` from [Cave Story MD - Releases](https://github.com/andwn/cave-story-md/releases).
-2. Copy it to `/recalbox/share/roms/megadrive/`.
+1. Get `doukutsu-zh.bin.zip` from [Cave Story MD - Releases](https://github.com/andwn/cave-story-md/releases)
+2. Copy it to `/recalbox/share/roms/megadrive/`
 
 ##### Reference
 
@@ -128,17 +125,17 @@ Create `gpi.sh`:
 wget -O - "https://raw.githubusercontent.com/RetroFlag/GPiCase2-Script/main/retropie_install_gpi2.sh" | sudo bash
 ```
 
-First Boot:
+First Boot
 
 1. Insert SD card into GPi Case 2, turn it on.
 2. After first boot, hold a button to configure keymap. ou can hold down the button until it is be skipped.
 
-Set Up WiFi:
+##### Set Up WiFi
 
 1. Configuration → WiFi → ... → Localisation Options → Set WiFi country → Save and exit
 2. After reboot, connect to WiFi
 
-Install safe-shutdown script:
+##### Install safe-shutdown script [^3]
 
 1. Configuration → File Manager → Edit `/etc/hosts`:
 	```
@@ -148,9 +145,7 @@ Install safe-shutdown script:
 2. Reboot.
 3. Configuration → File Manager → Run `/boot/gpi.sh`.
 
-- [Retro Gaming With RetroPie, GPi CASE 2, and a Raspberry Pi](https://navendu.me/posts/retropie-gpi-case-2-setup/)
-
-Enable SSH:
+##### Enable SSH [^4][^5]
 
 1. Configuration → Raspi-config → Interface Options → SSH → Yes
 2. Connect with:
@@ -161,26 +156,21 @@ Enable SSH:
 	password `raspberry`
 	```
 
-- [RetroPie - SSH](https://retropie.org.uk/docs/SSH/)
-- [RetroPie - SFTP](https://retropie.org.uk/docs/Transferring-Roms/#sftp)
-
-Refresh the game listing:
+##### Refresh the game listing
 
 Menu → Quit → Restart EmulationStation
 
-- [Transferring Roms](https://retropie.org.uk/docs/Transferring-Roms/)
+##### [Transferring Roms](https://retropie.org.uk/docs/Transferring-Roms/)
 
-Enable Pegasus Frontend:
+##### Enable Pegasus Frontend [^6]
 
 System Menu → RetroPie Setup → Manage packages → Manage experimental packages → pegasus-fe → Install from pre-compiled binary
-
-- [Pegasus Docs - Platform Notes: Raspberry](https://pegasus-frontend.org/docs/user-guide/platform-raspberry/#retropie)
 
 ```sh
 nano /opt/retropie/configs/all/autostart.sh
 ```
 
-```
+```sh
 pegasus-fe
 ```
 
@@ -192,3 +182,10 @@ If you use other controllers:
 - [Setting up an 8bitdo Bluetooth controller](https://retropie.org.uk/docs/8Bitdo-Controller/)
 - [Virtual Gamepad](https://retropie.org.uk/docs/Virtual-Gamepad/)
 - [Mobile Gamepad](https://github.com/sbidolach/mobile-gamepad)
+
+[^1]: [RetroPie Docs - Love](https://retropie.org.uk/docs/Love/)
+[^2]: [PyGame LÖVE (love2d) in RecalBox](https://forum.recalbox.com/topic/19222/pygame-l%C3%B6ve-love2d-in-recalbox)
+[^3]: [Retro Gaming With RetroPie, GPi CASE 2, and a Raspberry Pi](https://navendu.me/posts/retropie-gpi-case-2-setup/)
+[^4]: [RetroPie - SSH](https://retropie.org.uk/docs/SSH/)
+[^5]: [RetroPie - SFTP](https://retropie.org.uk/docs/Transferring-Roms/#sftp)
+[^6]: [Pegasus Docs - Platform Notes: Raspberry](https://pegasus-frontend.org/docs/user-guide/platform-raspberry/#retropie)

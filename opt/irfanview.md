@@ -1,5 +1,7 @@
 ### [IrfanView](https://irfanview.com)
 
+#### Menu setting
+
 Options → Properties/Settings:
 
 - Start / Exit options → Exit options
@@ -14,7 +16,9 @@ Options → Properties/Settings:
     - Ask to rename if incorrect extension (On)
     - Others (Off)
 
-Open a image → `Ctrl-s` → Save quality → 100 → Profiles → Save
+#### Usage
+
+- Open a image → `Ctrl-s` → Save quality → 100 → Profiles → Save
 
 1. 按住左键拖拽 → `Shift+ArrowKey` → `Alt+ArrowKey` → `Ctrl+y`剪裁
 2. `F12`

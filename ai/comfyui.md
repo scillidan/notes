@@ -14,7 +14,7 @@ python main.py
 
 #### Plugin
 
-#### [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+##### [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 
 ```sh
 git clone --depth=1 https://github.com/ltdrdata/ComfyUI-Manager custom_nodes\comfyui-manager

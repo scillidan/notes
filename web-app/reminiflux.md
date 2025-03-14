@@ -29,6 +29,8 @@ pm2 serve build 4321 --name reminiflux --spa
 ```
 ````
 
+#### Menu setting
+
 1. Miniflux → Settings → API Keys → Create a new API key → `reminiflux` → Copy the Token
 2. Visit `localhost:4321`
   ```

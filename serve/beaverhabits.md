@@ -28,7 +28,6 @@ services:
 ```sh
 sudo docker compose up -d
 ```
-
 ````
 
-Beaver Habit Tracker → More → Add ...
+Beaver Habit Tracker → More → Add

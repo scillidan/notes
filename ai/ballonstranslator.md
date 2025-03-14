@@ -13,4 +13,10 @@ python launch.py
 ```
 ````
 
-BallonsTranslator → Setting → DL Module → Translator.
+#### Menu setting
+
+```
+- BallonsTranslator → Setting
+	- DL Module → Translator
+	- General → Typesetting → Auto layout (Off)
+```

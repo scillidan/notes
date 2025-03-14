@@ -6,6 +6,8 @@
 4. 使用脱机账户 → 不填写密码
 5. 运行 → `control userpasswords2` → 属性 → 要使用本计算机，用户必须输入用户名和密码(Off)
 
+#### Menu setting
+
 - `Win+Q`
   - 搜索权限和历史记录 → (All Off)
   - Windows Search设置 → 高级搜索索引器设置 → 经典 → 在此自定义搜索位置 → 修改 → 包含的位置/用户 Off → 确定

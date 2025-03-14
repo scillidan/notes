@@ -1,5 +1,7 @@
 ### [floccus bookmarks sync](https://github.com/floccusAddon)
 
+#### Menu setting
+
 1. 打开 → ... →  新建账户 → WebDav分享
   ```
   WebDAV URL `URL`
@@ -14,4 +16,4 @@
   嵌套账户 `在其他帐户同步中包括此帐户的本地`
   文件夹 → 保存
   ```
-3. 打开 ... WEBDAV → 行为(推送) → 自动同步(On)
+3. 打开 ... WEBDAV → 行为(推送) → 自动同步 (Off)

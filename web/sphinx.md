@@ -13,41 +13,11 @@ make html
 # sphinx-autobuild . _bulid
 ```
 
-#### Resource
+#### Reference
 
-- [Sphinx Inline Tabs](https://github.com/pradyunsg/sphinx-inline-tabs)
-- [sphinx-autobuild](https://github.com/sphinx-doc/sphinx-autobuild)
-- [sphinx-copybutton](https://github.com/executablebooks/sphinx-copybutton)
-- [sphinx-external-toc](https://github.com/executablebooks/sphinx-external-toc)
-- [Sphinx DataTables](https://sharm294.github.io/sphinx-datatables/)
-- [sphinxcontrib-asciinema](https://github.com/divi255/sphinxcontrib.asciinema)
+- [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 
-#### Resource cache
-
-- [autoclasstoc](https://autoclasstoc.readthedocs.io/en/latest/)
-- [Read the Docs Sphinx Theme](https://github.com/readthedocs/sphinx_rtd_theme)
-- [Sphinx Comments](https://github.com/executablebooks/sphinx-comments)
-- [Sphinx Sitemap Generator Extension](https://github.com/jdillard/sphinx-sitemap)
-- [sphinx-mdinclude](https://github.com/omnilib/sphinx-mdinclude)
-- [sphinx-needs](https://github.com/useblocks/sphinx-needs)
-- [sphinxcontrib-constdata](https://documatt.gitlab.io/sphinxcontrib-constdata/table.html)
-- [sphinxcontrib-fulltoc](https://github.com/sphinx-contrib/fulltoc)
-- [sphinxcontrib-mermaid](https://github.com/mgaitan/sphinxcontrib-mermaid)
-- [sphinxcontrib-programoutput](https://github.com/OpenNTI/sphinxcontrib-programoutput)
-- [sphinxcontrib.autoprogram](https://pythonhosted.org/sphinxcontrib-autoprogram/)
-- [sphinxcontrib-images](https://github.com/sphinx-contrib/images)
-- [sphinx-preview](https://github.com/useblocks/sphinx-preview)
-
-#### Note
-
-```
-# Heading in reStructuredText
-H1 =
-H2 -
-H3 ~
-H4 ^
-H5 "
-```
+#### [Resource](https://scillidan-database.vercel.app/resource/sphinx)
 
 [^1]: [Furo](https://github.com/pradyunsg/furo)
 [^2]: [Markdown](https://www.sphinx-doc.org/en/master/usage/markdown.html)

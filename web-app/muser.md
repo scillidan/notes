@@ -50,7 +50,7 @@ npm run start
 # set NODE_ENV=development && node tools/bundler.js
 ```
 
-#### Resource
+#### Reference
 
 - [batch_muser_tagger.py](https://gist.github.com/scillidan/92b36835451da63a247e287e6753ea5c)
 

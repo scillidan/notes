@@ -19,18 +19,4 @@ Refer to running it on local to configure project's settings on Vercel.
 4. Visit `https://<user>.github.io/qr-designer/`
 ````
 
-#### Resource cache
-
-- [DGM.js](https://github.com/dgmjs/dgmjs)
-- [Excalibur](https://github.com/camelot-dev/excalibur)
-- [Super Productivity](https://github.com/johannesjo/super-productivity)
-- [Instant Recipe Search](https://github.com/typesense/showcase-recipe-search)
-- [MyIP](https://github.com/jason5ng32/MyIP)
-- [Web-Check](https://github.com/Lissy93/web-check)
-- [freshermeat](https://github.com/cedricbonhomme/freshermeat)
-- [Torrents.csv](https://github.com/emtee40/torrents-csv-server)
-- [kitsunekko-tools](https://github.com/Ajatt-Tools/kitsunekko-tools)
-- [Zeal User Contributions & Cheat Sheets](https://github.com/xantiagoma/zealusercontributions)
-- [Monkeytype](https://github.com/monkeytypegame/monkeytype)
-- [Rclone-Webui-Angular](https://github.com/yuudi/rclone-webui-angular)
-- [books](https://github.com/frappe/books)
+#### [Resource](https://scillidan-database.vercel.app/resource/web-app)

@@ -139,7 +139,6 @@ sudo apt-get remove --purge postgresql-16
 
 #### Reference
 
-- [miniflux-theme-reeder](https://github.com/rootknight/Miniflux-Theme-Reeder)
 - [Feed Filtering Rules](https://miniflux.app/docs/rules.html#feed-filtering-rules)
 
 [^1]: [initdb](https://www.postgresql.org/docs/current/app-initdb.html)

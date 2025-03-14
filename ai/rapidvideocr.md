@@ -1,8 +1,8 @@
 ### [RapidVideOCR](https://github.com/SWHL/RapidVideOCR)
 
-1. Get `VideoSubFinder` form [SourceForge](https://sourceforge.net/projects/videosubfinder/).
-2. Decompress `VideoSubFinder_*.zip` to `VideoSubFinder`.
-3. Run `VideoSubFinderWXW.exe`.
+1. Get `VideoSubFinder` form [SourceForge](https://sourceforge.net/projects/videosubfinder/)
+2. Decompress `VideoSubFinder_*.zip` to `VideoSubFinder`
+3. Run `VideoSubFinderWXW.exe`
 4. Settings → Parameters Influencing Image Processing (Optional):
   ```
   FFMPEG Video Devices `cuda`

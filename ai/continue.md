@@ -1,5 +1,7 @@
 ### [Continue](https://github.com/continuedev/continue) [^1]
 
+#### Menu setting
+
 VSCode → Sidebar → Continue → Configure Continue:
 
 ```sh
@@ -7,11 +9,16 @@ VSCode → Sidebar → Continue → Configure Continue:
   "models": [
     {
       "apiBase": "http://127.0.0.1:11434/",
-      "model": "codellama",
+      "model": "qwen2.5-coder:7b",
       "provider": "ollama",
-      "title": "CodeLlama"
+      "title": "Qwen2.5 Coder"
     }
-  ]
+  ],
+  "tabAutocompleteModel": {
+    "title": "qwen2.5-coder:3b",
+    "provider": "ollama",
+    "model": "Qwen2.5 Coder 3B"
+  }
 }
 ```
 

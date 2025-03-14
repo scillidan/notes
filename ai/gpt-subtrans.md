@@ -10,14 +10,15 @@ scripts\generate-cmd.bat gui-subtrans
 scripts\generate-cmd.bat llm-subtrans
 gui-subtrans
 ```
+````
 
-Settings → Processing:
+#### Menu setting
 
-```
-Preprocess Subtitles (On)
-Postprocess Translation (On)
-Save Preprocessed Subtitles (On)
-```
+- Settings → Processing
+	- Preprocess Subtitles (On)
+	- Postprocess Translation (On)
+	- Save Preprocessed Subtitles (On)
+
+#### Usage
 
 Open file → Select `<subtitle>` → Project Settings → Entry `Movie Name`, `Target Language` → Start
-````

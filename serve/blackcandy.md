@@ -2,11 +2,6 @@
 
 ````{tab} Docker compose [^1]
 ```sh
-
-```
-````
-
-```sh
 mkdir blackcandy
 cd blackcandy
 vim docker-compose.yml
@@ -28,6 +23,7 @@ services:
       restart_policy:
         condition: any
 ```
+````
 
 1. Visit `http://<your_host>:3000`
 2. User → Settings → Library → Sync
