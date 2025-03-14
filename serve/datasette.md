@@ -18,7 +18,9 @@ cd <dir>
 uv venv
 .venv\Scripts\activate.bat
 uv pip install datasette
-uv pip install datasette-sitemap datasette-block-robots datasette-backup datasette-search-all datasette-render-images datasette-media datasette-render-markdown datasette-multiline-links datasette-external-links-new-tabs datasette-copyable datasette-publish-vercel
+uv pip install datasette-sitemap datasette-block-robots datasette-backup datasette-search-all datasette-external-links-new-tabs datasette-copyable datasette-publish-vercel
+# datasette install datasette-render-images datasette-multiline-links datasette-render-markdown datasette-media
+# datasette install git+https://github.com/next-LI/datasette-csv-importer.git
 # uv pip install datasette-parquet 
 datasette serve database.db
 datasette serve database_1.db database_2.db -m metadata.yml
