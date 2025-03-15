@@ -19,4 +19,4 @@ Refer to running it on local to configure project's settings on Vercel.
 4. Visit `https://<user>.github.io/qr-designer/`
 ````
 
-#### [Resource](https://scillidan-database.vercel.app/resource/web-app)
+#### [Resource](https://scillidan-datasette.vercel.app/resource/web_app)

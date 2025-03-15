@@ -83,7 +83,7 @@ neovide --server <your_host>:1234
 - [How to Install and Use nvim cmp Autocompletion](https://linovox.com/install-and-use-nvim-cmp/)
 - [Autocomplete with nvim-cmp](https://www.jonashietala.se/blog/2024/05/26/autocomplete_with_nvim-cmp/)
 
-#### [Resource](https://scillidan-database.vercel.app/resource/neovim)
+#### [Resource](https://scillidan-datasette.vercel.app/resource/neovim)
 
 ##### [lazy.nvim](https://github.com/folke/lazy.nvim)
 

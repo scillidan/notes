@@ -1,1 +1,1 @@
-#### [Resource](https://scillidan-database.vercel.app/resource/serve)
+#### [Resource](https://scillidan-datasette.vercel.app/resource/serve)
