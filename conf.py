@@ -8,12 +8,10 @@ extensions = [
     'sphinx_inline_tabs',
 	'sphinx_copybutton',
     'sphinx_external_toc',
-    'sphinxcontrib.jquery',
 	'sphinxcontrib.asciinema',
     'sphinxext.photofinish',
     'sphinxcontrib.video'
     # 'sphinxcontrib.images'
-    # 'sphinx_datatables'
 ]
 
 exclude_patterns = [
