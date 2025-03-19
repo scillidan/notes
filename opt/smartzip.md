@@ -13,7 +13,7 @@
 magick convert dark.ico -channel RGB -negate light.ico
 ```
 
-#### Menu setting
+#### Setting
 
 1. SmartZip → 自定义 → 图标路径 → `%SmartZipDir%\light.ico`
 2. 关联 → 右键菜单 → Select `SmartZip Decompress`, `SmartZip Compress` → 注册

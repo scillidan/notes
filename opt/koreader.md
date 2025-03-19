@@ -1,10 +1,9 @@
 ### KOReader
 
-#### Menu setting
+#### Setting
 
-Search → OPDS catalog → Add
-
-```
-Catalog name `dir2opds`
-Catalog URL `<your_host>:8080`
-```
+- Search → OPDS catalog → Add
+	```
+	Catalog name `dir2opds`
+	Catalog URL `<your_host>:8080`
+	```

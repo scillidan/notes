@@ -1,6 +1,6 @@
 ### [FastStone Image Viewer](https://faststone.org/FSViewerDetail.htm)
 
-#### Menu setting
+#### Usage
 
 - 设置 → 设置
   - 视图

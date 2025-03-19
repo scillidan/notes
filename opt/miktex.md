@@ -14,8 +14,7 @@ scoop install miktex
 ```
 ````
 
-#### Menu setting
+#### Setting
 
-1. Documentation → Sort by `Installed` → Select All → Install
-2. Settings → General → Package Install → Retrieve from ... → Change → Next → ...
-3. Packages → Search `latexmk` → Select the `latexmk` → Content Menu → Install package
+1. Settings → General → Package Install → Retrieve from ... → Change → Next → ...
+2. Packages → Search `latexmk` → Select the `latexmk` → Content Menu → Install package

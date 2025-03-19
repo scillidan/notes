@@ -12,7 +12,7 @@ gui-subtrans
 ```
 ````
 
-#### Menu setting
+#### Setting
 
 - Settings → Processing
 	- Preprocess Subtitles (On)
@@ -21,4 +21,4 @@ gui-subtrans
 
 #### Usage
 
-Open file → Select `<subtitle>` → Project Settings → Entry `Movie Name`, `Target Language` → Start
+- Open file → Select `<subtitle>` → Project Settings → Entry `Movie Name`, `Target Language` → Start

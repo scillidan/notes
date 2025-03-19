@@ -41,7 +41,7 @@ ffmpeg -i $1 -vn -c:a libmp3lame -b:a 224K -ac 2 _.mp3
 ```
 
 ```sh
-# gif to mp4
+# creat poster from video
 ffmpeg -i $1.mp4 -vframes 1 _poster.jpg
 ```
 

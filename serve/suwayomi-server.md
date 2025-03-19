@@ -30,7 +30,7 @@ sudo systemctl status suwayomi-server
 ```
 ````
 
-#### Menu setting
+#### Usage
 
 1. Visit `http://<your_host>:4567`
 2. The service may take several minutes to start until you can see it

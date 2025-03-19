@@ -1,8 +1,8 @@
 ### [HandBrake](https://handbrake.fr/)
 
-#### Menu setting
+#### Setting
 
-首选项 → 输出文件 → 自动命名输出文件 → 文件格式 → `{source}.{preset}`
+- 首选项 → 输出文件 → 自动命名输出文件 → 文件格式 → `{source}.{preset}`
 
 #### Reference
 

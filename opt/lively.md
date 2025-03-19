@@ -1,8 +1,8 @@
 ### [Lively](https://github.com/rocksdanister/lively)
 
-#### Menu setting
+#### Setting
 
-设置 → 壁纸 → 壁纸输入 → 键盘 → 应用聚焦时的鼠标交互
+- 设置 → 壁纸 → 壁纸输入 → 键盘 → 应用聚焦时的鼠标交互
 
 #### Reference
 

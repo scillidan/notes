@@ -1,6 +1,6 @@
 ### [VirtualBox](https://www.virtualbox.org/) (Cache)
 
-#### Menu setting
+#### Usage
 
 - File → Preferences → Input → Virtual Machine → Host Key Combination → None or Other [^1]
 - Target Machine → Machine → Settings → General → Advanced → Shared Clipboard → Bidirectional → Start Machine

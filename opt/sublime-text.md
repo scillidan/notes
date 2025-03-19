@@ -1,5 +1,9 @@
 ### Sublime Text
 
+#### Usage
+
+- Edit → Permute Lines → Unique
+
 #### Reference
 
 - [Sublime Text: How to Open Files in the Same Window (New Tab)](https://woorkup.com/sublime-text-open-files-same-window/)

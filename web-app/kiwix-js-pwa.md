@@ -20,8 +20,9 @@ pm2 serve dist 5173 --name kiwix-js-pwa --spa --env production
 ```
 ````
 
-#### Menu setting
+#### Usage
 
-1. Visit `localhost:5173`
-2. Setting → Use Private File System → Add file(s) → Add to OPFS → Select your `.zim` → Wait for it to complete → Install PWA (Optional)
-3. If you clean up the cache of browser, you need to do it again
+1. Visit `http://localhost:5173`
+2. Setting → Use Private File System → Add file(s) → Add to OPFS → Select your `.zim` → Wait for it to complete
+3. (Optional) Install PWA
+4. If you clean up the cache of browser, you need to do it again

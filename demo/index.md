@@ -1,20 +1,29 @@
 ```{eval-rst}
-.. asciinema:: setup.cast
+.. asciinema:: 656386
 ```
 
 ```{eval-rst}
-.. asciinema:: ../_static/asciinema/setup.cast
-```
-
-![](../_static/image/audiobookshelf.png)
-
-```{eval-rst}
-.. image:: https://raw.githubusercontent.com/scillidan/screenshot/main/docker/audiobookshelf.png
-  :alt: Alternative text
+.. asciinema:: starfetch.cast
 ```
 
 ```{eval-rst}
-.. video :: ../_static/video/20241018_203846-00.01.11.135-00.02.08.122-seg1-cut-merged-1729256157774.mp4
+.. asciinema:: ../_static/asciinema/starfetch.cast
+```
+
+```{eval-rst}
+.. asciinema:: https://raw.githubusercontent.com/scillidan/file_asciinema/main/starfetch.cast
+```
+
+![](../_static/image/example.png)
+
+```{eval-rst}
+.. image:: https://raw.githubusercontent.com/scillidan/file/main/wallpaper/%E9%A2%A8%E8%88%B9%E3%81%AE%E6%97%85%E7%AB%8B%E3%81%A1_2k.png
+
+    :alt: 風船の旅立ち_2k
+```
+
+```{eval-rst}
+.. video :: ../_static/video/starfetch.mp4
     :playsinline:
     :align: left
     :width: 100%

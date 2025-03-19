@@ -1,8 +1,8 @@
 ### [JPEGView](https://github.com/sylikc/jpegview)
 
-#### Menu setting
+#### Setting
 
-- JPEGView → 右键
+- 右键
   - 显示导航面板 (Off)
   - 显示顺序 → 文件名
   - 设定/管理 → 编辑用户设置

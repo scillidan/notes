@@ -1,6 +1,6 @@
 ### [Directory Opus](https://gpsoft.com.au)
 
-#### Menu setting
+#### Setting
 
 - 设置 → 选项 → 工具栏 → 图标 → 导入
 - 设置 → 自定义工具栏 → 快捷键

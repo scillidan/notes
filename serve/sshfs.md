@@ -1,5 +1,7 @@
 ### SSHFS
 
+On remote:
+
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
 sudo apt install sshfs
@@ -18,6 +20,6 @@ On Windows 10:
 
 #### Usage
 
-SSHFS-Win Manager → Add Connection
+- SSHFS-Win Manager → Add Connection
 
 [^1]: [How To Use SSHFS to Mount Remote File Systems Over SSH](https://www.digitalocean.com/community/tutorials/how-to-use-sshfs-to-mount-remote-file-systems-over-ssh)

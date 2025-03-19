@@ -1,9 +1,8 @@
 ### [LM Studio](https://lmstudio.ai/)
 
-Discover → Select the LLM → Choose a download option → Check `Full GPU Offload Possible` → Download
-
 #### Usage
 
+- Discover → Select the LLM → Choose a download option → Check `Full GPU Offload Possible` → Download
 - Chat → Select a model to load → Select the LLM
 - Developer → Enable CORS (On) → Serve on Local Network (on) → Select a model to load → Start Server
 

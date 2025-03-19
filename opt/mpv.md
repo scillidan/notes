@@ -9,14 +9,13 @@ git checkout v0.38.0
 ```
 ````
 
-#### Usage
+#### Note
 
-`mpv.exe` → 新建快捷方式 → 属性 → 快捷方式:
-
-```
-目标 `mpv.exe`
-起始位置 `mpv_config_dir_for_stream\`
-```
+- `mpv.exe` → 新建快捷方式 → 属性 → 快捷方式:
+	```
+	目标 `mpv.exe`
+	起始位置 `mpv_config_dir_for_stream\`
+	```
 
 #### Reference
 

@@ -2,4 +2,4 @@
 
 #### Usage
 
-Windows Explorer → 缩略图(On) → 清空
+- Windows Explorer → 缩略图(On) → 清空

@@ -1,6 +1,6 @@
 ### [Everything](https://www.voidtools.com/)
 
-#### Menu setting
+#### Setting
 
 - 选项 → 索引/排除列表 → 启用排除列表 → 添加筛选器 → `node_modules\`, `public\`, `site\`, `Rubbish\`
   - 添加文件夹 → 文件夹 → `C:\$Recycle.Bin` → 确定

@@ -1,6 +1,6 @@
 ### [Xfce](https://www.xfce.org/)
 
-#### Menu setting
+#### Setting
 
 - Screensaver → Enable Screensaver (Off)
 - Lock Screen → Enable Lock Screen (Off)
