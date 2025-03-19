@@ -1,7 +1,7 @@
 ### [PDFME](https://github.com/pdfme/pdfme)
 
-![](https://img.shields.io/github/license//pdfme/pdfme)<br />
-[![](https://img.shields.io/github/last-commit/scillidan/pdfme/main?label=last%20commit%20(fork))](https://github.com/scillidan/pdfme)
+![](https://img.shields.io/github/license//pdfme/pdfme?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/pdfme/main?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/pdfme)
 
 ````{tab} From source
 ```sh

@@ -1,7 +1,7 @@
 ### [Vivliostyle Viewer](https://github.com/vivliostyle/vivliostyle.js/tree/master/packages/viewer)
 
-![](https://img.shields.io/github/license/vivliostyle/vivliostyle.js)<br />
-[![](https://img.shields.io/github/last-commit/scillidan/vivliostyle.js/main?label=last%20commit%20(fork))](https://github.com/scillidan/vivliostyle.js)<br />
+![](https://img.shields.io/github/license/vivliostyle/vivliostyle.js?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/vivliostyle.js/main?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/vivliostyle.js)<br />
 ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

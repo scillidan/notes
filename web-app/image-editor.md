@@ -1,7 +1,7 @@
 ### [image-editor](https://github.com/andrepv/image-editor)
 
-![](https://img.shields.io/github/license/andrepv/image-editor)
-[![](https://img.shields.io/github/last-commit/scillidan/image-editor/master?label=last%20commit%20(fork))](https://github.com/scillidan/image-editor)
+![](https://img.shields.io/github/license/andrepv/image-editor?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/image-editor/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/image-editor)
 
 ````{tab} From source
 ```sh

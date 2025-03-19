@@ -1,7 +1,7 @@
 ### [lrc_editor](https://github.com/yiyizym/lrc_editor)
 
-![](https://img.shields.io/github/license/yiyizym/lrc_editor)
-[![](https://img.shields.io/github/last-commit/scillidan/lrc_editor/master?label=last%20commit%20(fork))](https://github.com/scillidan/lrc_editor)
+![](https://img.shields.io/github/license/yiyizym/lrc_editor?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/lrc_editor/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/lrc_editor)
 
 ````{tab} From source
 ```sh

@@ -1,7 +1,7 @@
 ### [EPUB Manga Creator](https://github.com/wing-kai/epub-manga-creator)
 
-![](https://img.shields.io/github/license/wing-kai/epub-manga-creator)
-[![](https://img.shields.io/github/last-commit/scillidan/epub-manga-creator/master?label=last%20commit%20(fork))](https://github.com/scillidan/epub-manga-creator)
+![](https://img.shields.io/github/license/wing-kai/epub-manga-creator?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/epub-manga-creator/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/epub-manga-creator)<br />
 ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source

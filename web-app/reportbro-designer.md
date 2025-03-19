@@ -1,7 +1,7 @@
 ### [ReportBro Designer](https://github.com/jobsta/reportbro-designer)
 
-![](https://img.shields.io/github/license/jobsta/reportbro-designer)
-[![](https://img.shields.io/github/last-commit/scillidan/reportbro-designer/master?label=last%20commit%20(fork))](https://github.com/scillidan/reportbro-designer)
+![](https://img.shields.io/github/license/jobsta/reportbro-designer?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/reportbro-designer/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/reportbro-designer)
 
 ````{tab} From source
 ```sh

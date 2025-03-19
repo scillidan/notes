@@ -1,7 +1,7 @@
 ### [Vtracer Web App](https://github.com/visioncortex/vtracer)
 
-![](https://img.shields.io/github/license/visioncortex/vtracer)
-[![](https://img.shields.io/github/last-commit/scillidan/vtracer/master?label=last%20commit%20(fork))](https://github.com/scillidan/vtracer)
+![](https://img.shields.io/github/license/visioncortex/vtracer?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/vtracer/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/vtracer)<br />
 ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source

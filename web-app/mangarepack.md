@@ -1,7 +1,7 @@
 ### [Manga Repack](https://github.com/Aeroblast/MangaRepack)
 
-![](https://img.shields.io/github/license/Aeroblast/MangaRepack)<br />
-[![](https://img.shields.io/github/last-commit/scillidan/MangaRepack/main?label=last%20commit%20(fork))](https://github.com/scillidan/MangaRepack)
+![](https://img.shields.io/github/license/Aeroblast/MangaRepack?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/MangaRepack/main?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/MangaRepack)
 
 ````{tab} From source
 ```sh

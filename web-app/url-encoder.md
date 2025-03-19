@@ -1,7 +1,7 @@
 ### [Url encoder for SVG](https://github.com/yoksel/url-encoder)
 
-![](https://img.shields.io/github/license/yoksel/url-encoder)<br />
-[![](https://img.shields.io/github/last-commit/scillidan/url-encoder/main?label=last%20commit%20(fork))](https://github.com/scillidan/url-encoder)<br />
+![](https://img.shields.io/github/license/yoksel/url-encoder?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/url-encoder/main?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/url-encoder)<br />
 ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source

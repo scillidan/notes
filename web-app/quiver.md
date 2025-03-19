@@ -1,7 +1,7 @@
 ### [quiver](https://github.com/varkor/quiver)
 
-![](https://img.shields.io/github/license/varkor/quiver)
-[![](https://img.shields.io/github/last-commit/scillidan/quiver/master?label=last%20commit%20(fork))](https://github.com/scillidan/quiver)
+![](https://img.shields.io/github/license/varkor/quiver?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/quiver/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/quiver)<br />
 ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
 ````{tab} From source

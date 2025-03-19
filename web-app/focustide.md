@@ -1,7 +1,7 @@
 ### [FocusTide](https://github.com/Hanziness/FocusTide)
 
-![](https://img.shields.io/github/license/Hanziness/FocusTide)<br />
-[![](https://img.shields.io/github/last-commit/scillidan/FocusTide/main?label=last%20commit%20(fork))](https://github.com/scillidan/FocusTide)<br />
+![](https://img.shields.io/github/license/Hanziness/FocusTide?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/FocusTide/main?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/FocusTide)<br />
 ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From source

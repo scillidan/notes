@@ -28,5 +28,6 @@ dolt table import --create-table --pk column_1 table_1 table_1.csv
 dolt add table_1
 dolt commit -m "add table_1"
 # dolt status
+# dolt pull origin main
 dolt push origin main
 ```

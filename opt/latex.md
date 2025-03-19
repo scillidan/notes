@@ -16,7 +16,7 @@
 - [Screenplay template](https://www.overleaf.com/latex/templates/screenplay-template/grqmtrnytdhj)
 - [Retrotype](https://github.com/Vladar4/retrotype)
 
-#### [Resource](https://scillidan-database.vercel.app/resource/latex)
+#### [Resource](https://scillidan-datasette.vercel.app/resource/latex)
 
 ##### [Bible de Genève 1564](https://github.com/raphink/geneve_1564)
 

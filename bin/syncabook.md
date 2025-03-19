@@ -1,18 +1,36 @@
-### [syncabook](https://github.com/r4victor/syncabook)
+### [syncabook](https://github.com/r4victor/syncabook) (Cache)
+
+````{tab} Build docker image
+```sh
+git clone --depth=1 https://github.com/r4victor/syncabook
+cd syncabook
+sudo docker build -t <user>/syncabook -f Dockerfile .
+sudo docker run --rm -it <user>/syncabook:latest -h
+```
+````
+
+````{tab} WSL (Cache)
+```sh
+sudo apt update
+sudo apt install -y build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libgdbm-dev liblzma-dev zlib1g-dev libffi-dev
+sudo apt install espeak ffmpeg
+pyenv install 2.7.18
+pyenv shell 2.7.18
+```
+````
 
 ````{tab} Windows 10 [^1] (Cache)
 Get `aeneas-win64-setup-*.exe` from [Aeneas Tools - Releases](https://github.com/sillsdev/aeneas-installer/releases).
 ````
 
-````{tab} ArchWSL
+````{tab} ArchWSL (Cache)
 ```sh
 sudo pacman -S espeak-ng ffmpeg
 git clone --depth=1 https://github.com/r4victor/syncabook
 cd syncabook
 uv venv
 source .venv/bin/activate
-uv pip install numpy afaligner
-uv pip install beautifulsoup4 lxml aeneas
+uv pip install numpy aeneas afaligner
 ```
 ````
 
@@ -24,7 +42,7 @@ python -m pytest -s tests/
 #### Usage
 
 ```sh
-syncabook download_files <the_url> <<the_book>>
+syncabook download_files <the_url> <the_book>
 ```
 
 ```sh
@@ -55,6 +73,6 @@ syncabook create <the_book>
 ... calibre-web → Apphabetical Books → ALL → `The Black Cat` → Import (EPUB)
 My Books → `The Black Cat` → ButtonOfPlayAudio
 
-- [Audio Ebook ID Inserter](https://github.com/Audun97/audio-ebook-id-inserter)
 
 [^1]: [Installing and using Aeneas](https://lingtran.net/Installing-and-using-Aeneas)
+[^2]: [Audio Ebook ID Inserter](https://github.com/Audun97/audio-ebook-id-inserter)

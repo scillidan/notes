@@ -1,7 +1,7 @@
 ### [SVGEdit](https://github.com/SVG-Edit/svgedit)
 
-![](https://img.shields.io/github/license/SVG-Edit/svgedit)
-[![](https://img.shields.io/github/last-commit/scillidan/svgedit/master?label=last%20commit%20(fork))](https://github.com/scillidan/svgedit)
+![](https://img.shields.io/github/license/SVG-Edit/svgedit?style=flat-square)<br />
+[![](https://img.shields.io/github/last-commit/scillidan/svgedit/master?label=last%20commit%20(fork)&style=flat-square)](https://github.com/scillidan/svgedit)<br />
 ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
 ````{tab} From souce

@@ -9,7 +9,10 @@ extensions = [
 	'sphinx_copybutton',
     'sphinx_external_toc',
     'sphinxcontrib.jquery',
-	'sphinxcontrib.asciinema'
+	'sphinxcontrib.asciinema',
+    'sphinxext.photofinish',
+    'sphinxcontrib.video'
+    # 'sphinxcontrib.images'
     # 'sphinx_datatables'
 ]
 
@@ -91,5 +94,9 @@ sphinxcontrib_asciinema_defaults = {
     # 'font-size': 'small',
     # 'font-family': 'Sarasa Mono SC',
     # 'line-height': '1.3',
-    # 'path': 'asciinema'
+    'path': '_static/asciinema'
+}
+sphinxext_photofinish = {
+    'max_viewport_width': 800,
+    'width_min': 500
 }
