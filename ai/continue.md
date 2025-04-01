@@ -13,12 +13,18 @@
         "title": "Qwen2.5 Coder"
       }
     ],
-    "tabAutocompleteModel": {
-      "title": "qwen2.5-coder:3b",
-      "provider": "ollama",
-      "model": "Qwen2.5 Coder 3B"
-    }
+    "tabAutocompleteModel": [
+      {
+        "title": "qwen2.5-coder:3b",
+        "provider": "ollama",
+        "model": "Qwen2.5 Coder 3B"
+      }
+    ]
   }
   ```
 
 [^1]: [Configuring Ollama and Continue VS Code Extension for Local Coding Assistant](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
+
+#### Reference
+
+- [开源 AI 编程工具（一） Continue](https://www.rectcircle.cn/posts/open-source-ai-code-tool-1-continue/)

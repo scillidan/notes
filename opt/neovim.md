@@ -146,7 +146,7 @@ mkdir C:\Users\User\AppData\Local\nvim-data\devdocs
 :DevdocInstall latex
 ```
 
-##### [rime-ls](https://github.com/wlh320/rime-ls)
+##### [rime-ls](https://github.com/wlh320/rime-ls) (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/wlh320/rime-ls
@@ -157,6 +157,14 @@ git checkout v0.4.1
 
 ````{tab} Windows 10
 ```sh
+cargo build --release
+```
+````
+
+````{tab} ArchWSL (Cache)
+```sh
+sudo pacman -S rustup
+rustup default stable
 cargo build --release
 ```
 ````

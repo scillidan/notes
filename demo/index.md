@@ -1,24 +1,7 @@
-```{eval-rst}
-.. asciinema:: 656386
-```
-
-```{eval-rst}
-.. asciinema:: starfetch.cast
-```
-
-```{eval-rst}
-.. asciinema:: ../_static/asciinema/starfetch.cast
-```
-
-```{eval-rst}
-.. asciinema:: https://raw.githubusercontent.com/scillidan/file_asciinema/main/starfetch.cast
-```
-
 ![](../_static/image/example.png)
 
 ```{eval-rst}
 .. image:: https://raw.githubusercontent.com/scillidan/file/main/wallpaper/%E9%A2%A8%E8%88%B9%E3%81%AE%E6%97%85%E7%AB%8B%E3%81%A1_2k.png
-
     :alt: 風船の旅立ち_2k
 ```
 

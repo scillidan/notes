@@ -162,6 +162,11 @@ sudo pacman -S network-manager-applet
 
 #### Setup
 
+```sh
+sudo pacman -S mpv \
+	yt-dlp
+```
+
 ##### [yay](https://github.com/Jguer/yay)
 
 ````{tab} pacman

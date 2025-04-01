@@ -12,6 +12,13 @@ source .zshrc
 
 #### [Resource](https://scillidan-datasette.vercel.app/resource/zsh)
 
+##### [zenquotes](https://github.com/aminelch/zenquotes)
+
+```sh
+cd $ZSH/custom/plugins
+git clone https://github.com/aminelch/zenquotes
+```
+
 ##### [zsh-abbr](https://github.com/olets/zsh-abbr)
 
 - [abbr c does not clear abbreviations created with the pattern abbr x=y](https://github.com/olets/zsh-abbr/issues/88)

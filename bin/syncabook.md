@@ -39,7 +39,7 @@ pip install pytest epubcheck
 python -m pytest -s tests/
 ```
 
-#### Usage
+#### Note
 
 ```sh
 syncabook download_files <the_url> <the_book>

@@ -89,10 +89,10 @@ external_toc_exclude_missing = False
 
 sphinxcontrib_asciinema_defaults = {
     'theme': 'asciinema',
-    # 'font-size': 'small',
+    'font-size': 'small',
     # 'font-family': 'Sarasa Mono SC',
-    # 'line-height': '1.3',
-    'path': '_static/asciinema'
+    'line-height': 1.33,
+    'speed': 1.5
 }
 sphinxext_photofinish = {
     'max_viewport_width': 800,
