@@ -19,3 +19,8 @@ pyftsubset $1.ttf --output-file=$2.woff2 --flavor=woff2 --layout-features=* --un
 # komga-cover-extractor
 cd C:\Users\User\Usr\Script\komga-cover-extractor && .venv\Scripts\python.exe komga_cover_extractor.py" $1
 ```
+
+```
+# PostgreSQL Query
+SELECT * FROM <table> WHERE <row_1> LIKE '%<string>%' OR <row_2> LIKE '%<string>%' OR <row_3> LIKE '%<string>%';
+```

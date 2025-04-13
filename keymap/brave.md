@@ -19,23 +19,34 @@ ContextMenu   | Cookie AutoDelete
 ContextMenu   | Block Site - (Un)Block this Page
 ContextMenu   | Tab to Window/Popup
 ContextMenu   | Auto Clipboard
-A-p           | Tab to Window/Popup
+A-p           | Tab to Window/Popup - Window
+A-x           | Tab to Window/Popup - Popup
 A-S-z         | immersive-translate - Translate Webpage/Show Original Text
-A-S-f         | Chikamichi Search Anything
-A-S-q         | QuicKey Search Tabs
-A-S-y         | Yomichan E-DirectoryS
-A-S-e         | Emoji Keyboard
-A-S-l         | linkding extension
-A-h           | Hypothesis
-A-S-t         | Smart TOC
-A-S-d         | DevDocs Web Ext
-A-S-o         | Open Multiple URLs
+A-f           | Chikamichi Search Anything
+A-t           | Smart TOC
+A-o           | Open Multiple URLs
 A-S-p         | GoFullPage - Full Page Screen Capture
+A-c           | Superb Copy
 A-S-c         | AI Grammar Checker & Paraphraser – LanguageTool
-A-S-s         | Screenshot Capture
+A-s           | Screenshot Capture
 A-S-y         | YouTube Subtitle to text downloader
 A-S-a         | asbplayer: Language-learning with subtitles
+A-S-i         | Image downloader -Imageye
+A-S-a         | Automa
+A-S-s         | Speechify Text to Speech Voice Reader
+A-S-m         | Monica
 C             | Imagus
 C-Drag        | Table range select and copy
 C-S-f         | find+
+```
+
+#### Cache
+
+```
+A-S-q         | QuicKey Search Tabs
+A-S-y         | Yomichan E-Directory
+A-S-e         | Emoji Keyboard
+A-S-l         | linkding extension
+A-h           | Hypothesis
+A-S-d         | DevDocs Web Ext
 ```

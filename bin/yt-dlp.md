@@ -35,3 +35,4 @@ yt-dlp -f bestvideo+bestaudio <url_1>
 ```
 
 [^1]: [Installing Plugins](https://github.com/yt-dlp/yt-dlp#installing-plugins)
+[^2]: [[YT-DLP] How to automatically convert all audio downloads to mp3/m4a/aac (either one) and all video downloads to mp4/mov (or whatever)?](https://www.reddit.com/r/youtubedl/comments/130i9og/ytdlp_how_to_automatically_convert_all_audio/)
