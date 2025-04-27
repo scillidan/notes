@@ -51,6 +51,10 @@ webui-user.bat
 
 3. Extensions → Installed → Apply and restartUI
 
+#### Resource
+
+- [lllyasviel/ControlNet-v1-1](https://huggingface.co/lllyasviel/ControlNet-v1-1)
+
 #### Reference
 
 - [How to make web-ui available on local network](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6589)

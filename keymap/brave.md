@@ -21,6 +21,7 @@ ContextMenu   | Tab to Window/Popup
 ContextMenu   | Auto Clipboard
 A-p           | Tab to Window/Popup - Window
 A-x           | Tab to Window/Popup - Popup
+A-S-t         | immersive-translate
 A-S-z         | immersive-translate - Translate Webpage/Show Original Text
 A-f           | Chikamichi Search Anything
 A-t           | Smart TOC
@@ -35,6 +36,7 @@ A-S-i         | Image downloader -Imageye
 A-S-a         | Automa
 A-S-s         | Speechify Text to Speech Voice Reader
 A-S-m         | Monica
+A-S-k         | Kokoro TTS Reader
 C             | Imagus
 C-Drag        | Table range select and copy
 C-S-f         | find+

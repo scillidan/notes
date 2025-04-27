@@ -1,6 +1,6 @@
-### [Trilium](https://github.com/zadam/trilium) (Cache)
+### [Trilium Notes](https://github.com/zadam/trilium) (Cache)
 
-````{tab} Ubuntu 24 ARM
+````{tab} Ubuntu 24 ARM [^1][^2]
 Get `trilium-linux-x64-server-*.tar.xz` from [Trilium - Releases](https://github.com/zadam/trilium/releases).
 
 ```sh
@@ -29,6 +29,10 @@ WantedBy=multi-user.target
 ```
 
 ```sh
+export TRILIUM_DATA_DIR=/home/<user>/data/trilium
 sudo systemctl enable --now trilium
 ```
 ````
+
+[^1]: [Server installation](https://github.com/zadam/trilium/wiki/Server-installation)
+[^2]: [Manual server installation](https://github.com/zadam/trilium/wiki/Manual-server-installation)

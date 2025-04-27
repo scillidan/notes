@@ -19,3 +19,8 @@ audiowaveform -i $1 -o _.png -z auto -w 1920 -h 150 --background-color fffff8 --
 # mid to mp3
 timidity $1 -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 64k _.mp3
 ```
+
+```sh
+# reduce m4b
+ffmpeg -i $1 -map 0:a -map_metadata 0  -c:a aac -b:a 64k -id3v2_version 3 -movflags +faststart _.m4b
+```

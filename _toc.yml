@@ -24,6 +24,9 @@ subtrees:
 - caption: lib
   entries:
   - glob: lib/*
+- caption: note
+  entries:
+  - glob: note/*
 - caption: opt
   entries:
   - glob: opt/*

@@ -192,12 +192,12 @@ yay
 yay -S paru
 ```
 
-##### [Flatpak](https://github.com/flatpak/flatpak) [^7] (Optional)
+##### [Flatpak](https://github.com/flatpak/flatpak) [^7][^8] (Optional)
 
 ```sh
 sudo pacman -S flatpak
 reboot
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 ```
 
 You can find apps on [Flathub](https://flathub.org/).
@@ -506,6 +506,12 @@ sudo pacman -S nitrogen
 nitrogen → Preferences → Add → `~/Pictures/wallpaper` → OK → Apply.
 ````
 
+##### Disable screen lock
+
+- Settings → Xfce Screensaver
+	- Screensaver → Enable Screensaver (Off)
+	- Lock Screen → Enable Lock Screen (Off)
+
 ##### Fonts
 
 ```sh
@@ -758,17 +764,18 @@ flatpak install flathub com.tencent.WeChat
 [^5]: [Localization/Simplified Chinese](https://wiki.archlinux.org/title/Localization/Simplified_Chinese)
 [^6]: [hosts](https://man.archlinux.org/man/hosts.5)
 [^7]: [[Bug]: "SSL peer certificate or SSH remote key was not OK" during extra-data download, only on Ubuntu-based distros](https://github.com/flatpak/flatpak/issues/5253)
-[^8]: [enable SSH on Arch Linux](https://medium.com/@pythonaugust/enable-ssh-on-arch-linux-8f1ede0d9c88)
-[^9]: [Install XFCE Desktop on Arch Linux](https://linuxopsys.com/topics/install-xfce-desktop-on-arch-linux)
-[^10]: [How to Use i3 with XFCE](https://www.youtube.com/watch?v=nZTBxJ_gr8w)
-[^11]: [Sway on Arch Linux: 2023 Edition (From Scratch)](https://www.youtube.com/watch?v=QAmTUkzpIiM)
-[^12]: [Set dark theme on dolphin in cinnamon](https://forum.manjaro.org/t/set-dark-theme-on-dolphin-in-cinnamon/122034/7)
-[^13]: [Arch linux install lightdm (Light Display Manager)](https://gist.github.com/miguelmota/5087fb8d92599efc4748c134846c8daf)
-[^14]: [A minimal LightDM WebKit2 theme](https://github.com/TheTerrior/lightdm-minimal)
-[^15]: [How to Change Linux Console Fonts on Arch Linux](https://www.youtube.com/watch?v=nxUTnZVdS64)
-[^16]: [Linux console - Fonts](https://wiki.archlinux.org/title/Linux_console#Fonts)
-[^17]: [Bluetooth headset connection occasionally fails: br-connection-page-timeout](https://www.reddit.com/r/archlinux/comments/qnffce/bluetooth_headset_connection_occasionally_fails/)
-[^18]: [How to Set up Bluetooth in Arch Linux](https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/)
-[^19]: [Bluetooth not working on computer](https://www.linuxquestions.org/questions/linux-hardware-18/bluetooth-not-working-on-computer-4175724971/)
-[^20]: [Using USB drives on Arch](https://ejmastnak.com/tutorials/arch/usb/)
-[^21]: [Can't create freshclam.dat in /usr/local/share/clamav](https://docs.clamav.net/faq/faq-freshclam.html#cant-create-freshclamdat-in-usrlocalshareclamav)
+[^8]: [Discover Flatpak update error message: Aborted due to failure (Flatpak system operation Deploy not allowed for user)](https://forums.opensuse.org/t/discover-flatpak-update-error-message-aborted-due-to-failure-flatpak-system-operation-deploy-not-allowed-for-user/174151/11)
+[^9]: [enable SSH on Arch Linux](https://medium.com/@pythonaugust/enable-ssh-on-arch-linux-8f1ede0d9c88)
+[^10]: [Install XFCE Desktop on Arch Linux](https://linuxopsys.com/topics/install-xfce-desktop-on-arch-linux)
+[^11]: [How to Use i3 with XFCE](https://www.youtube.com/watch?v=nZTBxJ_gr8w)
+[^12]: [Sway on Arch Linux: 2023 Edition (From Scratch)](https://www.youtube.com/watch?v=QAmTUkzpIiM)
+[^13]: [Set dark theme on dolphin in cinnamon](https://forum.manjaro.org/t/set-dark-theme-on-dolphin-in-cinnamon/122034/7)
+[^14]: [Arch linux install lightdm (Light Display Manager)](https://gist.github.com/miguelmota/5087fb8d92599efc4748c134846c8daf)
+[^15]: [A minimal LightDM WebKit2 theme](https://github.com/TheTerrior/lightdm-minimal)
+[^16]: [How to Change Linux Console Fonts on Arch Linux](https://www.youtube.com/watch?v=nxUTnZVdS64)
+[^17]: [Linux console - Fonts](https://wiki.archlinux.org/title/Linux_console#Fonts)
+[^18]: [Bluetooth headset connection occasionally fails: br-connection-page-timeout](https://www.reddit.com/r/archlinux/comments/qnffce/bluetooth_headset_connection_occasionally_fails/)
+[^19]: [How to Set up Bluetooth in Arch Linux](https://www.jeremymorgan.com/tutorials/linux/how-to-bluetooth-arch-linux/)
+[^20]: [Bluetooth not working on computer](https://www.linuxquestions.org/questions/linux-hardware-18/bluetooth-not-working-on-computer-4175724971/)
+[^21]: [Using USB drives on Arch](https://ejmastnak.com/tutorials/arch/usb/)
+[^22]: [Can't create freshclam.dat in /usr/local/share/clamav](https://docs.clamav.net/faq/faq-freshclam.html#cant-create-freshclamdat-in-usrlocalshareclamav)

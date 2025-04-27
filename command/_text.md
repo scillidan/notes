@@ -32,5 +32,10 @@ w2vgrep /C 2 /n /t 0.55 /m "C:\Users\User\Data\Model\googlenews-slim\GoogleNews-
 
 ```sh
 # to llm prompt
-code2prompt $1.md --tokens --filter lua --output $1.md
+code2prompt . -o _.txt
+```
+
+```sh
+# to llm prompt
+repomix --remote $1 -o _.txt
 ```

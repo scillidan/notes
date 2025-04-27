@@ -24,7 +24,7 @@ sudo systemctl enable --now docker.service
 ```
 ````
 
-Change repository mirrors [^2]:
+Change repository mirrors [^2][^6]:
 
 ```sh 
 sudo mkdir -p /etc/docker
@@ -40,7 +40,14 @@ sudo vim /etc/docker/daemon.json
     "https://proxy.1panel.live",
     "https://dockerproxy.1panel.live"
   ],
-  "experimental": true
+  "experimental": true,
+  "default-runtime": "nvidia",
+  "runtimes": {
+    "nvidia": {
+      "path": "/usr/bin/nvidia-container-runtime",
+      "runtimeArgs": []
+    }
+  }
 }
 ```
 ````
@@ -74,6 +81,12 @@ sudo docker run -p 8080:80 --rm nginx
 
 Visit `http://<your_host>/8080`.
 
+Test [^5]:
+
+```sh
+sudo docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
+```
+
 Some command to clear:
 
 ```sh
@@ -88,3 +101,5 @@ sudo docker system prune -a --volumes -f
 [^2]: [Docker / Podman 安装与换源](https://wcbing.top/linux/containers/install/)
 [^3]: [How to Change Docker’s Default Data Directory](https://linuxiac.com/how-to-change-docker-data-directory/)
 [^4]: [Docker Hub - Quickstart](https://docs.docker.com/docker-hub/quickstart/)
+[^5]: [Container Runtime Initialization Errors](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#container-runtime-initialization-errors)
+[^6]: [Using the NVIDIA Container Runtime for Docker](https://docs.nvidia.com/dgx/nvidia-container-runtime-upgrade/index.html#using-nv-container-runtime)

@@ -11,7 +11,8 @@ git clone --depth=1 https://github.com/suisuyy/sreadium
 cd sreadium
 ```
 
-Put `*.epub` into `epub_content/`.
+1. Put `*.epub` into `epub_content/`.
+2. Edit `epub_library.opds` by yourself.
 
 ```sh
 serve -s . -p 4321

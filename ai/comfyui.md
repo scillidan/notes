@@ -29,6 +29,8 @@ Usage:
 
 #### Workflow
 
+Put `file.json` into `ComfyUI\user\default\workflows\`.
+
 ##### [Change product background with the image of your choice using Style Transfer.](https://civitai.com/models/413803/change-product-background-with-the-image-of-your-choice-using-style-transfer) [^1]
 
 ````{tab} From source

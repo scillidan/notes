@@ -26,4 +26,8 @@ tts --model_name "tts_models/multilingual/multi-dataset/xtts_v2" --list_language
 tts --device cuda --model_name "tts_models/multilingual/multi-dataset/xtts_v2" --speaker_idx "Claribel Dervla" --language_idx "en" --text "<text>" --out_path temp.wav
 ```
 
+#### Sample
+
+- [file_tts](https://github.com/scillidan/file_tts)
+
 [^1]: [How can I run Mozilla TTS/Coqui TTS training with CUDA on a Windows system?](https://stackoverflow.com/questions/66726331/how-can-i-run-mozilla-tts-coqui-tts-training-with-cuda-on-a-windows-system)

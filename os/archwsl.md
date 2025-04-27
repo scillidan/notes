@@ -1,4 +1,4 @@
-### [ArchWSL](https://github.com/yuk7/ArchWSL) [^1][^2]
+### [ArchWSL](https://github.com/yuk7/ArchWSL) [^1][^2][^3]
 
 ```pwsh
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
@@ -7,7 +7,7 @@ DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V
 
 ```sh
 wsl --set-default-version 2
-wsl --update
+wsl --update --web-download
 scoop install archwsl
 arch
 ```
@@ -25,7 +25,7 @@ arch config --default-user <username>
 arch
 ```
 
-Use repository mirror [^3]:
+Use repository mirror [^4]:
 
 ```sh
 sudo vim /etc/pacman.conf
@@ -94,6 +94,7 @@ sudo pacman -S \
 	docker \
 	docker-compose \
 	eza \
+	fd \
 	fzf \
 	git \
 	github-cli \
@@ -151,7 +152,7 @@ mv <font> ~/.local/share/fonts/
 fc-cache -fv
 ```
 
-#### D-Bus [^4]
+#### D-Bus [^5]
 
 ```sh
 # sudo pacman -S dbus
@@ -159,7 +160,7 @@ sudo mkdir /run/dbus -p
 sudo dbus-daemon --system
 ```
 
-#### systemd/systemctl [^4]
+#### systemd/systemctl [^5]
 
 ```sh
 vim /etc/wsl.conf
@@ -172,13 +173,13 @@ systemd=true
 
 #### [WSLg](https://github.com/microsoft/wslg)
 
-````{tab} Turn on [^5]
+````{tab} Turn on [^6]
 ```sh
 ln -s /mnt/wslg/runtime-dir/wayland-0* /run/user/1000/
 ```
 ````
 
-````{tab} Turn off [^6]
+````{tab} Turn off [^7]
 On Windows:
 
 ```sh
@@ -198,7 +199,8 @@ guiApplications=false
 
 [^1]: [Install Hyper-V](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/Install-Hyper-V?pivots=windows)
 [^2]: [How to install Arch Linux for WSL](https://dev.to/jrcharney/how-to-install-arch-linux-for-wsl-184a)
-[^3]: [Arch Linux 中文社区仓库](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/)
-[^4]: [Known issues](https://wsldl-pg.github.io/ArchW-docs/Known-issues/)
-[^5]: [GUI Applications will no longer launch in Wayland after updating](https://github.com/microsoft/wslg/issues/1032)
-[^6]: [Disable WSLg permanently](https://github.com/microsoft/wslg/discussions/523)
+[^3]: [WSL --update fails with unknown error code (0x80240066)](https://github.com/microsoft/WSL/issues/9039)
+[^4]: [Arch Linux 中文社区仓库](https://www.archlinuxcn.org/archlinux-cn-repo-and-mirror/)
+[^5]: [Known issues](https://wsldl-pg.github.io/ArchW-docs/Known-issues/)
+[^6]: [GUI Applications will no longer launch in Wayland after updating](https://github.com/microsoft/wslg/issues/1032)
+[^7]: [Disable WSLg permanently](https://github.com/microsoft/wslg/discussions/523)

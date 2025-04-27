@@ -1,6 +1,6 @@
 ### [syncabook](https://github.com/r4victor/syncabook) (Cache)
 
-````{tab} Build docker image
+````{tab} Docker
 ```sh
 git clone --depth=1 https://github.com/r4victor/syncabook
 cd syncabook
@@ -9,70 +9,80 @@ sudo docker run --rm -it <user>/syncabook:latest -h
 ```
 ````
 
-````{tab} WSL (Cache)
+````{tab} Build docker image
 ```sh
-sudo apt update
-sudo apt install -y build-essential libssl-dev libbz2-dev libreadline-dev libsqlite3-dev libgdbm-dev liblzma-dev zlib1g-dev libffi-dev
-sudo apt install espeak ffmpeg
-pyenv install 2.7.18
-pyenv shell 2.7.18
+mkdir syncabook
+cd syncabook
+git clone --depth=1 https://github.com/scillidan/syncabook
+git clone --depth=1 https://github.com/scillidan/afaligner
+vim Dockerfile
+```
+
+```
+FROM python:3.9-slim
+
+RUN apt update -q \
+    && apt install --no-install-recommends -yq espeak \
+    libespeak-dev \
+    ffmpeg \
+    && apt install -yq gcc
+
+RUN pip install --upgrade pip
+RUN pip install numpy==1.23.4
+RUN pip install pytest==7.1.3
+
+WORKDIR /syncabook
+
+COPY afaligner ./afaligner
+COPY syncabook ./syncabook
+
+RUN pip install -e afaligner
+RUN pip install -r syncabook/requirements/base.txt
+RUN pip install -e syncabook
+
+WORKDIR /
+ENTRYPOINT ["syncabook"]
+```
+
+```sh
+sudo docker build -t <user>/syncabook -f Dockerfile .
+sudo docker run --rm -it <user>/syncabook:latest -h
 ```
 ````
 
-````{tab} Windows 10 [^1] (Cache)
+````{tab} Windows 10 (Cache)
 Get `aeneas-win64-setup-*.exe` from [Aeneas Tools - Releases](https://github.com/sillsdev/aeneas-installer/releases).
 ````
 
-````{tab} ArchWSL (Cache)
 ```sh
-sudo pacman -S espeak-ng ffmpeg
-git clone --depth=1 https://github.com/r4victor/syncabook
-cd syncabook
-uv venv
-source .venv/bin/activate
-uv pip install numpy aeneas afaligner
-```
-````
-
-```sh
-pip install pytest epubcheck
-python -m pytest -s tests/
+cd books
+mkdir alice_in_wonderland
+cd alice_in_wonderland
+mkdir plaintext
 ```
 
-#### Note
+1. For example, download "Alice in Wonderland, Retold in Words of One Syllable" by Carroll and Gorham, the `Plain Text UTF-8` format from [Project Gutenberg](https://www.gutenberg.org/ebooks/19551), rename to `text.txt`
+2. Download the corresponding book's vocal reading audio files from [LibriVox](https://librivox.org/alice-in-wonderland-retold-in-words-of-one-syllable-by-jc-gorham/), rename to `audio.zip`, then decompress to `audio/`
+3. In `plaintext/`, create a `001_title.txt`
+4. Open `text.txt`, cut all content that above chapter strings liked `CHAPTER I`, `ACT I` into `001_title.txt`
 
 ```sh
-syncabook download_files <the_url> <the_book>
+# syncabook download_files <url> <book>
+syncabook split_text --mode opening --p <book_index> <book>\text.txt <book>\plaintext
+# syncabook split_text --mode delimeter --p <book_index> <book>\text.txt <book>\plaintext
+# syncabook split_text --mode equal --n 2 <book>\text.txt <book>\plaintext
+syncabook to_xhtml <book>/plaintext <book>/sync_text
+syncabook sync <book>
+syncabook create <book>
 ```
+
+For example:
 
 ```sh
-syncabook split_text --mode opening --p <the_index> <the_book>\text.txt <the_book>\plaintext
-syncabook split_text --mode delimeter --p <the_index> <the_book>\text.txt <the_book>\plaintext
-syncabook split_text --mode equal --n 2 <the_book>\text.txt <the_book>\plaintext
+sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncabook:latest split_text --mode opening --p CHAPTER books/alice_in_wonderland/text.txt books/alice_in_wonderland/plaintext
+sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncabook:latest to_xhtml books/alice_in_wonderland/plaintext books/alice_in_wonderland/sync_text
+sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncabook:latest sync books/alice_in_wonderland
+sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncabook:latest create books/alice_in_wonderland
 ```
 
-```sh
-syncabook to_xhtml <the_book>/plaintext/ <the_book>/sync_text/
-syncabook sync <the_book>/
-```
-
-```sh
-syncabook create <the_book>
-```
-
-```sh
-cd _synclibrivox\books\_little_prince\ // Cache
-syncabook.exe split_text --m opening --p 第一章 text.txt plaintext
-iconv -f gbk -t utf-8 plaintext\1.txt > plaintext\_1.txt && trash plaintext\1.txt && move plaintext\_1.txt plaintext\1.txt
-syncabook.exe to_xhtml plaintext sync_text\
-iconv -f gbk -t utf-8 sync_text\1.xhtml > sync_text\_1.xhtml && trash sync_text\1.xhtml && move sync_text\_1.xhtml  sync_text\1.xhtml
-syncabook sync _synclibrivox\books\_little_prince
-syncabook create <the_book>
-```
-
-... calibre-web → Apphabetical Books → ALL → `The Black Cat` → Import (EPUB)
-My Books → `The Black Cat` → ButtonOfPlayAudio
-
-
-[^1]: [Installing and using Aeneas](https://lingtran.net/Installing-and-using-Aeneas)
-[^2]: [Audio Ebook ID Inserter](https://github.com/Audun97/audio-ebook-id-inserter)
+[^1]: [Installing aeneas - Linux](https://github.com/readbeyond/aeneas/blob/master/wiki/INSTALL.md#linux)
