@@ -81,7 +81,7 @@ Menu → Controller settings → Pair a bluetooth controller
 
 ##### [Add themes into frontend](https://wiki.recalbox.com/en/tutorials/frontend-customization/add-themes-into-emulationstation):
 
-`share\themes
+`share\themes`
 
 ##### Hide preinstalled games
 

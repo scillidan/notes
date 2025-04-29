@@ -127,7 +127,7 @@ rembg i -a -ae 15 $1 _.png
 
 ```sh
 # svg to png
-svg2png $1 -w <width> -o _.png
+svg2png $1 -w <width>
 ```
 
 ```sh

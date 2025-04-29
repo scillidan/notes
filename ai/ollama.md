@@ -21,15 +21,11 @@ ollama run tinyllama
 ````{tab} Windows 10
 ```sh
 scoop install ollama-full
-ollama pull codellama 
-ollama pull starcoder2:3b
-# ollama pull starcoder2:7b
+ollama pull llama3.1
+# ollama pull gemma3
+ollama pull qwen2.5-coder:3b
+ollama pull qwen2.5-coder:7b
 ollama pull nomic-embed-text
-# ollama pull mxbai-embed-large
-# ollama pull jina/jina-embeddings-v2-base-en
-ollama pull qwen2.5:7b
-ollama pull deepseek-r1:8b
-ollama pull deepseek-coder:6.7b
 ollama list
 ```
 ````

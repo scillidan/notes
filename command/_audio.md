@@ -24,3 +24,9 @@ timidity $1 -Ow -o - | ffmpeg -i - -acodec libmp3lame -ab 64k _.mp3
 # reduce m4b
 ffmpeg -i $1 -map 0:a -map_metadata 0  -c:a aac -b:a 64k -id3v2_version 3 -movflags +faststart _.m4b
 ```
+
+```sh
+# yt-dlp download mp3
+# https://bje0716.tistory.com/52
+yt-dlp -x --audio-format mp3 --audio-quality 320k -o "%(title)s.%(ext)s" <url_1>
+```
