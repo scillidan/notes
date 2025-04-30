@@ -1,5 +1,16 @@
 ### [Khoj](https://github.com/khoj-ai/khoj) (Cache)
 
+````{tab} ArchWSL
+```sh
+uv venv
+.venv\Scripts\activate.bat
+set CMAKE_ARGS="-DGGML_CUDA=on"
+uv pip pip install "khoj[local]"
+set USE_EMBEDDED_DB="true"
+khoj --anonymous-modes
+```
+````
+
 ````{tab} Docker compose [^1]
 ```sh
 mkdir khoj
