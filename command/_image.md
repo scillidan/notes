@@ -144,3 +144,12 @@ video-to-ascii -f $1 --strategy ascii-color
 # yoga image --resize 1920 $1 _.png
 yoga image $1 _.png2
 ```
+
+#### Batch
+
+```batchfile
+:: png to ico
+for %%F in (*.png) do (
+	png-to-ico "%%F" > "%%~nF.ico"
+)
+```

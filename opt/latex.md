@@ -12,7 +12,7 @@
 - [LaTeX tables: Basics](https://vladar.bearblog.dev/latex-tables-basics/)
 - [LaTeX tables: Advanced features](https://vladar.bearblog.dev/latex-tables-advanced-features/)
 - [LaTeX page geometry and layout](https://vladar.bearblog.dev/latex-page-geometry-and-layout/)
-- [LaTeX document structure](https://vladar.bearblog.dev/latex-document-structure/)
+- [LaTeX/Document Structure](https://en.wikibooks.org/wiki/LaTeX/Document_Structure) or [LaTeX document structure](https://vladar.bearblog.dev/latex-document-structure/)
 - [Screenplay template](https://www.overleaf.com/latex/templates/screenplay-template/grqmtrnytdhj)
 - [Retrotype](https://github.com/Vladar4/retrotype)
 
@@ -39,12 +39,3 @@ EB Garamond SC 12 Regular.ttf
 latexmk -c
 xelatex geneve_1564.tex
 ```
-
-##### [OCRAutoScore](https://github.com/vkgo/OCRAutoScore) (Cache)
-
-##### [menukeys](https://ctan.org/pkg/menukeys)
-
-##### [ctex](https://ctan.org/pkg/ctex)
-
-##### [adjustbox](https://github.com/MartinScharrer/adjustbox)
-

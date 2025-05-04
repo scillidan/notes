@@ -12,6 +12,19 @@ python main.py
 ```
 ````
 
+````{tab} From source (AMD)
+```sh
+git clone --depth=1 https://github.com/comfyanonymous/ComfyUI
+cd ComfyUI
+uv venv
+.venv\Scripts\activate.bat
+uv pip install -r requirements.txt
+uv pip install torch-directml
+set HSA_OVERRIDE_GFX_VERSION=10.3.0
+python main.py --directml
+```
+````
+
 #### Plugin
 
 ##### [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
@@ -31,7 +44,7 @@ Usage:
 
 Put `file.json` into `ComfyUI\user\default\workflows\`.
 
-##### [Change product background with the image of your choice using Style Transfer.](https://civitai.com/models/413803/change-product-background-with-the-image-of-your-choice-using-style-transfer) [^1]
+##### [Change product background with the image of your choice using Style Transfer.](https://civitai.com/models/413803/change-product-background-with-the-image-of-your-choice-using-style-transfer) [^2]
 
 ````{tab} From source
 ```sh
@@ -75,4 +88,5 @@ uv pip install -r custom_nodes\comfyui_layerstyle\requirements.txt
 
 Settings → Comfy → Locale → Change language
 
-[^1]: [Error occurred when executing DepthAnythingPreprocessor:](https://github.com/Fannovel16/comfyui_controlnet_aux/issues/338)
+[^1]: [Installing ComfyUI on Windows for AMD GPUs](https://atlassc.net/2025/01/15/installing-comfyui-on-windows-for-amd-gpus)
+[^2]: [Error occurred when executing DepthAnythingPreprocessor:](https://github.com/Fannovel16/comfyui_controlnet_aux/issues/338)

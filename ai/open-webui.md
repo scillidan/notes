@@ -37,3 +37,7 @@ services:
 sudo docker compose up -d
 ```
 ````
+
+#### Reference
+
+- [Tutorial: Configuring RAG with Open WebUI Documentation](https://docs.openwebui.com/tutorials/tips/rag-tutorial/)

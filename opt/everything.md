@@ -2,7 +2,14 @@
 
 #### Setting
 
-- 选项 → 索引/排除列表 → 启用排除列表 → 添加筛选器 → `node_modules\`, `public\`, `site\`, `Rubbish\`
+- 选项 → 索引/排除列表 → 启用排除列表 → 添加筛选器
+  ```
+  .*\
+  node_modules\
+  public\
+  Rubbish\
+  site\
+  ```
   - 添加文件夹 → 文件夹 → `C:\$Recycle.Bin` → 确定
 - 选项 → 常规 → 结果 → 双击路径列打开目录 On
 - 索引 → 索引最近变化 Off

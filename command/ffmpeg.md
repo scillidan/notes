@@ -43,6 +43,11 @@ ffmpeg -i $1 -vn -c:a libmp3lame -b:a 224K -ac 2 _.mp3
 ```sh
 # creat poster from video
 ffmpeg -i $1.mp4 -vframes 1 _poster.jpg
+``
+
+```sh
+# aac to mp3
+ffmpeg -i $1 -codec:a libmp3lame -qscale:a 1 _.mp3
 ```
 
 ```sh
