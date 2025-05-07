@@ -35,3 +35,7 @@ Settings → Open Settings (JSON)
 5. Restart VSCodium
 
 [^1]: [First Alternative: Download the Offline Version of LTEX+](https://ltex-plus.github.io/ltex-plus/vscode-ltex-plus/installation-usage-vscode-ltex-plus.html#first-alternative-download-the-offline-version-of-ltex)
+
+#### Reference
+
+- [Extensions missing?](https://www.reddit.com/r/vscode/comments/kb0eb5/extensions_missing/)

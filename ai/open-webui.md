@@ -25,7 +25,7 @@ services:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
     ports:
-      - "3000:8080"
+      - "8050:8080"
     environment:
       OLLAMA_BASE_URL: http://<your_host>:11434
     volumes:
@@ -36,6 +36,8 @@ services:
 ```sh
 sudo docker compose up -d
 ```
+
+Visit `http://<your_host>:8050`, wait a few minutes for it to complete initialization.
 ````
 
 #### Reference

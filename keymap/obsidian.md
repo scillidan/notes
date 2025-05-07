@@ -18,12 +18,19 @@ A-S-h     | Homepage                 | Open homepage
 A-S-t     | Markdown Table Editor    | Open Editor (Below the Active View)
 A-S-l     | LanguageTool Integration | Check Text
 C-S-w     | Show Whitespace          | Toggle Show Whitespace
-A-S-m     | Mermaid Tools            | Open Toolbar View
+```
+
+#### Command
+
+```
+Word Frequency | Show word frequency sidebar
+WeWrite        | Article Render Previewer
 ```
 
 #### Cache
 
 ```
-A-S-p | Print      | Current note
-A-l   | Pseudocode | Insert a new pseudocode block
+A-S-p | Print         | Current note
+A-l   | Pseudocode    | Insert a new pseudocode block
+A-S-m | Mermaid Tools | Open Toolbar View
 ```
