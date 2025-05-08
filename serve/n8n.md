@@ -21,7 +21,7 @@ services:
       - "8070:8070"
       - "453:453"
   n8n:
-    images: <docker_image_proxy>/n8nio/n8n
+    images: n8nio/n8n
     ports:
       - "0.0.0.0:5678:5678"
     environment:

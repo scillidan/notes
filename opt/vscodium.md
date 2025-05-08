@@ -36,6 +36,12 @@ Settings → Open Settings (JSON)
 
 [^1]: [First Alternative: Download the Offline Version of LTEX+](https://ltex-plus.github.io/ltex-plus/vscode-ltex-plus/installation-usage-vscode-ltex-plus.html#first-alternative-download-the-offline-version-of-ltex)
 
+#### Cross-reference
+
+- [Godot MCP](https://scillidan.github.io/notes/serve/godot-mcp.html)
+- [A MCP server for Godot RAG](https://scillidan.github.io/notes/serve/mcp_godot_rag.html)
+- [n8n MCP Server](https://scillidan.github.io/notes/serve/n8n-mcp-server.html)
+
 #### Reference
 
 - [Extensions missing?](https://www.reddit.com/r/vscode/comments/kb0eb5/extensions_missing/)
