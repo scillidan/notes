@@ -6,6 +6,16 @@ python pdf_pdfalyzer.py $1
 ```
 
 ```sh
+# dtx to pdf
+pdflatex --shell-escape file.dtx
+```
+
+```sh
+# dvi to pdf
+dvipdfm file.dvi
+```
+
+```sh
 # html to epub
 paperoni $1 --export epub
 ```

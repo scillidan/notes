@@ -2,7 +2,7 @@
 
 ```
 C-b     | System             | Primary Side Bar
-C-A-b   | System             | Secondary Side Side Bar
+C-S-b   | System             | Secondary Side Side Bar
 C-S-e   | System             | Explorer
 C-S-f   | System             | Search
 C-S-g   | System             | Source Control

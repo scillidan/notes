@@ -1,4 +1,4 @@
-#### [TeX Live](https://www.tug.org/texlive)
+### [TeX Live](https://www.tug.org/texlive)
 
 ````{tab} Arch [^1][^2]
 ```sh

@@ -103,6 +103,7 @@ sudo pacman -S \
 	newsboat \
 	nvm \
 	openssh \
+	pandoc-cli \
 	pnpm \
 	presenterm \
 	python-pipx \

@@ -232,6 +232,10 @@ sudo pacman -S texlab zathura
 
 - [How to change telescope theme](https://github.com/LazyVim/LazyVim/discussions/1127)
 
+##### Reference
+
+- [Copy all the lines to clipboard](https://ctan.org/tex-archive/macros/latex/contrib/gitinfo2)
+
 #### Troubleshoot
 
 ````{tab} Windows 10
