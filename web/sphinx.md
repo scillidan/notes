@@ -15,7 +15,7 @@ make html
 
 - [reStructuredText Primer](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 
-#### [Resource](https://scillidan-datasette.vercel.app/resource/sphinx)
+#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/sphinx)
 
 [^1]: [Furo](https://github.com/pradyunsg/furo)
 [^2]: [Markdown](https://www.sphinx-doc.org/en/master/usage/markdown.html)

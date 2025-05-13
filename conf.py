@@ -46,13 +46,23 @@ html_css_files = [
     # 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css'
 ]
 html_title = "𝖓𝖔𝖙𝖊𝖘"
+html_sidebars = {
+    "**": [
+        "sidebar/scroll-start.html",
+        "sidebar/brand.html",
+        "sidebar/search.html",
+        # "sidebar/navigation.html",
+        "sidebar/ethical-ads.html",
+        "sidebar/scroll-end.html",
+    ]
+}
 html_static_path = ['_static']
 html_theme = 'furo'
 html_theme_options = {
 	# "announcement": "<em>Important</em> announcement!",
     # "light_logo": "logo-light-mode.png",
     # "dark_logo": "logo-dark-mode.png",
-	"sidebar_hide_name": True,
+	"sidebar_hide_name": False,
 	"navigation_with_keys": False,
     "top_of_page_buttons": ["view", "edit"],
     # "light_css_variables": {

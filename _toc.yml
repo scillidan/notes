@@ -1,6 +1,6 @@
 root: index
 defaults:
-  hidden: True
+  hidden: False
   maxdepth: 2
   numbered: False
   reversed: False

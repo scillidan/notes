@@ -10,7 +10,7 @@ source .zshrc
 ```
 ````
 
-#### [Resource](https://scillidan-datasette.vercel.app/resource/zsh)
+#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/zsh)
 
 ##### [zenquotes](https://github.com/aminelch/zenquotes)
 

@@ -73,7 +73,7 @@ Vercel → Project `database` → Settings → Build and Deployment → Node.js 
 
 - [Configuring FTS using sqlite-utils](https://docs.datasette.io/en/stable/full_text_search.html#configuring-fts-using-sqlite-utils)
 
-#### [Resource](https://scillidan-datasette.vercel.app/resource/datasette)
+#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/datasette)
 
 [^1]: [Metadata](https://docs.datasette.io/en/stable/metadata.html)
 [^2]: [sqlite-utils](https://github.com/simonw/sqlite-utils)

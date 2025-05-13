@@ -1,1 +1,1 @@
-#### [Resource](https://scillidan-datasette.vercel.app/resource/serve)
+#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/serve)
