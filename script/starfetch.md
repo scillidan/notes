@@ -30,6 +30,11 @@ starfetch orion
 ```
 ````
 
+#### Resource
+
+- [summer_triangle(CoderCharmander_starfetch).json](https://gist.github.com/scillidan/83ba8a592eaed7c8256b6e1984c56809)
+- [summer_triangle(Haruno19_starfetch).json](https://gist.github.com/scillidan/773260fba75a1bfc9b203c445d371b55)
+
 #### Terminal record
 
 ```{eval-rst}
