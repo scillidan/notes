@@ -34,5 +34,6 @@ Get `kokoro-v0_19.pth` from [here](https://huggingface.co/hexgrad/kLegacy/tree/m
 
 - [Embed files](https://help.obsidian.md/embeds)
 - [Aliases](https://help.obsidian.md/aliases)
+- [Best Plugins for Writing and Rendering Sheet Music in Obsidian](https://www.obsidianstats.com/posts/2025-05-14-music-notation-plugins)
 
 [^1]: [https://github.com/Mithadon/obsidian-kokoro-tts-plugin#manual-installation](https://github.com/Mithadon/obsidian-kokoro-tts-plugin#manual-installation)

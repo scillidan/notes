@@ -18,3 +18,9 @@ scoop install miktex
 
 1. Settings → General → Package Install → Retrieve from ... → Change → Next → ...
 2. Packages → Search `latexmk` → Select the `latexmk` → Content Menu → Install package
+
+#### Usage
+
+- Tasks
+	- Update package database
+	- Refresh font map files
