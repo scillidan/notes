@@ -28,6 +28,6 @@ python -m pip install onnx==1.16.0 onnxoptimizer==0.3.13 onnxruntime-gpu==1.17.1
 #### Reference
 
 - [What is the difference between PyTorch, NCNN, ONNX?](https://github.com/scillidan/dictionary/blob/main/chat/what-difference/pytorch%2Cncnn%2Connx.md)
-- [What is the difference between Inpainting, Denoising, DeJPEG, Colorization, Dehazing, Low-light Enhancement?](https://github.com/scillidan/dictionary/blob/main/chat/what-difference/inpainting%2Cdenoising%2Cdejpeg%2Ccolorization%2Cdehazing%2Clow-light-enhancement)
+- [What is the difference between Inpainting, Denoising, DeJPEG, Colorization, Dehazing, Low-light Enhancement?](https://github.com/scillidan/dictionary/blob/main/chat/what-difference/inpainting%2Cdenoising%2Cdejpeg%2Ccolorization%2Cdehazing%2Clow-light-enhancement.md)
 
 [^1]: [chaiNNer does not respect system proxy settings](https://github.com/chaiNNer-org/chaiNNer/issues/3043)
