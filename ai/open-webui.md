@@ -43,3 +43,4 @@ Visit `http://<your_host>:8050`, wait a few minutes for it to complete initializ
 #### Reference
 
 - [Tutorial: Configuring RAG with Open WebUI Documentation](https://docs.openwebui.com/tutorials/tips/rag-tutorial/)
+- [Add Open WebUI as a Custom Search Engine](https://docs.openwebui.com/tutorials/integrations/browser-search-engine/#step-2-add-open-webui-as-a-custom-search-engine)

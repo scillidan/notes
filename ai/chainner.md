@@ -1,4 +1,4 @@
-### [chaiNNer](https://chainner.app/) (Later)
+### [chaiNNer](https://chainner.app/)
 
 1. Get `chaiNNer-windows-x64-**.zip` from [Releases](https://github.com/chaiNNer-org/chaiNNer/releases).
 2. Decompress `.zip` to `chaiNNer\`.

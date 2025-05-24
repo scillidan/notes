@@ -12,9 +12,6 @@ subtrees:
 - caption: bin
   entries:
   - glob: bin/*
-- caption: command
-  entries:
-  - glob: command/*
 - caption: hardware
   entries:
   - glob: hardware/*

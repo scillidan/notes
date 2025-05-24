@@ -56,6 +56,16 @@ pause
 ```
 ````
 
+#### Toolset
+
+- [Directory Opus](https://www.gpsoft.com.au/)
+- [Xnconvert](https://www.xnview.com/en/xnconvert/)
+- [FastStone](https://www.faststone.org/)
+- [Advanced Renamer](https://www.advancedrenamer.com)
+- [Mkdirs](https://github.com/dolanor/mkdirs)
+- [To CBZ](https://github.com/italomaia/to-cbz)
+- [Komga Cover Extractor](https://github.com/zachstultz/komga-cover-extractor)
+
 [^1]: [How to Install Komga on Ubuntu Server Latest](https://ipv6.rs/tutorial/Ubuntu_Server_Latest/Komga/)
 [^2]: [Komga - Breaking changes](https://komga.org/blog/prepare-v1/#breaking-changes)
 [^3]: [Configuration options](https://komga.org/docs/installation/configuration)

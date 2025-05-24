@@ -1,8 +1,10 @@
 ### Obsidian
 
 ```
-A-S-e     | \                        | Toggle Live Preview/Source mode
-C-S-b     | Toggle right sidebar
+A-S-l     | \                        | Toggle Live Preview/Source mode
+C-[       | \                        | Toggle left sidebar
+C-]       | \                        | Toggle right sidebar
+C-S-[     | \                        | Toggle ribbon
 C-S-Down  | \                        | Split down
 C-S-Right | \                        | Split right
 C-S-p     | Command palette          | Open command palette
@@ -18,6 +20,8 @@ A-S-h     | Homepage                 | Open homepage
 A-S-t     | Markdown Table Editor    | Open Editor (Below the Active View)
 A-S-l     | LanguageTool Integration | Check Text
 C-S-w     | Show Whitespace          | Toggle Show Whitespace
+C-S-e     | Mode manager             | Switch to edit
+C-S-r     | Mode manager             | Switch to reading
 ```
 
 #### Command
