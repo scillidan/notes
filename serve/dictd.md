@@ -55,15 +55,27 @@ database wikdict-en-zh {
   data /mnt/nvme/share/dictd/wikdict-en-zh.dict.dz
   index /mnt/nvme/share/dictd/wikdict-en-zh.index
 }
-database wikdict-zh-en {
-  data /mnt/nvme/share/dictd/wikdict-zh-en.dict.dz
-  index /mnt/nvme/share/dictd/wikdict-zh-en.index
-}
+# database wikdict-zh-en {
+#   data /mnt/nvme/share/dictd/wikdict-zh-en.dict.dz
+#   index /mnt/nvme/share/dictd/wikdict-zh-en.index
+# }
+# database chibigenc-sc {
+#   data /mnt/nvme/share/dictd/chibigenc-sc.dict.dz
+#   index /mnt/nvme/share/dictd/chibigenc-sc.index
+# }
+# database chibigenc {
+#   data /mnt/nvme/share/dictd/chibigenc.dict.dz
+#   index /mnt/nvme/share/dictd/chibigenc.index
+# }
 ```
 
 ```sh
 sudo systemctl enable --now dictd.service
 ```
 ````
+
+#### Cross-reference
+
+- [dict-ecdict](https://scillidan.github.io/notes/bin/dict-ecdict.html)
 
 [^1]: [dictd.conf](https://gist.github.com/wind0204/d65c7d1b5d7794c4c7fa1a02d5151acc)

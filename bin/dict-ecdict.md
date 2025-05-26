@@ -25,4 +25,8 @@ sudo systemctl restart dictd.service
 ```
 ````
 
+#### Cross-reference
+
+- [dictd](https://scillidan.github.io/notes/serve/dictd.html)
+
 [^1]: [How can I uncompress a \*.7z file?](https://askubuntu.com/questions/219392/how-can-i-uncompress-a-7z-file)
