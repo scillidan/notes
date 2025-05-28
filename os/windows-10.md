@@ -66,3 +66,7 @@
   - 命令提示符 → `ipconfig /flushdns`
 - 打印机
   - 属性 → 共享 → 共享这台打印机 (On) → 在客户端计算机上呈现打印作业 (On)
+
+#### Troubleshoot
+
+- [Fix problems with Opus OGG files in Windows 10](https://www.youtube.com/watch?v=y6wMvTldfQo)

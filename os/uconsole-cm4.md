@@ -1,4 +1,4 @@
-### [Uconsole CM4](https://www.clockworkpi.com/uconsole) (Cache)
+### [Uconsole CM4](https://www.clockworkpi.com/uconsole) [^1][^2][^3] (Cache)
 
 ```sh
 sudo wipefs --all /dev/sdc
@@ -107,9 +107,6 @@ dtparam=audio=on
 dtoverlay=uconsole
 ```
 
-- [How to install ArchLinux on uConsole/CM3 from scratch](https://github.com/PotatoMania/uconsole-cm3)
-- [uConsole CM3](https://github.com/PotatoMania/uconsole-cm3/blob/dev/doc/how-to-install-archlinux-from-scratch.md)
-
 ```sh
 pacman -S iwe
 sudo vim /mnt/boot/config.txt
@@ -148,8 +145,15 @@ dtoverlay=uconsole,cm4
 # whatever you need
 ```
 
-- [Wifi not working on CM4](https://github.com/PotatoMania/uconsole-cm3-arch-image-builder/issues/1)
-
 ```sh
 sudo umount /mnt/boot /mnt
 ```
+
+#### Reference
+
+- [Create DevTerm CM4 OS image from scratch](https://github.com/clockworkpi/DevTerm/wiki/Create-DevTerm-CM4-OS-image-from-scratch)
+- [How uConsole CM4 OS image made](https://github.com/clockworkpi/uConsole/wiki/How-uConsole-CM4-OS-image-made)
+
+[^1]: [How to install ArchLinux on uConsole/CM3 from scratch](https://github.com/PotatoMania/uconsole-cm3)
+[^2]: [uConsole CM3](https://github.com/PotatoMania/uconsole-cm3/blob/dev/doc/how-to-install-archlinux-from-scratch.md)
+[^3]: [Wifi not working on CM4](https://github.com/PotatoMania/uconsole-cm3-arch-image-builder/issues/1)

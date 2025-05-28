@@ -754,6 +754,7 @@ flatpak install flathub com.tencent.WeChat
 
 #### Cross-reference
 
+- [ArchWSL](https://scillidan.github.io/notes/os/archwsl.html)
 - [Xfce](https://scillidan.github.io/notes/opt/xfce.html)
 - [Rofi](https://scillidan.github.io/notes/opt/rofi.html)
 

@@ -6,12 +6,12 @@
 
 #### Resource
 
-##### [Monica](https://monica.im)
-
-- Monica → 网页翻译
-
 ##### [Kokoro TTS Reader - Chrome Extension](https://github.com/VJ-Ranga/Right-Click-TTS-Reader-V3)
 
 - Kokoro TTS Reader → Settings
 	- Kokoro API URL → `http://localhost:8880/v1`
 	- Chunk Size (characters) → `1500 (Higher-end systems)`
+
+##### [Yomitan Dictionaries](https://github.com/MarvNC/yomitan-dictionaries)
+
+- [How Do I Make A Yomichan Dictionary?](https://github.com/MarvNC/yomitan-dictionaries/blob/master/how-to-make-yomichan-dictionaries.md)
