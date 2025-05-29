@@ -67,8 +67,8 @@ html_theme_options = {
     "top_of_page_buttons": ["view", "edit"],
     # "light_css_variables": {
     #     "color-brand-primary": "red",
-    #     "color-brand-content": "#CC3333",
-    #     "color-admonition-background": "orange",
+    #     "color-brand-content": "#ef6678",
+    #     "color-admonition-background": "#ccbb45",
     # },
     "footer_icons": [
         {

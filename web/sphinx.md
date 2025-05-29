@@ -5,10 +5,17 @@ mkdir <site>
 cd <site>
 uv venv
 .venv\Scripts\activate.bat
-uv pip install furo myst-parser sphinx-copybutton sphinx-inline-tabs sphinx-external-toc sphinx-datatables sphinxcontrib.asciinema sphinxext-photofinish sphinxcontrib-video sphinx-quickstart sphinx-autobuild
+uv pip install furo myst-parser
+uv pip install sphinx-copybutton sphinx-inline-tabs sphinx-external-toc sphinx-datatables sphinxcontrib.asciinema sphinxext-photofinish sphinxcontrib-video sphinx-quickstart
 # make clean
 make html
-# sphinx-autobuild . _bulid
+```
+
+Or:
+
+```sh
+uv pip install sphinx-autobuild
+sphinx-autobuild . _bulid
 ```
 
 #### Reference
