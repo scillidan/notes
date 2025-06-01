@@ -27,33 +27,9 @@ webui-user.bat
 ```
 #### Install extensions
 
-1. Extensions → Available → Load from → Search and Install. For example:
-	```
-	Lobe Theme
-	System Info
-	sd-webui-prompt_history
-	Model Mixer
-	Danbooru Prompt
-	Regional Prompter
-	Neutral Prompt
-	Prompt Fusion
-	NegPiP
-	SD Webui Vectorscope CC
-	CLIP Interrogator
-	sd-webui-controlnet
-	```
-
-2. Extensions → Install from URL. From example:
-	```
-	https://github.com/DominikDoom/a1111-sd-webui-tagcomplete
-	https://github.com/ArtVentureX/sd-webui-agent-scheduler
-	```
-
-3. Extensions → Installed → Apply and restartUI
-
-#### Resource
-
-- [lllyasviel/ControlNet-v1-1](https://huggingface.co/lllyasviel/ControlNet-v1-1)
+1. Extensions → Available → Load from → Search and Install.
+2. Extensions → Install from URL.
+3. Extensions → Installed → Apply and restartUI.
 
 #### Reference
 
