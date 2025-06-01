@@ -1,14 +1,8 @@
 ### [PyGlossary](https://github.com/ilius/pyglossary)
 
 ```sh
-pip install pyglossary
-pip install lxml beautifulsoup4
-```
-
-#### Usage
-
-As GUI:
-
-```sh
+uv venv .pyglossary
+.pyglossary\Scripts\activate.bat
+uv pip install pyglossary lxml beautifulsoup4
 pyglossary
 ```

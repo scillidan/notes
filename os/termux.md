@@ -35,12 +35,6 @@ pipx install deep-translator
 ```
 
 ```sh
-tar -xzf harper-cli-aarch64-unknown-linux-gnu.tar.gz
-chmod +x harper-cli
-mv ./harper-cli ~/.local/bin/
-```
-
-```sh
 tldr --update
 ```
 
@@ -121,6 +115,19 @@ extra-keys = [[ \
 ```sh
 pkg install ollama
 ollama pull tinyllama
+```
+
+#### [PRoot Distro](https://github.com/termux/proot-distro)
+
+```sh
+proot-distro install debian
+proot-distro list
+proot-distro install archlinux
+proot-distro login archlinux
+```
+
+```sh
+pacman -Syyu
 ```
 
 #### Troubleshoot

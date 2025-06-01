@@ -38,3 +38,7 @@ sudo docker compose up -d
 [^1]: [Docker using the Installation Script](https://docs.paperless-ngx.com/setup/#docker_script)
 [^2]: [Paperless-ngx - Bare Metal Route](https://docs.paperless-ngx.com/setup/#bare_metal)
 ````
+
+#### Reference
+
+- [Scanner & Software Recommendations](https://github.com/paperless-ngx/paperless-ngx/wiki/Scanner-&-Software-Recommendations)

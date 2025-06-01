@@ -23,4 +23,10 @@ node_mirror: https://npmmirror.com/mirrors/node/
 nvm list available
 nvm install lts
 nvm use lts
+# nvm install iron
+# nvm install hydrogen
 ```
+
+#### Reference
+
+- [Node.js Releases](https://nodejs.org/en/about/previous-releases)

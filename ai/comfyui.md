@@ -148,5 +148,9 @@ Settings → Comfy → Locale → Change language
 	- Custom Nodes Manager → Search → Install
 	- Install Missing Custom Nodes
 
+#### Resource
+
+- [KokoroTTS Node](https://github.com/MushroomFleet/DJZ-KokoroTTS)
+
 [^1]: [Installing ComfyUI on Windows for AMD GPUs](https://atlassc.net/2025/01/15/installing-comfyui-on-windows-for-amd-gpus)
 [^2]: [Error occurred when executing DepthAnythingPreprocessor:](https://github.com/Fannovel16/comfyui_controlnet_aux/issues/338)

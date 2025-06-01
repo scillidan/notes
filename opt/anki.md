@@ -14,3 +14,4 @@
 - [Discussing various card templates](https://tatsumoto-ren.github.io/blog/discussing-various-card-templates.html)
 - [Example targeted sentence cards](https://ankiweb.net/shared/info/1557722832)
 - [Passive immersion tech](https://tatsumoto-ren.github.io/blog/passive-listening.html)
+- [Automatic Anime Cards MPV Script](https://anacreondjt.gitlab.io/docs/mpvscript/)

@@ -1,4 +1,4 @@
-### [Brave](https://github.com/brave/brave-browser) / [Chrome](https://www.google.com/chrome/)
+### [Brave](https://github.com/brave/brave-browser) / [Chrome](https://www.google.com/chrome/) (Later)
 
 #### Setting
 
@@ -14,4 +14,8 @@
 
 ##### [Yomitan Dictionaries](https://github.com/MarvNC/yomitan-dictionaries)
 
+- Yomitan → Yomitan Settings
+	- General → Language → `Chinese (zh)`, `English (en)`
+
+- [Advanced Features](https://yomitan.wiki/advanced/)
 - [How Do I Make A Yomichan Dictionary?](https://github.com/MarvNC/yomitan-dictionaries/blob/master/how-to-make-yomichan-dictionaries.md)
