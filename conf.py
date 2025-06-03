@@ -11,7 +11,6 @@ extensions = [
 	'sphinxcontrib.asciinema',
     'sphinxext.photofinish',
     'sphinxcontrib.video'
-    # 'sphinxcontrib.images'
 ]
 
 exclude_patterns = [
@@ -106,5 +105,5 @@ sphinxcontrib_asciinema_defaults = {
 }
 sphinxext_photofinish = {
     'max_viewport_width': 800,
-    'width_min': 500
+    'width_min': 300
 }

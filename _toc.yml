@@ -1,41 +1,35 @@
 root: index
 defaults:
   hidden: False
-  maxdepth: 2
+  maxdepth: 3
   numbered: False
   reversed: False
   titlesonly: True
 subtrees:
-- caption: ai
-  entries:
-  - glob: ai/*
 - caption: bin
   entries:
   - glob: bin/*
-- caption: hardware
+- caption: dev
   entries:
-  - glob: hardware/*
+  - glob: dev/*
 - caption: lib
   entries:
   - glob: lib/*
 - caption: opt
   entries:
   - glob: opt/*
+- caption: optWeb
+  entries:
+  - glob: optweb/*
 - caption: os
   entries:
   - glob: os/*
-- caption: script
+- caption: srv
   entries:
-  - glob: script/*
-- caption: serve
-  entries:
-  - glob: serve/*
+  - glob: srv/*
 - caption: web
   entries:
   - glob: web/*
-- caption: web-app
-  entries:
-  - glob: web-app/*
   # - file: doc1
   #   subtrees:
   #   - entries:

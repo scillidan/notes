@@ -751,12 +751,13 @@ flatpak install flathub com.tencent.WeChat
 #### Reference
 
 - [Desktop entries](https://wiki.archlinux.org/title/desktop_entries)
+- [My workstation configs](https://github.com/bibjaw99/workstation)
+- [vim_styled](https://github.com/qxb3/conf/tree/vim_styled)
+- [dotfiles-x220](https://github.com/diffficult/dotfiles_220)
 
 #### Cross-reference
 
-- [ArchWSL](https://scillidan.github.io/notes/os/archwsl.html)
-- [Xfce](https://scillidan.github.io/notes/opt/xfce.html)
-- [Rofi](https://scillidan.github.io/notes/opt/rofi.html)
+- [archwsl.md](https://scillidan.github.io/notes/os/archwsl.html)
 
 [^1]: [alarm login?](https://github.com/altreact/archbk/issues/9)
 [^2]: [Network configuration/Wireless](https://wiki.archlinux.org/title/Network_configuration/Wireless)

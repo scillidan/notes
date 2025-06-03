@@ -1,6 +1,6 @@
-### []()
+### [XMedia Recode](https://www.xmedia-recode.de/en/)
 
-## Voice Recordings
+#### Voice Recordings
 
 ```
 Sample Rate: 44.1 kHz
@@ -9,7 +9,7 @@ Bitrate: 128 kbps
 Minimum Bitrate: 64 kbps
 ```
 
-## Music
+#### Music
 
 ```
 Sample Rate: 44.1 kHz or 48 kHz

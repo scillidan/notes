@@ -38,9 +38,9 @@ Settings → Open Settings (JSON)
 
 #### Cross-reference
 
-- [Godot MCP](https://scillidan.github.io/notes/serve/godot-mcp.html)
-- [A MCP server for Godot RAG](https://scillidan.github.io/notes/serve/mcp_godot_rag.html)
-- [n8n MCP Server](https://scillidan.github.io/notes/serve/n8n-mcp-server.html)
+- [godot-mcp](https://scillidan.github.io/notes/srv/godot-mcp.html)
+- [mcp_godot_rag.md](https://scillidan.github.io/notes/srv/mcp_godot_rag.html)
+- [n8n-mcp-server.md](https://scillidan.github.io/notes/srv/n8n-mcp-server.html)
 
 #### Reference
 

@@ -19,3 +19,7 @@
 ##### [xfce4-whiskermenu-plugin - Whisker Menu](https://docs.xfce.org/panel-plugins/xfce4-whiskermenu-plugin/start)
 
 ##### [xfce4-verve-plugin - Verve](https://docs.xfce.org/panel-plugins/xfce4-verve-plugin/start)
+
+#### Reference
+
+- [dotfiles-linux](https://github.com/fathulfahmy/dotfiles-linux)

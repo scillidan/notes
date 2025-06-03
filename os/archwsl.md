@@ -200,7 +200,7 @@ guiApplications=false
 
 #### Cross-reference
 
-- [Arch Linux](https://scillidan.github.io/notes/os/arch-linux.html)
+- [arch-linux.md](https://scillidan.github.io/notes/os/arch-linux.html)
 
 [^1]: [Install Hyper-V](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/Install-Hyper-V?pivots=windows)
 [^2]: [How to install Arch Linux for WSL](https://dev.to/jrcharney/how-to-install-arch-linux-for-wsl-184a)

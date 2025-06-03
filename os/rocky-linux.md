@@ -2,7 +2,7 @@
 
 #### PM2 [^1][^2] (Cache)
 
-Take [Excalith Start Page](https://scillidan.github.io/notes/web-app/excalith-start-page.html) as an example:
+Take [Excalith Start Page](https://github.com/excalith/excalith-start-page) as an example:
 
 ```sh
 pm2 start npm --name "excalith-start-page" --watch -- start
@@ -88,6 +88,10 @@ On PC [^5]:
 scoop install tightvnc
 tvnviewer <your_host>::5901 -password=<vncuser_password>
 ```
+
+#### Cross-reference
+
+- [excalith-start-page](https://scillidan.github.io/notes/optweb/excalith-start-page.html)
 
 [^1]: [How to specify a port number for pm2](https://stackoverflow.com/questions/31502351/how-to-specify-a-port-number-for-pm2)
 [^2]: [How to change the port in nextjs?](https://medium.com/frontendweb/how-to-change-port-in-nextjs-1b99930bb81f)
