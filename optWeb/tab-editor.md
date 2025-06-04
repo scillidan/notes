@@ -1,4 +1,4 @@
-### [Guitar Tab Editor](https://github.com/calesce/tab-editor)
+# [Guitar Tab Editor](https://github.com/calesce/tab-editor)
 
 ![](https://img.shields.io/github/license/calesce/tab-editor?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/tab-editor/master?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 

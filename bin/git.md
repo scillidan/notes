@@ -1,11 +1,13 @@
-### [git](https://git-scm.com/)
+# [git](https://git-scm.com/)
 
 ```sh
 git config --global user.email "user@email.com"
 git config --global user.name "username"
 ```
 
-#### Undo and re-push
+## Usage
+
+Undo and re-push:
 
 ```sh
 git fetch --all
@@ -14,6 +16,6 @@ git reset --hard <commit-hash>
 git push --force origin <branch>
 ````
 
-#### Reference
+## Reference
 
 - [Adding a license to a repository](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)

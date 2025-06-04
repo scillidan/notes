@@ -1,4 +1,4 @@
-### [Snippet Box](https://github.com/pawelmalak/snippet-box)
+# [Snippet Box](https://github.com/pawelmalak/snippet-box)
 
 ![](https://img.shields.io/github/license/pawelmalak/snippet-box?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/snippet-box/master?label=last%20commit%20(fork)&style=flat-square)
 

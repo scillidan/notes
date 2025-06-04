@@ -1,4 +1,4 @@
-### [LuaJIT](https://luajit.org/) [^1]
+# [LuaJIT](https://luajit.org/) [^1]
 
 ```sh
 git clone --depth=1 https://luajit.org/git/luajit.git

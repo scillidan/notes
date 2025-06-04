@@ -1,6 +1,4 @@
-### [Sourcebot](https://github.com/sourcebot-dev/sourcebot)
-
-#### Selfhost
+# [Sourcebot](https://github.com/sourcebot-dev/sourcebot)
 
 ````{tab} Docker compose [^1]
 ```sh

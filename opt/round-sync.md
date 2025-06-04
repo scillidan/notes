@@ -1,6 +1,6 @@
-### [Round Sync](https://github.com/newhinton/Round-Sync) (Cache)
+# [Round Sync](https://github.com/newhinton/Round-Sync) (Cache)
 
-#### Usage
+## Usage
 
 - Setting → Remotes → Add → Webdav → Next ...
 - Setting → Export config → `/0/Download/<dir>` → 保存

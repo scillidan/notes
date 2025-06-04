@@ -1,4 +1,4 @@
-### [Dify](https://github.com/langgenius/dify)
+# [Dify](https://github.com/langgenius/dify)
 
 ![](https://img.shields.io/github/license/langgenius/dify?style=flat-square)
 
@@ -20,7 +20,7 @@ docker compose up -d
 ```
 ````
 
-#### Create chatbot and knowledge bases [^2]
+## Create chatbot and knowledge bases [^2]
 
 1. Dify → `<user>` → Settings → Model Provider
 2. Ollama → Setup
@@ -56,7 +56,7 @@ docker compose up -d
     ```
 9. Studio → llama 3.1 → Context → Add → `<knowledge>`
 
-#### Asset
+## Asset
 
 - [Content Editing](https://dify101.com/market/claude-thinking-Content-Editing)
 - [E-commerce Specialist](https://dify101.com/market/claude-thinking-E-commerce-Specialist)

@@ -1,4 +1,4 @@
-### [ZeroTier One](https://www.zerotier.com/)
+# [ZeroTier One](https://www.zerotier.com/)
 
 1. Log-in [ZeroTier](https://my.zerotier.com).
 2. Create a Network.

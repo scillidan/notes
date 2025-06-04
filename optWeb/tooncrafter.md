@@ -1,4 +1,4 @@
-### [ToonCrafter](https://github.com/Doubiiu/ToonCrafter)
+# [ToonCrafter](https://github.com/Doubiiu/ToonCrafter)
 
 ![](https://img.shields.io/github/license/Doubiiu/ToonCrafter?style=flat-square)
 

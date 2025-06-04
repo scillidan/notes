@@ -1,4 +1,4 @@
-### [act](https://github.com/nektos/act)
+# [act](https://github.com/nektos/act)
 
 ```sh
 act -l

@@ -1,4 +1,4 @@
-### Windows 10
+# Windows 10
 
 1. 现在安装 → 我没有产品密钥 → Windows 10 专业版 → 自定义：仅安装Windows（高级） → 选择目标驱动器 → 格式化 → 新建
 2. 我没有Internet连接
@@ -6,7 +6,7 @@
 4. 使用脱机账户 → 不填写密码
 5. 运行 → `control userpasswords2` → 属性 → 要使用本计算机，用户必须输入用户名和密码(Off)
 
-#### Setting (Cache)
+## Setting (Cache)
 
 - `Win+Q`
   - 搜索权限和历史记录 → (All Off)
@@ -67,6 +67,6 @@
 - 打印机
   - 属性 → 共享 → 共享这台打印机 (On) → 在客户端计算机上呈现打印作业 (On)
 
-#### Troubleshoot
+## Troubleshoot
 
 - [Fix problems with Opus OGG files in Windows 10](https://www.youtube.com/watch?v=y6wMvTldfQo)

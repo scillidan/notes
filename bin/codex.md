@@ -1,4 +1,4 @@
-### [OpenAI Codex CLI](https://github.com/openai/codex)
+# [OpenAI Codex CLI](https://github.com/openai/codex)
 
 ````{tab} ArchWSL
 ```sh

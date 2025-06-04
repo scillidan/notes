@@ -1,4 +1,4 @@
-### [dict-ecdict](https://github.com/tuberry/dict-ecdict)
+# [dict-ecdict](https://github.com/tuberry/dict-ecdict)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
@@ -25,7 +25,7 @@ sudo systemctl restart dictd.service
 ```
 ````
 
-#### Cross-reference
+## Cross-reference
 
 - [dictd.md](https://scillidan.github.io/notes/srv/dictd.html)
 

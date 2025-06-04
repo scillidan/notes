@@ -1,12 +1,12 @@
-### [LM Studio](https://lmstudio.ai/)
+# [LM Studio](https://lmstudio.ai/)
 
-#### Usage
+## Usage
 
 - Discover → Select the LLM → Choose a download option → Check `Full GPU Offload Possible` → Download
 - Chat → Select a model to load → Select the LLM
 - Developer → Enable CORS (On) → Serve on Local Network (on) → Select a model to load → Start Server
 
-#### Troubleshoot
+## Troubleshoot
 
 1. Install LM Studio.
 2. Go to `C:\Users\User\AppData\Local\LM-Studio\app-*\resources\app\.webpack\main`.

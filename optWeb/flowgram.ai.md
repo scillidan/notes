@@ -1,4 +1,4 @@
-### [FlowGram.AI](https://github.com/bytedance/flowgram.ai)
+# [FlowGram.AI](https://github.com/bytedance/flowgram.ai)
 
 ![](https://img.shields.io/github/license/bytedance/flowgram.ai?style=flat-square)
 

@@ -1,4 +1,4 @@
-### [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
+# [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
 
 ![](https://img.shields.io/github/license/ItzCrazyKns/Perplexica?style=flat-square)
 

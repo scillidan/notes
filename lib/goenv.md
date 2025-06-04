@@ -1,4 +1,4 @@
-### [goenv](https://github.com/go-nv/goenv)
+# [goenv](https://github.com/go-nv/goenv)
 
 ```sh
 git clone --depth=1 https://github.com/go-nv/goenv ~/.goenv
@@ -15,7 +15,7 @@ eval "$(goenv init -)"
 source ~/.zshrc
 ```
 
-#### Usage
+## Usage
 
 ```sh
 # wget https://go.dev/dl/go1.22.0.linux-arm64.tar.gz

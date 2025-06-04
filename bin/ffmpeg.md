@@ -1,11 +1,11 @@
-### [FFmpeg](https://www.ffmpeg.org/)
+# [FFmpeg](https://www.ffmpeg.org/)
 
 ````{tab} Download
 1. Get `ffmpeg-master-latest-win64-gpl-shared.zip` from [FFmpeg Static Auto-Builds - Releases](https://github.com/BtbN/FFmpeg-Builds/releases).
 2. Add `ffmpeg-gpl-shared\bin` into PATH.
 ````
 
-#### Reference
+## Reference
 
 - [ffmpeg GIF to MP4](https://gist.github.com/gvoze32/95f96992a443e73c4794c342a44e0811)
 - [gif.to.video](https://github.com/kinglisky/gif.to.video/blob/master/doc.md)

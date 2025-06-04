@@ -1,4 +1,4 @@
-### [Atuin](https://github.com/atuinsh/atuin)
+# [Atuin](https://github.com/atuinsh/atuin)
 
 ````{tab} Ubuntu 22 ARM
 ```sh

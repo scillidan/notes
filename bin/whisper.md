@@ -1,4 +1,4 @@
-### [Whishper](https://github.com/openai/whisper)
+# [Whishper](https://github.com/openai/whisper)
 
 ````{tab} From source
 ```sh

@@ -1,4 +1,4 @@
-### [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html) [^1]
+# [Raspberry Pi OS](https://www.raspberrypi.com/documentation/computers/os.html) [^1]
 
 ```sh
 sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bat
@@ -13,7 +13,7 @@ deb https://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ bookworm main
 sudo apt update && sudo apt upgrade
 ```
 
-#### Enable SSH
+## Enable SSH
 
 Preferences → Raspberry Pi Configuration → Interfaces → SSH (On) [^2]
 

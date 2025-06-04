@@ -1,4 +1,4 @@
-### [OmegaT](https://omegat.org/)
+# [OmegaT](https://omegat.org/)
 
 - [OmegaT flat theme plugin](https://codeberg.org/miurahr/omegat-flat-theme)
 - [OmegaT Tencent Translate plugin](https://github.com/yoyicue/omegat-tencent-plugin)

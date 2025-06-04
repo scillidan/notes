@@ -1,6 +1,4 @@
-### [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) (Cache)
-
-#### Selfhost
+# [LinguaCafe](https://github.com/simjanos-dev/LinguaCafe) (Cache)
 
 ````{tab} Docker compose [^1]
 ```sh

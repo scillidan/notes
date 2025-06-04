@@ -1,4 +1,4 @@
-### [sreadium](https://github.com/suisuyy/sreadium)
+# [sreadium](https://github.com/suisuyy/sreadium)
 
 ![](https://img.shields.io/github/license/suisuyy/sreadium?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/sreadium/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 

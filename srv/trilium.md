@@ -1,4 +1,4 @@
-### [Trilium Notes](https://github.com/zadam/trilium) (Cache)
+# [Trilium Notes](https://github.com/zadam/trilium) (Cache)
 
 ````{tab} Ubuntu 24 ARM [^1][^2]
 Get `trilium-linux-x64-server-*.tar.xz` from [Trilium - Releases](https://github.com/zadam/trilium/releases).

@@ -1,4 +1,4 @@
-### [stagit](https://git.codemadness.org/stagit)
+# [stagit](https://git.codemadness.org/stagit)
 
 ```sh
 git clone git://git.codemadness.org/stagit

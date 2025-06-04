@@ -1,4 +1,4 @@
-### [EPUB to Audiobook Converter](https://github.com/p0n1/epub_to_audiobook) (Cache)
+# [EPUB to Audiobook Converter](https://github.com/p0n1/epub_to_audiobook) (Cache)
 
 ````{tab} From source
 ```sh

@@ -1,4 +1,4 @@
-### [Kokoro TTS Local](https://github.com/PierrunoYT/Kokoro-TTS-Local)
+# [Kokoro TTS Local](https://github.com/PierrunoYT/Kokoro-TTS-Local)
 
 ![](https://img.shields.io/github/license/PierrunoYT/Kokoro-TTS-Local?style=flat-square)
 
@@ -14,7 +14,7 @@ pip install hf_transfer
 ```
 ````
 
-#### Usage
+## Usage
 
 As CLI:
 

@@ -1,4 +1,4 @@
-### [asciinema](https://github.com/asciinema/asciinema)
+# [asciinema](https://github.com/asciinema/asciinema)
 
 ````{tab} ArchWSL
 ```sh
@@ -12,7 +12,7 @@ scoop install powersession-rs
 ```
 ````
 
-#### Reference
+## Reference
 
 - [CLI - Usage](https://docs.asciinema.org/manual/cli/usage/)
 - [agg - Usage](https://docs.asciinema.org/manual/agg/usage/)

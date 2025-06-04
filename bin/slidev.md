@@ -1,4 +1,4 @@
-### [Slidev](https://github.com/slidevjs/slidev) [^1]
+# [Slidev](https://github.com/slidevjs/slidev) [^1]
 
 ```sh
 pnpm create slidev
@@ -26,7 +26,7 @@ pnpm install --save-dev prettier prettier-plugin-slidev
 
 Create `.prettierrc.json`, copy from [here](https://sli.dev/features/prettier-plugin#_2-activate-the-plugin).
 
-#### Reference
+## Reference
 
 - [Syntax Guide](https://sli.dev/guide/syntax)
 - [Directory Structure](https://sli.dev/custom/directory-structure)

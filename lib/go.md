@@ -1,4 +1,4 @@
-### [Go](https://go.dev/) [^1]
+# [Go](https://go.dev/) [^1]
 
 ```sh
 go env -w GO111MODULE=on

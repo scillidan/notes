@@ -1,4 +1,4 @@
-### [Khoj](https://github.com/khoj-ai/khoj) (Cache)
+# [Khoj](https://github.com/khoj-ai/khoj) (Cache)
 
 ![](https://img.shields.io/github/license/khoj-ai/khoj?style=flat-square)
 

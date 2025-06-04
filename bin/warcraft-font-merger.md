@@ -1,4 +1,4 @@
-### [Warcraft Font Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger)
+# [Warcraft Font Merger](https://github.com/nowar-fonts/Warcraft-Font-Merger)
 
 1. Get `WarFontMerger-SC-*-windows-x64.7z` from [Warcraft-Font-Merger - Releases](https://github.com/nowar-fonts/Warcraft-Font-Merger/releases).
 2. Decompress and rename it to `Warcraft-Font-Merger\`.

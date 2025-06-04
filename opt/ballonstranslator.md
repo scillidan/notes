@@ -1,4 +1,4 @@
-### [BallonsTranslator](https://github.com/dmMaze/BallonsTranslator)
+# [BallonsTranslator](https://github.com/dmMaze/BallonsTranslator)
 
 ````{tab} From source
 ```sh
@@ -13,7 +13,7 @@ python launch.py
 ```
 ````
 
-#### Setting
+## Setting
 
 - Setting
 	- DL Module → Translator

@@ -1,4 +1,4 @@
-### [Bark](https://github.com/suno-ai/bark)
+# [Bark](https://github.com/suno-ai/bark)
 
 ```sh
 git lfs install

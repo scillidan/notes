@@ -1,4 +1,4 @@
-### [Simple_Speech_Recognition](https://github.com/Temmie-Flakes/Simple_Speech_Recognition)
+# [Simple_Speech_Recognition](https://github.com/Temmie-Flakes/Simple_Speech_Recognition)
 
 ```sh
 git clone --depth=1 https://github.com/Temmie-Flakes/Simple_Speech_Recognition

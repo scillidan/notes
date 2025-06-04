@@ -1,4 +1,4 @@
-### [Open WebUI](https://github.com/open-webui/open-webui)
+# [Open WebUI](https://github.com/open-webui/open-webui)
 
 ![](https://img.shields.io/github/license/open-webui/open-webui?style=flat-square)
 
@@ -42,7 +42,7 @@ sudo docker compose up -d
 Visit `http://<your_host>:8050`, wait a few minutes for it to complete initialization.
 ````
 
-#### Setting
+## Setting
 
 1. Open WebUI → User → Admin Panel → Settings → Documents
    ```
@@ -50,7 +50,7 @@ Visit `http://<your_host>:8050`, wait a few minutes for it to complete initializ
    Embedding Model `nomic-embed-text:latest`
    ```
 
-#### Reference
+## Reference
 
 - [Tutorial: Configuring RAG with Open WebUI Documentation](https://docs.openwebui.com/tutorials/tips/rag-tutorial/)
 - [Add Open WebUI as a Custom Search Engine](https://docs.openwebui.com/tutorials/integrations/browser-search-engine/#step-2-add-open-webui-as-a-custom-search-engine)

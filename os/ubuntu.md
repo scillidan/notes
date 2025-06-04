@@ -1,10 +1,4 @@
-### [Ubuntu](https://ubuntu.com/)
-
-```sh
-# https://ubuntu.com/desktop/wsl
-# wsl --install
-# wsl -d ubuntu
-```
+# [Ubuntu](https://ubuntu.com/)
 
 ```sh
 sudo apt update && sudo apt upgrade -y
@@ -13,14 +7,14 @@ sudo apt update && sudo apt upgrade -y
 # mkdir -p /etc/apt/sources.list.d
 ```
 
-#### Use repository mirror
+## Use repository mirror [^1]
 
 ```sh
 sudo cp /etc/apt/sources.list.d/ubuntu.sources /etc/apt/sources.list.d/ubuntu.sources.bak
 sudo vim /etc/apt/sources.list.d/ubuntu.sources
 ```
 
-````{tab} Ubuntu 24 [^1]
+````{tab} Ubuntu 24
 ```
 Types: deb
 URIs: https://mirrors.ustc.edu.cn/ubuntu
@@ -36,7 +30,7 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ```
 ````
 
-````{tab} Ubuntu 24 ARM [^1]
+````{tab} Ubuntu 24 ARM
 ```
 Types: deb
 URIs: https://mirrors.ustc.edu.cn/ubuntu-ports
@@ -52,7 +46,7 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 ```
 ````
 
-````{tab} Ubuntu 22 ARM [^1]
+````{tab} Ubuntu 22 ARM
 ```
 Types: deb
 URIs: https://mirrors.ustc.edu.cn/ubuntu-ports
@@ -72,31 +66,14 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 sudo apt update
 ```
 
-#### Ubuntu 24
+## Ubuntu 24
 
-##### [Flatpak](https://flatpak.org/)
-
-```sh
-sudo add-apt-repository ppa:flatpak/stable
-sudo apt update
-sudo apt install flatpak
-sudo apt install gnome-software-plugin-flatpak
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-reboot
+```{include} os/ubuntu/flatpak.md
 ```
 
-- [Ubuntu Quick Setup](https://flatpak.org/setup/Ubuntu)
+## Ubuntu 24 ARM (Cache)
 
-```sh
-export GIO_MODULE_DIR=/usr/lib/x86_64-linux-gnu/gio/modules/
-flatpak install flathub
-```
-
-- [TLS support is not available](https://github.com/flatpak/flatpak/issues/1207)
-
-#### Ubuntu 24 ARM
-
-##### Enable WiFi:
+### Enable WiFi [^2]
 
 ```sh
 sudo apt install network-manager
@@ -106,22 +83,20 @@ nmcli d wifi list
 sudo nmcli d wifi connect <ssid> password <password>
 ```
 
-- [Establish a Wireless Connection](https://ubuntu.com/core/docs/networkmanager/configure-wifi-connections)
-
-##### Troubleshoot
+### Troubleshoot
 
 - [How to fix "Failed to fetch <sources.list links> 404 Not Found [IP: <some_ip>]"](https://askubuntu.com/questions/1348375/how-to-fix-failed-to-fetch-sources-list-links-404-not-found-ip-some-ip)
 
-#### Ubuntu 22 ARM
+## Ubuntu 22 ARM
 
-##### Disable WiFi
+### Disable WiFi [^3][^4]
 
 ```sh
 sudo ifconfig eth0 up
 sudo ifconfig wlan0 down
 ```
 
-But it don't work.
+But it seems don't work.
 
 ```sh
 sudo rm /etc/netplan/50-cloud-init.yaml
@@ -158,10 +133,7 @@ ip a
 sudo ifconfig wlan0 down
 ```
 
-- [Configure a Static IP address for WIFI using Netplan in Ubuntu Server 22.04 on a HP Pavillion Desktop 510-p051a](https://stackoverflow.com/questions/77637274/configure-a-static-ip-address-for-wifi-using-netplan-in-ubuntu-server-22-04-on-a)
-- [No internet connection after ubuntu server 20.04 install, ifconfig not available](https://askubuntu.com/questions/1233934/no-internet-connection-after-ubuntu-server-20-04-install-ifconfig-not-available)
-
-##### Install [Nerd Font](http://nerdfonts.com/)
+### Install [Nerd Font](http://nerdfonts.com/) [^5] (Cache)
 
 ```sh
 sudo vim /etc/fonts/conf.d/50-enable-fixed.conf
@@ -192,4 +164,8 @@ rm OFL.txt
 mv JetBrains** ~/.local/share/fonts
 ```
 
-- [ubuntu wiki - Fonts](https://wiki.ubuntu.com/Fonts)
+[^1]: [USTC Mirror Help - Ubuntu](https://mirrors.ustc.edu.cn/help/ubuntu.html)
+[^2]: [Establish a Wireless Connection](https://ubuntu.com/core/docs/networkmanager/configure-wifi-connections)
+[^3]: [Configure a Static IP address for WIFI using Netplan in Ubuntu Server 22.04 on a HP Pavillion Desktop 510-p051a](https://stackoverflow.com/questions/77637274/configure-a-static-ip-address-for-wifi-using-netplan-in-ubuntu-server-22-04-on-a)
+[^4]: [No internet connection after ubuntu server 20.04 install, ifconfig not available](https://askubuntu.com/questions/1233934/no-internet-connection-after-ubuntu-server-20-04-install-ifconfig-not-available)
+[^5]: [ubuntu wiki - Fonts](https://wiki.ubuntu.com/Fonts)

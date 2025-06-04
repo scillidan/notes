@@ -1,4 +1,4 @@
-### [Game2Text](https://github.com/mathewthe2/Game2Text) (Cache)
+# [Game2Text](https://github.com/mathewthe2/Game2Text) (Cache)
 
 ````{tab} From source
 ```sh

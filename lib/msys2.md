@@ -1,4 +1,4 @@
-### [MSYS2](https://www.msys2.org/) (Cache)
+# [MSYS2](https://www.msys2.org/) (Cache)
 
 ```sh
 pacman -Syyu
@@ -8,7 +8,7 @@ cargo install atuin
 pacman -S mingw-w64-ucrt-x86_64-pkg-config
 ```
 
-#### Reference
+## Reference
 
 - [Install gcc compiler on Windows with MSYS2 for C/C++](https://www.devdungeon.com/content/install-gcc-compiler-windows-msys2-cc)
 - [Using CMake in MSYS2](https://www.msys2.org/docs/cmake/)

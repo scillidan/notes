@@ -1,4 +1,4 @@
-### [rbenv for Windows](https://github.com/RubyMetric/rbenv-for-windows)
+# [rbenv for Windows](https://github.com/RubyMetric/rbenv-for-windows)
 
 ```pwsh
 $env:HOME = "C:\Users\User"

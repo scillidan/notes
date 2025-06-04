@@ -1,6 +1,6 @@
-### [Kokoro TTS Reader - Chrome Extension](https://github.com/VJ-Ranga/Right-Click-TTS-Reader-V3)
+# [Kokoro TTS Reader - Chrome Extension](https://github.com/VJ-Ranga/Right-Click-TTS-Reader-V3)
 
-#### Setting
+## Setting
 
 - Kokoro TTS Reader → Settings
 	- Kokoro API URL → `http://localhost:8880/v1`

@@ -1,4 +1,4 @@
-### [Muser](https://github.com/jonshamir/muser)
+# [Muser](https://github.com/jonshamir/muser)
 
 ![](https://img.shields.io/github/license/jonshamir/muser) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 
@@ -49,7 +49,7 @@ npm run start
 # set NODE_ENV=development && node tools/bundler.js
 ```
 
-#### Reference
+## Reference
 
 - [batch_muser_tagger.py](https://gist.github.com/scillidan/92b36835451da63a247e287e6753ea5c)
 

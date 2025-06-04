@@ -1,4 +1,4 @@
-### [ReportBro Designer](https://github.com/jobsta/reportbro-designer)
+# [ReportBro Designer](https://github.com/jobsta/reportbro-designer)
 
 ![](https://img.shields.io/github/license/jobsta/reportbro-designer?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/reportbro-designer/master?label=last%20commit%20(fork)&style=flat-square)
 

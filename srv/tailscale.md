@@ -1,4 +1,4 @@
-### [Tailscale](https://tailscale.com)
+# [Tailscale](https://tailscale.com)
 
 ````{tab} Ubuntu 22 ARM
 ```sh

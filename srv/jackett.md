@@ -1,4 +1,4 @@
-### [Jackett](https://github.com/Jackett/Jackett)
+# [Jackett](https://github.com/Jackett/Jackett)
 
 ````{tab} Ubuntu ARM [^1]
 ```sh
@@ -29,7 +29,7 @@ mono --debug JackettConsole.exe
 ```
 ````
 
-#### Cross-reference
+## Cross-reference
 
 - [jsc.md](https://scillidan.github.io/notes/bin/jsc.html)
 

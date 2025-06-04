@@ -1,4 +1,4 @@
-### [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5)
+# [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5)
 
 1. Get `balenaEtcher-win32-x64-*.zip` from [Etcher - Releases](https://github.com/balena-io/etcher/releases)
 2. Decompress it to `balenaEtcher\`

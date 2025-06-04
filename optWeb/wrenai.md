@@ -1,4 +1,4 @@
-### [Wren AI](https://github.com/Canner/WrenAI)
+# [Wren AI](https://github.com/Canner/WrenAI)
 
 ![](https://img.shields.io/github/license/Canner/WrenAI?style=flat-square)
 

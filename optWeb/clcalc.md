@@ -1,4 +1,4 @@
-### [CL Calc](https://github.com/ovk/clcalc)
+# [CL Calc](https://github.com/ovk/clcalc)
 
 ![](https://img.shields.io/github/license/ovk/clcalc?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/clcalc/master?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
@@ -14,7 +14,7 @@ serve -s dist -p 4321
 
 If app take up `4321` port, open `chrome://serviceworker-internals/?devtools` and unregister it.
 
-#### Deploy with Vercel
+## Deploy with Vercel
 
 1. When deploy with [Vercel](https://vercel.com).
 2. The Project → Settings → General → Build & Development Settings

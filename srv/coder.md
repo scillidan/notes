@@ -1,4 +1,4 @@
-### [Coder](https://coder.com/) (Cache)
+# [Coder](https://coder.com/) (Cache)
 
 ````{tab} Ubuntu 22 ARM [^1]
 Get `code-server-*-linux-arm64.tar.gz` from [releases](https://github.com/coder/code-server/releases).
@@ -31,7 +31,7 @@ sudo systemctl enable --now code-server
 ```
 ````
 
-#### Setting [^2]
+## Setting [^2]
 
 1. Settings → Profile → <TargetProfile> → More → Export → <ProfileName> → Local file
 2. Settings → Profile (Default) → Import Profile

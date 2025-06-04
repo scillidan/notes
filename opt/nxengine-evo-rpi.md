@@ -1,4 +1,4 @@
-### [Nxengine-Evo-RPi](https://github.com/Exarkuniv/Nxengine-Evo-RPi)
+# [Nxengine-Evo-RPi](https://github.com/Exarkuniv/Nxengine-Evo-RPi)
 
 Unofficial installation scripts for RetroPie:
 

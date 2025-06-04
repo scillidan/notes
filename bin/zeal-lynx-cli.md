@@ -1,4 +1,4 @@
-### [zeal-lynx-cli](https://github.com/Sanix-Darker/zeal-lynx-cli) (Cache)
+# [zeal-lynx-cli](https://github.com/Sanix-Darker/zeal-lynx-cli) (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/Sanix-Darker/zeal-lynx-cli

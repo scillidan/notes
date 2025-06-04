@@ -1,8 +1,6 @@
-### [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM)
+# [SakuraLLM](https://github.com/SakuraLLM/SakuraLLM)
 
-#### Selfhost [^1]
-
-````{tab} From source
+````{tab} From source [^1]
 ```sh
 git clone --depth=1 https://github.com/SakuraLLM/SakuraLLM
 cd SakuraLLM
@@ -14,7 +12,7 @@ uv pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llam
 
 I used `q2k` of [Sakura-14B-Qwen2beta-v0.9.2-GGUF](https://huggingface.co/SakuraLLM/Sakura-14B-Qwen2beta-v0.9.2-GGUF). Put it into `models/`.
 
-#### Usage
+## Usage
 
 As API [^2]:
 

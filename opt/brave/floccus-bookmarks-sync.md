@@ -1,6 +1,6 @@
-### [floccus bookmarks sync](https://github.com/floccusAddon)
+# [floccus bookmarks sync](https://github.com/floccusAddon)
 
-#### Usage
+## Usage
 
 1. 打开 → ... →  新建账户 → WebDav分享
   ```

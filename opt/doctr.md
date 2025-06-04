@@ -1,4 +1,4 @@
-### [docTR](https://github.com/mindee/doctr)
+# [docTR](https://github.com/mindee/doctr)
 
 ````{tab} Form source
 ```sh

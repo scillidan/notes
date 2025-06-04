@@ -1,4 +1,4 @@
-### [Lua](https://www.lua.org/)
+# [Lua](https://www.lua.org/)
 
 ````{tab} From source
 ```sh

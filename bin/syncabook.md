@@ -1,4 +1,4 @@
-### [syncabook](https://github.com/r4victor/syncabook) (Cache)
+# [syncabook](https://github.com/r4victor/syncabook) (Cache)
 
 ````{tab} Docker
 ```sh
@@ -85,8 +85,8 @@ sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncaboo
 sudo docker run --rm -v ~/Git/_/synclibrivox/books:/books -it scillidan/syncabook:latest create books/alice_in_wonderland
 ```
 
-[^1]: [Installing aeneas - Linux](https://github.com/readbeyond/aeneas/blob/master/wiki/INSTALL.md#linux)
-
-#### Reference
+## Reference
 
 - [Literature for Eyes and Ears](https://www.youtube.com/@literature_for_eyes_and_ears/videos)
+
+[^1]: [Installing aeneas - Linux](https://github.com/readbeyond/aeneas/blob/master/wiki/INSTALL.md#linux)

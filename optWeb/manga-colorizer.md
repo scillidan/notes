@@ -1,4 +1,4 @@
-### [Manga-Colorizer](https://github.com/BinitDOX/Manga-Colorizer) (Cache)
+# [Manga-Colorizer](https://github.com/BinitDOX/Manga-Colorizer) (Cache)
 
 ![](https://img.shields.io/github/license/BinitDOX/Manga-Colorizer?style=flat-square)
 

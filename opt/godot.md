@@ -1,4 +1,4 @@
-### [Godot](https://godotengine.org/)
+# [Godot](https://godotengine.org/)
 
 - [Godot Recipes](https://kidscancode.org/godot_recipes/4.x/)
 - [Dialogic 2](https://docs.dialogic.pro/introduction.html)

@@ -1,4 +1,4 @@
-### [Vivliostyle CLI](https://github.com/vivliostyle/vivliostyle-cli)
+# [Vivliostyle CLI](https://github.com/vivliostyle/vivliostyle-cli)
 
 ```sh
 mkdir <dir>
@@ -24,7 +24,7 @@ vivliostyle build
 vivliostyle build --format epub -o <file>.epub
 ```
 
-#### Github Action
+## Github Action
 
 Build with Github Action, host on Github Pages:
 
@@ -77,6 +77,6 @@ jobs:
 
 Visit [Vivliostyle Viewer](https://vivliostyle.org/viewer/). Enter your `gh-pages` URL liked `https://<User>.github.io/<Repository>`.
 
-#### PS
+## PS
 
 You can refer to [web-app.md - Vercel Settings](https://github.com/scillidan/My_Note/blob/main/web-app.md#vercel-settings), [web-app.md - Vivliostyle Viewer](https://github.com/scillidan/My_Note/blob/main/web-app.md#vivliostyle-viewer) to host `Vivliostyle Viewer` on local, [Vercel](https://vercel.com/), Github Pages.

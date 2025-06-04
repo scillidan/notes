@@ -1,6 +1,4 @@
-### [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-
-#### Selfhost
+# [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 ````{tab} From source [^1]
 ```sh
@@ -25,16 +23,17 @@ Download type `Checkpoint *` and put file `*.safetensors` into `models/Stable-di
 pip install hf_transfer
 webui-user.bat
 ```
-#### Install extensions
+
+## Reference
+
+- [How to make web-ui available on local network](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6589)
+- [Choosing which GPU to use when running](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1561)
+
+## Resource
 
 1. Extensions → Available → Load from → Search and Install.
 2. Extensions → Install from URL.
 3. Extensions → Installed → Apply and restartUI.
-
-#### Reference
-
-- [How to make web-ui available on local network](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/6589)
-- [Choosing which GPU to use when running](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1561)
 
 [^1]: [Manual Installation](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Install-and-Run-on-NVidia-GPUs#manual-installation)
 [^2]: [How on earth can I install xformers?](https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/9802#discussioncomment-5894895)

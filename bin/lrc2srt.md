@@ -1,4 +1,4 @@
-### [LRC to SRT Converter](https://github.com/HUYDGD/lrc2srt)
+# [LRC to SRT Converter](https://github.com/HUYDGD/lrc2srt)
 
 ```sh
 git clone --depth=1 https://github.com/HUYDGD/lrc2srt

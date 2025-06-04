@@ -1,6 +1,4 @@
-### [dir2opds](https://github.com/dubyte/dir2opds)
-
-#### Selfhost
+# [dir2opds](https://github.com/dubyte/dir2opds)
 
 ````{tab} Ubuntu 22 ARM
 ```sh

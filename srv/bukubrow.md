@@ -1,4 +1,4 @@
-### [Bukubrow](https://github.com/samhh/bukubrow-webext) (Cache)
+# [Bukubrow](https://github.com/samhh/bukubrow-webext) (Cache)
 
 Install `Bukubrow` browser extension.
 

@@ -1,6 +1,6 @@
-### [Rime](https://rime.im/)
+# [Rime](https://rime.im/)
 
-#### Setting
+## Setting
 
 - Rime → F4 → 2 → `$ → ￥`
 

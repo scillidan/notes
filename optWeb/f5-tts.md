@@ -1,4 +1,4 @@
-### [F5-TTS](https://github.com/SWivid/F5-TTS)
+# [F5-TTS](https://github.com/SWivid/F5-TTS)
 
 ![](https://img.shields.io/github/license/SWivid/F5-TTS?style=flat-square)
 

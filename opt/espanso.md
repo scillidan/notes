@@ -1,5 +1,5 @@
-### [espanso](https://github.com/espanso/espanso)
+# [espanso](https://github.com/espanso/espanso)
 
-#### Reference
+## Reference
 
 - [Variables](https://espanso.org/docs/matches/variables/)

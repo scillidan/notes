@@ -1,6 +1,4 @@
-### [Stable Diffusion web UI for AMDGPUs](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
-
-#### Selfhost
+# [Stable Diffusion web UI for AMDGPUs](https://github.com/lshqqytiger/stable-diffusion-webui-amdgpu)
 
 ````{tab} From source
 ```sh

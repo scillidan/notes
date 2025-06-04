@@ -1,4 +1,4 @@
-### [Suwayomi-Server](https://github.com/Suwayomi/Suwayomi-Server)
+# [Suwayomi-Server](https://github.com/Suwayomi/Suwayomi-Server)
 
 ````{tab} Ubuntu 22 ARM
 Get `Suwayomi-Server-v*-debian-all.deb` from [Suwayomi-Server - Releases](https://github.com/Suwayomi/Suwayomi-Server/releases).
@@ -30,7 +30,7 @@ sudo systemctl status suwayomi-server
 ```
 ````
 
-#### Usage
+## Usage
 
 1. Visit `http://<your_host>:4567`
 2. The service may take several minutes to start until you can see it

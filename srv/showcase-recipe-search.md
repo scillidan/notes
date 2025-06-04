@@ -1,4 +1,4 @@
-### [Instant Recipe Search](https://github.com/typesense/showcase-recipe-search) (Cache)
+# [Instant Recipe Search](https://github.com/typesense/showcase-recipe-search) (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/typesense/showcase-recipe-search
@@ -44,6 +44,6 @@ rvm install 2.7.2
 ```
 ````
 
-#### Troubleshoot
+## Troubleshoot
 
 - [Build Failing - Arch Linux](https://github.com/rbenv/ruby-build/issues/930)

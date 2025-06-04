@@ -1,6 +1,6 @@
 root: index
 defaults:
-  hidden: False
+  hidden: true
   maxdepth: 3
   numbered: False
   reversed: False
@@ -30,11 +30,4 @@ subtrees:
 - caption: web
   entries:
   - glob: web/*
-  # - file: doc1
-  #   subtrees:
-  #   - entries:
-  #     - file: doc2
-  #       subtrees:
-  #       - entries:
-  #         - file: doc3
-  # - url: https://example.com
+# - url: https://example.com

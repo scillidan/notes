@@ -1,4 +1,4 @@
-### [recoded](https://github.com/siddharthroy12/recoded)
+# [recoded](https://github.com/siddharthroy12/recoded)
 
 ![](https://img.shields.io/github/license/siddharthroy12/recoded) ![](https://img.shields.io/github/last-commit/scillidan//mainrecoded) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

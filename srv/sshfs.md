@@ -1,4 +1,4 @@
-### SSHFS
+# SSHFS
 
 On remote:
 
@@ -18,7 +18,7 @@ On Windows 10:
 ```
 ````
 
-#### Usage
+## Usage
 
 - SSHFS-Win Manager → Add Connection
 

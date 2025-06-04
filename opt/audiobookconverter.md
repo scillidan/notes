@@ -1,6 +1,6 @@
-### [AudioBookConverter](https://github.com/yermak/AudioBookConverter)
+# [AudioBookConverter](https://github.com/yermak/AudioBookConverter)
 
-#### Usage
+## Usage
 
 For example, I have chapters audio files for a book, so I do:
 
@@ -30,7 +30,7 @@ For example, I have chapters audio files for a book, so I do:
 	```
 7. Start
 
-#### Name template
+## Name template
 
 Book filename teamplate:
 

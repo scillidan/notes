@@ -1,10 +1,10 @@
-### [Python](https://www.python.org/)
+# [Python](https://www.python.org/)
 
 ````{tab} Ubuntu 22 ARM
 - [How to Install Python 3.9 on Ubuntu 22.04](https://vegastack.com/tutorials/how-to-install-python-3-9-on-ubuntu-22-04/)
 ````
 
-#### Publish python package [^1]
+## Publish python package [^1]
 
 ```sh
 python -m pip install -e .

@@ -1,4 +1,4 @@
-### [dictd](https://linux.die.net/man/8/dictd)
+# [dictd](https://linux.die.net/man/8/dictd)
 
 ````{tab} Ubuntu 22 ARM
 ```sh
@@ -74,7 +74,7 @@ sudo systemctl enable --now dictd.service
 ```
 ````
 
-#### Cross-reference
+## Cross-reference
 
 - [dict-ecdict.md](https://scillidan.github.io/notes/bin/dict-ecdict.html)
 

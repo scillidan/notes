@@ -1,4 +1,4 @@
-### [TriliumNext Notes](https://github.com/TriliumNext/Notes) (Cache)
+# [TriliumNext Notes](https://github.com/TriliumNext/Notes) (Cache)
 
 ````{tab} Docker compose
 
@@ -25,7 +25,7 @@ sudo docker compose up -d
 ```
 ````
 
-#### Sync with server [^1]
+## Sync with server [^1]
 
 1. Install TriliumNext Notes Desktop.
 2. TriliumNext Notes Desktop → Settings → Sync → Sync Configuration → Server instance address → `http://<your_host>:8070`.

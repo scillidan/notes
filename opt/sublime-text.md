@@ -1,17 +1,10 @@
-### Sublime Text (Later)
+# [Sublime Text](https://www.sublimetext.com/)
 
-#### Usage
+## Usage
 
 - Edit → Permute Lines → Unique
 
-#### Resource
-
-##### [LanguageTool](https://github.com/gtarawneh/languagetool-sublime)
-
-1. Preferences → Package Settings → LanguageTool → Settings - User
-2. Copy from [LanguageTool.sublime-settings](https://github.com/gtarawneh/languagetool-sublime/blob/master/LanguageTool.sublime-settings) and edit it
-
-#### Reference
+## Reference
 
 - [Sublime Text: How to Open Files in the Same Window (New Tab)](https://woorkup.com/sublime-text-open-files-same-window/)
 - [How to Open files and folders in same window in Sublime Text on macOS?](https://stackoverflow.com/questions/21023529/how-to-open-files-and-folders-in-same-window-in-sublime-text-on-macos)

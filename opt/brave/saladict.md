@@ -1,5 +1,5 @@
-### [Saladict](https://saladict.crimx.com/)
+# [Saladict](https://saladict.crimx.com/)
 
-#### Setting
+## Setting
 
 - 设置 → 右键菜单 → All Off

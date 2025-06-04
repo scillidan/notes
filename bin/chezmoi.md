@@ -1,4 +1,4 @@
-### [chezmoi](https://www.chezmoi.io) [^1]
+# [chezmoi](https://www.chezmoi.io) [^1]
 
 ````{tab} Ubuntu 22 ARM
 ```sh

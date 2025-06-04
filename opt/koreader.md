@@ -1,6 +1,6 @@
-### [KOReader](https://github.com/koreader/koreader) (Later)
+# [KOReader](https://github.com/koreader/koreader) (Later)
 
-#### Setting
+## Setting
 
 - Search → OPDS catalog → Add
 	```
@@ -8,7 +8,7 @@
 	Catalog URL `<your_host>:8080`
 	```
 
-#### Reference
+## Reference
 
 - [Dictionary support](https://github.com/koreader/koreader/wiki/Dictionary-support)
 - [calibre](https://github.com/koreader/koreader/wiki/calibre)

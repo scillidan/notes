@@ -1,4 +1,4 @@
-### [Ollama Deep Researcher](https://github.com/langchain-ai/ollama-deep-researcher) (Cache)
+# [Ollama Deep Researcher](https://github.com/langchain-ai/ollama-deep-researcher) (Cache)
 
 ![](https://img.shields.io/github/license/langchain-ai/ollama-deep-researcher?style=flat-square)
 

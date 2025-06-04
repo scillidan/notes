@@ -1,4 +1,4 @@
-### [SVGOMG](https://github.com/jakearchibald/svgomg)
+# [SVGOMG](https://github.com/jakearchibald/svgomg)
 
 ![](https://img.shields.io/github/license/jakearchibald/svgomg)
 

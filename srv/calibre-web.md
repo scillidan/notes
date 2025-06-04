@@ -1,6 +1,4 @@
-### [Calibre-Web](https://github.com/janeczku/calibre-web)
-
-#### Selfhost
+# [Calibre-Web](https://github.com/janeczku/calibre-web)
 
 ````{tab} Ubuntu 22 ARM
 ```sh

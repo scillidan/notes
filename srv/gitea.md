@@ -1,6 +1,4 @@
-### [Gitea](https://about.gitea.com/) (Cache)
-
-#### Selfhost
+# [Gitea](https://about.gitea.com/) (Cache)
 
 ````{tab} Ubuntu 24 ARM [^1]
 Get `gitea-*-linux-arm64` from [here](https://dl.gitea.com/gitea/1.22.6/gitea-1.22.6-darwin-10.12-arm64).

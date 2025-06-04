@@ -1,4 +1,4 @@
-### [PyGlossary](https://github.com/ilius/pyglossary)
+# [PyGlossary](https://github.com/ilius/pyglossary)
 
 ```sh
 uv venv .pyglossary

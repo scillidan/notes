@@ -1,4 +1,4 @@
-### [Graphite](https://github.com/GraphiteEditor/Graphite) (Cache)
+# [Graphite](https://github.com/GraphiteEditor/Graphite) (Cache)
 
 ````{tab} Ubuntu 24 ARM [^1]
 ```sh

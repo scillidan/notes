@@ -1,4 +1,4 @@
-### [LanguageTool](https://languagetool.org/) [^1][^2][^3]
+# [LanguageTool](https://languagetool.org/) [^1][^2][^3]
 
 1. Get `ngrams-en-*.zip` from [here](https://languagetool.org/download/ngram-data/).
 2. Get `LanguageTool Desktop version for offline use` from [LanguageTool embedded HTTP Server](https://dev.languagetool.org/http-server).
@@ -71,7 +71,7 @@ sudo systemctl enable --now languagetool.service
 ```
 ````
 
-#### Browser Extension
+## Browser Extension
 
 1. Install [Browser Extension](https://languagetool.org/services#browsers)
 2. Browser Extension → Settings → Advanced settings → Other server → `http://<your_host>:<port>/v2`

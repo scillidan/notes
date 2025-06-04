@@ -1,4 +1,4 @@
-### [epub2tts](https://github.com/aedocw/epub2tts) (Cache)
+# [epub2tts](https://github.com/aedocw/epub2tts) (Cache)
 
 ````{tab} From source
 ```sh
@@ -14,7 +14,7 @@ epub2tts <txt> --engine tts --speaker "<Speaker>" --cover cover-image.jpg --sayp
 ```
 ````
 
-#### Troubleshoot
+## Troubleshoot
 
 Edit `requirements.txt` [^1]:
 

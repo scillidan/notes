@@ -1,6 +1,6 @@
-### [Rocky Linux](https://rockylinux.org)
+# [Rocky Linux](https://rockylinux.org)
 
-#### PM2 [^1][^2] (Cache)
+## PM2 [^1][^2] (Cache)
 
 Take [Excalith Start Page](https://github.com/excalith/excalith-start-page) as an example:
 
@@ -33,7 +33,7 @@ sudo vim /etc/httpd/conf.d/sub.domain.com.conf
 </VirtualHost>
 ```
 
-#### VNC [^3][^4] (Cache)
+## VNC [^3][^4] (Cache)
 
 ```sh
 sudo dnf update -y
@@ -89,9 +89,9 @@ scoop install tightvnc
 tvnviewer <your_host>::5901 -password=<vncuser_password>
 ```
 
-#### Cross-reference
+## Cross-reference
 
-- [excalith-start-page](https://scillidan.github.io/notes/optweb/excalith-start-page.html)
+- [excalith-start-page](https://scillidan.github.io/notes/optWeb/excalith-start-page.html)
 
 [^1]: [How to specify a port number for pm2](https://stackoverflow.com/questions/31502351/how-to-specify-a-port-number-for-pm2)
 [^2]: [How to change the port in nextjs?](https://medium.com/frontendweb/how-to-change-port-in-nextjs-1b99930bb81f)

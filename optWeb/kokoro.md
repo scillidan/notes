@@ -1,4 +1,4 @@
-### [kokoro](https://github.com/hexgrad/kokoro)
+# [kokoro](https://github.com/hexgrad/kokoro)
 
 ![](https://img.shields.io/github/license/hexgrad/kokoro?style=flat-square)
 

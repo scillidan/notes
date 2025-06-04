@@ -1,4 +1,4 @@
-### [video-gif-web-converter](https://github.com/nabigraphics/video-gif-web-converter)
+# [video-gif-web-converter](https://github.com/nabigraphics/video-gif-web-converter)
 
 ![](https://img.shields.io/github/license/nabigraphics/video-gif-web-converter) ![](https://img.shields.io/github/last-commit/scillidan/video-gif-web-converter/main)
 

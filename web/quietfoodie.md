@@ -1,4 +1,4 @@
-### [Quiet Foodie](https://github.com/paposeco/quietfoodie)
+# [Quiet Foodie](https://github.com/paposeco/quietfoodie)
 
 ```sh
 hugo new site <dir>
@@ -13,7 +13,7 @@ hugo build
 hugo serve
 ```
 
-#### Reference
+## Reference
 
 - [Add content](https://github.com/paposeco/quietfoodie?tab=readme-ov-file#add-content)
 - [2013-06-11-apple-tarts.md](https://github.com/paposeco/quietfoodie/blob/master/exampleSite/content/recipes/2013-06-11-apple-tarts.md?plain=1)

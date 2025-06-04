@@ -1,11 +1,11 @@
-### [ES-DE](https://gitlab.com/es-de/emulationstation-de)
+# [ES-DE](https://gitlab.com/es-de/emulationstation-de)
 
 ````{tab} Download
 1. Get `ES-DE_*-x64_Portable.zip` from [ES-DE - Releases](https://gitlab.com/es-de/emulationstation-de/-/releases).
 2. Decompress it to `ES-DE\`.
 ````
 
-#### [Iconic (ES-DE Version)](https://github.com/Siddy212/iconic-es-de)
+## [Iconic (ES-DE Version)](https://github.com/Siddy212/iconic-es-de)
 
 ```sh
 cd ES-DE\themes

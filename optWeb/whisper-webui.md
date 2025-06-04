@@ -1,4 +1,4 @@
-### [Whisper-WebUI](https://github.com/jhj0517/Whisper-WebUI)
+# [Whisper-WebUI](https://github.com/jhj0517/Whisper-WebUI)
 
 ![](https://img.shields.io/github/license/jhj0517/Whisper-WebUI?style=flat-square)
 

@@ -1,6 +1,6 @@
-### [Renpy](https://www.renpy.org/)
+# [Renpy](https://www.renpy.org/)
 
-#### Build Distributions
+## Build Distributions
 
 1. Download `SDK.zip` from [Download Ren'Py](https://www.renpy.org/latest.html)
 2. Decompress it to `renpy-*-sdk\`
@@ -10,7 +10,7 @@
 6. Renpy → PROJECTS → refresh → Select `katawa-shoujo-re-engineered`
 7. Build Distributions → Build
 
-#### Build Android (Draft)
+## Build Android (Draft)
 
 1. Renpy → Android → Build
   1. Install SDK

@@ -1,4 +1,4 @@
-### [Docker](https://www.docker.com/)
+# [Docker](https://www.docker.com/)
 
 ````{tab} Ubuntu 22/24 ARM [^1]
 ```sh

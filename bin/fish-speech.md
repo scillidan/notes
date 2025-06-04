@@ -1,4 +1,4 @@
-### [Fish Speech](https://github.com/fishaudio/fish-speech) (Cache)
+# [Fish Speech](https://github.com/fishaudio/fish-speech) (Cache)
 
 ````{tab} From source
 ```sh

@@ -1,4 +1,4 @@
-### Samba [^1]
+# Samba [^1]
 
 ```sh
 sudo apt install samba
@@ -36,7 +36,7 @@ sudo systemctl restart smbd
 # testparm
 ```
 
-#### On client
+## On client
 
 1. Windows 10 → 计算机管理 → 本地用户和组 → 用户 → 右键 → 新用户:
   ```

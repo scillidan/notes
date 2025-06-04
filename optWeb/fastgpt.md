@@ -1,4 +1,4 @@
-### [FastGPT](https://github.com/labring/FastGPT) (Cache)
+# [FastGPT](https://github.com/labring/FastGPT) (Cache)
 
 ![](https://img.shields.io/github/license/labring/FastGPT?style=flat-square)
 

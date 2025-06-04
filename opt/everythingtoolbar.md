@@ -1,6 +1,6 @@
-### [EverythingToolbar](https://github.com/srwi/EverythingToolbar) (Cache)
+# [EverythingToolbar](https://github.com/srwi/EverythingToolbar) (Cache)
 
-#### Usage
+## Usage
 
 - 更多
   - 视图 → 紧凑 (详细)

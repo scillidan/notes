@@ -1,4 +1,4 @@
-### [SQLite Web](https://github.com/coleifer/sqlite-web)
+# [SQLite Web](https://github.com/coleifer/sqlite-web)
 
 ````{tab} pipx
 ```sh

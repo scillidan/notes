@@ -1,4 +1,4 @@
-### [yomichan-web-service](https://github.com/tetraset/yomichan-web-service) (Cache)
+# [yomichan-web-service](https://github.com/tetraset/yomichan-web-service) (Cache)
 
 ````{tab} ArchWSL
 ```sh

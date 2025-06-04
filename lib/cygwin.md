@@ -1,4 +1,4 @@
-### [Cygwin](https://www.cygwin.com/) (Cache)
+# [Cygwin](https://www.cygwin.com/) (Cache)
 
 ```sh
 apt-cyg install git vim zsh

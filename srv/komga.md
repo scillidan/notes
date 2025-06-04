@@ -1,4 +1,4 @@
-### [Komga](https://github.com/gotson/komga)
+# [Komga](https://github.com/gotson/komga)
 
 ````{tab} Ubuntu 22 ARM [^1][^2][^3]
 ```sh
@@ -56,7 +56,7 @@ pause
 ```
 ````
 
-#### Toolset
+## Toolset
 
 - [Directory Opus](https://www.gpsoft.com.au/)
 - [Xnconvert](https://www.xnview.com/en/xnconvert/)

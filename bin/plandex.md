@@ -1,4 +1,4 @@
-### [Plandex](https://github.com/plandex-ai/plandex)
+# [Plandex](https://github.com/plandex-ai/plandex)
 
 ````{tab} ArchWSL
 ```sh

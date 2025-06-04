@@ -1,4 +1,4 @@
-### [PM2](https://pm2.keymetrics.io/)
+# [PM2](https://pm2.keymetrics.io/)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
@@ -19,11 +19,11 @@ pm2 startup
 
 [^1]: [Persistent applications](https://pm2.keymetrics.io/docs/usage/startup/)
 
-#### Reference
+## Reference
 
 - [Vue packages version mismatch](https://github.com/nuxt/nuxt/issues/10305)
 - [how to modify nuxt server start port ,default port is 3000](https://github.com/nuxt/nuxt/issues/490)
 
-#### Cross-reference
+## Cross-reference
 
 - [pm2-installer.md](https://scillidan.github.io/notes/bin/pm2-installer.html)

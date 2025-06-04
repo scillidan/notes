@@ -1,4 +1,4 @@
-### [Uconsole CM4](https://www.clockworkpi.com/uconsole) [^1][^2][^3] (Cache)
+# [Uconsole CM4](https://www.clockworkpi.com/uconsole) [^1][^2][^3] (Cache)
 
 ```sh
 sudo wipefs --all /dev/sdc
@@ -149,7 +149,7 @@ dtoverlay=uconsole,cm4
 sudo umount /mnt/boot /mnt
 ```
 
-#### Reference
+## Reference
 
 - [Create DevTerm CM4 OS image from scratch](https://github.com/clockworkpi/DevTerm/wiki/Create-DevTerm-CM4-OS-image-from-scratch)
 - [How uConsole CM4 OS image made](https://github.com/clockworkpi/uConsole/wiki/How-uConsole-CM4-OS-image-made)

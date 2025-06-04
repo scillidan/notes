@@ -1,4 +1,4 @@
-### [Steam](https://store.steampowered.com/) (Cache)
+# [Steam](https://store.steampowered.com/) (Cache)
 
 ````{tab} Ubuntu 24 ARM
 ```sh

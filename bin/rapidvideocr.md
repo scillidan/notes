@@ -1,4 +1,4 @@
-### [RapidVideOCR](https://github.com/SWHL/RapidVideOCR)
+# [RapidVideOCR](https://github.com/SWHL/RapidVideOCR)
 
 Power by CPU [^1]:
 
@@ -22,7 +22,7 @@ uv pip install rapidocr_paddle
 rapid_videocr --use_cuda -o srt -i <rgb_images_dir> -s _output
 ```
 
-#### Cross-reference
+## Cross-reference
 
 - [videosubfinder.md](https://scillidan.github.io/notes/opt/videosubfinder.html)
 

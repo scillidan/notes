@@ -1,1 +1,0 @@
-#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/serve)

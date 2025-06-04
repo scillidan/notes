@@ -1,4 +1,4 @@
-### [image-editor](https://github.com/andrepv/image-editor)
+# [image-editor](https://github.com/andrepv/image-editor)
 
 ![](https://img.shields.io/github/license/andrepv/image-editor?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/image-editor/master?label=last%20commit%20(fork)&style=flat-square)
 

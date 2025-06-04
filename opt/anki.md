@@ -1,13 +1,13 @@
-### [Anki](https://apps.ankiweb.net/) (Later)
+# [Anki](https://apps.ankiweb.net/) (Later)
 
-#### Setting
+## Setting
 
 - Tools → Preferences → Syncing
 	- Self-hosted sync server `http://<your_host>:<port>`
 		- If `<your_host>` don't work, try used `ip`
 	- AnkiWeb Account → Login → Used `<username>`, `<password>` set in Anki Sync Server's environment `SYNC_USER`
 
-#### Reference
+## Reference
 
 - [Setting up Anki](https://tatsumoto-ren.github.io/blog/setting-up-anki.html)
 - [Setting up Rikaitan](https://tatsumoto-ren.github.io/blog/setting-up-yomichan.html)
@@ -16,6 +16,6 @@
 - [Passive immersion tech](https://tatsumoto-ren.github.io/blog/passive-listening.html)
 - [Automatic Anime Cards MPV Script](https://anacreondjt.gitlab.io/docs/mpvscript/)
 
-#### Cross-reference
+## Cross-reference
 
 - [anki-sync-server.md](https://scillidan.github.io/notes/srv/anki-sync-server.html)

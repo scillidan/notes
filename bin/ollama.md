@@ -1,4 +1,4 @@
-### [Ollama](https://ollama.com/)
+# [Ollama](https://ollama.com/)
 
 ````{tab} Ubuntu 22 ARM [^1][^2]
 Get `ollama-linux-arm64.tgz` from [Ollama - Releases](https://github.com/ollama/ollama/releases).
@@ -37,7 +37,7 @@ OLLAMA_HOST=0.0.0.0
 OLLAMA_ORIGINS=*
 ```
 
-#### Cross-reference
+## Cross-reference
 
 - [continue.md](https://scillidan.github.io/notes/opt/continue.html)
 - [immersive-translate.md](https://scillidan.github.io/notes/opt/brave/immersive-translate.html)

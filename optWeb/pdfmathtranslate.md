@@ -1,4 +1,4 @@
-### [PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
+# [PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 ![](https://img.shields.io/github/license/Byaidu/PDFMathTranslate?style=flat-square)
 

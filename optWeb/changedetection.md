@@ -1,4 +1,4 @@
-### [changedetection.io](https://github.com/dgtlmoon/changedetection.io)
+# [changedetection.io](https://github.com/dgtlmoon/changedetection.io)
 
 ![](https://img.shields.io/github/license/dgtlmoon/changedetection.io)
 

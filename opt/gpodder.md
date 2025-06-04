@@ -1,5 +1,5 @@
-### [gPodder](https://github.com/gpodder/gpodder)
+# [gPodder](https://github.com/gpodder/gpodder)
 
-#### Resource
+## Resource
 
 - [Normalize Audio](https://gpodder.github.io/docs/extensions/normalizeaudio.html)

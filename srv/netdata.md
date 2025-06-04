@@ -1,4 +1,4 @@
-### [Netdata](https://www.netdata.cloud/)
+# [Netdata](https://www.netdata.cloud/)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh

@@ -1,6 +1,4 @@
-### [File Browser](https://github.com/filebrowser/filebrowser) [^1]
-
-#### Selfhost
+# [File Browser](https://github.com/filebrowser/filebrowser) [^1]
 
 ````{tab} Docker compose
 ```sh

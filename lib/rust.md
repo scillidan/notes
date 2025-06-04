@@ -1,4 +1,4 @@
-### [Rust](https://www.rust-lang.org/)
+# [Rust](https://www.rust-lang.org/)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
@@ -13,7 +13,7 @@ rustup default stable
 ```
 ````
 
-#### Update
+## Update
 
 ````{tab} Windows 10
 ```sh

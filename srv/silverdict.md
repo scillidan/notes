@@ -1,4 +1,4 @@
-### [SilverDict](https://github.com/Crissium/SilverDict)
+# [SilverDict](https://github.com/Crissium/SilverDict)
 
 ````{tab} Ubuntu 22 ARM
 ```sh
@@ -77,7 +77,7 @@ sudo docker compose up -d
 ```
 ````
 
-#### Usage
+## Usage
 
 I did not test how to migrate dictionary data at present. So I import the dictionaries after enabling the service.
 
@@ -104,12 +104,12 @@ I did not test how to migrate dictionary data at present. So I import the dictio
 	4. The `Sources` tab is used for batch import, I don't recommend using it at present.
 2. Settings → Create n-gram index
 
-#### Reference
+## Reference
 
 - [Notes](https://github.com/Crissium/SilverDict/wiki/server#notes)
 - [Enabling additional features](https://github.com/Crissium/SilverDict/wiki/general-notes#enabling-additional-features)
 - [Running the server](https://github.com/Crissium/SilverDict/wiki/nginx#running-the-server)
 
-#### Cross-reference
+## Cross-reference
 
 - [calibre.md](https://scillidan.github.io/notes/srv/calibre.html)

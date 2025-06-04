@@ -1,4 +1,4 @@
-### [NoiseCraft](https://github.com/maximecb/noisecraft)
+# [NoiseCraft](https://github.com/maximecb/noisecraft)
 
 ![](https://img.shields.io/github/license/maximecb/noisecraft?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/noisecraft/main?label=last%20commit%20(fork)&style=flat-square)
 

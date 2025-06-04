@@ -1,6 +1,4 @@
-### [n8n](https://n8n.io/)
-
-#### Selfhost
+# [n8n](https://n8n.io/)
 
 ````{tab} Docker compose [^1]
 ```sh
@@ -35,9 +33,7 @@ sudo docker compose up -d
 ```
 ````
 
-[^1]: [Server setups - Docker-Compose](https://docs.n8n.io/hosting/installation/server-setups/docker-compose/)
-
-#### Asset
+## Asset
 
 - [Archive Spotify's discover weekly playlist](https://n8n.io/workflows/697-archive-spotifys-discover-weekly-playlist/)
 - [Bulk Automated Google Drive Files Sharing and Direct Download Link Generation](https://n8n.io/workflows/2042-bulk-automated-google-drive-files-sharing-and-direct-download-link-generation/)
@@ -50,3 +46,5 @@ sudo docker compose up -d
 - [Save your workflows into a Gitlab repository](https://n8n.io/workflows/2385-save-your-workflows-into-a-gitlab-repository/)
 - [Monitor a file for changes and send an alert](https://n8n.io/workflows/967-monitor-a-file-for-changes-and-send-an-alert/)
 - [Turn on a light to a specific color on any update in GitHub repository](https://n8n.io/workflows/1856-turn-on-a-light-to-a-specific-color-on-any-update-in-github-repository/)
+
+[^1]: [Server setups - Docker-Compose](https://docs.n8n.io/hosting/installation/server-setups/docker-compose/)

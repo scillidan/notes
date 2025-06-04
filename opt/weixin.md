@@ -1,10 +1,10 @@
-### [Weixin](https://weixin.qq.com/)
+# [Weixin](https://weixin.qq.com/)
 
-#### Usage
+## Usage
 
 我的 → 服务 → 钱包 → 支付设置 → 自动续费
 
-#### 微信小程序
+## 微信小程序
 
 - 用户 → 账号设置 → 基本设置 → 小程序名称
 - 基础功能 → 客服

@@ -1,4 +1,4 @@
-### [Bob](https://github.com/MordechaiHadad/bob)
+# [Bob](https://github.com/MordechaiHadad/bob)
 
 Get `bob` from [Bob - Releases](https://github.com/MordechaiHadad/bob/releases).
 

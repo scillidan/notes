@@ -1,4 +1,4 @@
-### [RAGFlow](https://github.com/infiniflow/ragflow) (Cache)
+# [RAGFlow](https://github.com/infiniflow/ragflow) (Cache)
 
 ![](https://img.shields.io/github/license/infiniflow/ragflow?style=flat-square)
 

@@ -1,6 +1,6 @@
-### [CUDA](https://developer.nvidia.com/cuda-toolkit)
+# [CUDA](https://developer.nvidia.com/cuda-toolkit)
 
-#### Requirement
+## Requirement
 
 1. Have a GPU. Check [Your GPU Compute Capability](https://developer.nvidia.com/cuda-gpus).  
 2. Install `python 3.10` from [Python Releases for Windows](https://www.python.org/downloads/windows/). I test on `3.10.11`.

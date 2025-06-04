@@ -1,4 +1,4 @@
-### [SubPlz](https://github.com/kanjieater/SubPlz) (Cache)
+# [SubPlz](https://github.com/kanjieater/SubPlz) (Cache)
 
 ````{tab} ArchWSL
 ```sh

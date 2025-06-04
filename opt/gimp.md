@@ -1,6 +1,6 @@
-### [GIMP](https://gimp.org)
+# [GIMP](https://gimp.org)
 
-#### Usage
+## Usage
 
 - 复制图层 → 选中新图层 → 颜色 → 去色 → 去色 → 模式 → luma
 - 添加图层模板 → 选区工具 → 填充黑色

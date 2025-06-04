@@ -1,6 +1,6 @@
-### [Scoop](https://scoop.sh/)
+# [Scoop](https://scoop.sh/)
 
-#### Install [^1][^2][^3]
+## Install [^1][^2][^3]
 
 ```pwsh
 Set-ExecutionPolicy ByPass -Scope Process -Force
@@ -10,7 +10,7 @@ $env:SCOOP_GLOBAL='C:\Users\User\Scoop'
 iex "& {$(irm get.scoop.sh)} -RunAsAdmin"
 ```
 
-#### Update scoop
+## Update scoop
 
 ````{tab} scoop
 ```sh
@@ -26,7 +26,7 @@ git pull
 ```
 ````
 
-#### Add bucket
+## Add bucket
 
 ````{tab} scoop
 ```sh
@@ -52,14 +52,16 @@ git clone --depth=1 https://github.com/Calinou/scoop-games
 ```
 ````
 
-#### Cteate your bucket
+## Cteate your bucket
 
 - [Scoop Bucket Template](https://github.com/ScoopInstaller/BucketTemplate)
 - [CONTRIBUTING.md](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
 - [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
 - [App Manifest Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
 
-#### Install package
+## Install package
+
+For example:
 
 ```sh
 scoop install scoop-search

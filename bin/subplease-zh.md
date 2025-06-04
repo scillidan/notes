@@ -1,4 +1,4 @@
-### [SubPlease-ZH](https://github.com/BorisNA/SubPlease-ZH) (Cache)
+# [SubPlease-ZH](https://github.com/BorisNA/SubPlease-ZH) (Cache)
 
 ````{tab} From source
 ```sh
@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 ````
 
-#### Usage
+## Usage
 
 1. Create folder liked `your_book\`.
 2. Put `your_book.m4b`, `your_book.epub` into `your_book\`.

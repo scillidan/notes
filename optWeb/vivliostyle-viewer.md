@@ -1,4 +1,4 @@
-### [Vivliostyle Viewer](https://github.com/vivliostyle/vivliostyle.js/tree/master/packages/viewer)
+# [Vivliostyle Viewer](https://github.com/vivliostyle/vivliostyle.js/tree/master/packages/viewer)
 
 ![](https://img.shields.io/github/license/vivliostyle/vivliostyle.js?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/vivliostyle.js/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
@@ -18,6 +18,6 @@ pm2 serve viewer 4321 --name vivliostyle-viewer --spa
 ```
 ````
 
-#### Deploy with Github Pages
+## Deploy with Github Pages
 
 Visit `https://<username>.github.io/vivliostyle.js/viewer/vivliostyle-viewer.html`.

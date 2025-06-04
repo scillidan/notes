@@ -1,4 +1,4 @@
-### [Anaconda](https://www.anaconda.com/) [^1]
+# [Anaconda](https://www.anaconda.com/) [^1]
 
 ```sh
 subl ~/.condarc

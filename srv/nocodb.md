@@ -1,6 +1,4 @@
-### [NocoDB](https://nocodb.com/)
-
-#### Selfhost [^1]
+# [NocoDB](https://nocodb.com/) [^1]
 
 ```sh
 bash <(curl -sSL http://install.nocodb.com/noco.sh) <(mktemp)

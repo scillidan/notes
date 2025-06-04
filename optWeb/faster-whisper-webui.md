@@ -1,4 +1,4 @@
-### [faster-whisper-webui](https://huggingface.co/spaces/aadnk/faster-whisper-webui) (Cache)
+# [faster-whisper-webui](https://huggingface.co/spaces/aadnk/faster-whisper-webui) (Cache)
 
 ![](https://img.shields.io/github/license/aadnk/faster-whisper-webui?style=flat-square)
 
@@ -48,7 +48,7 @@ Edit `config.json5` liked:
 "language": "Chinese",
 ```
 
-#### Usage
+## Usage
 
 As CLI:
 
@@ -62,7 +62,7 @@ As Web UI:
 python.exe app.py --input_audio_max_duration -1 --server_name 127.0.0.1 --server_port 7830 --whisper_implementation "faster-whisper" --default_model_name "large-v2" --vad_parallel_devices 0 --auto_parallel true --auth_token <hf_token> --output_dir "C:/Users/User/Downloads"
 ```
 
-#### Reference
+## Reference
 
 - [what diff_silero-vad, silero-vad-skip-gaps, silero-vad-expan d-into-gaps, periodic-vad_02.md](https://github.com/scillidan/gpt_share/blob/main/what%20diff_silero-vad%2C%20silero-vad-skip-gaps%2C%20silero-vad-expan%20d-into-gaps%2C%20periodic-vad_02.md)
 

@@ -1,4 +1,4 @@
-### [bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker)
+# [bilingual_book_maker](https://github.com/yihong0618/bilingual_book_maker)
 
 ![](https://img.shields.io/github/license/yihong0618/bilingual_book_maker?style=flat-square)
 

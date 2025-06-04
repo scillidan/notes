@@ -1,6 +1,6 @@
-### [NXEngine-evo](https://github.com/nxengine/nxengine-evo)
+# [NXEngine-evo](https://github.com/nxengine/nxengine-evo)
 
-#### Build local data
+## Build local data
 
 ```sh
 git clone --depth=1 https://github.com/nxengine/translations
@@ -78,7 +78,7 @@ make #ERROR
 ```
 ````
 
-#### Build nxengine-evo [^1]
+## Build nxengine-evo [^1]
 
 ````{tab} Arch
 ```sh

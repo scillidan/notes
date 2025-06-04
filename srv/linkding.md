@@ -1,4 +1,4 @@
-### [linkding](https://github.com/sissbruecker/linkding)
+# [linkding](https://github.com/sissbruecker/linkding)
 
 ````{tab} From source [^1]
 ```sh
@@ -87,7 +87,7 @@ pm2 save
 ```
 ````
 
-### Browser Extension
+## Browser Extension
 
 Visit `127.0.0.1:8002` → Settings → Integrations → Integrations → REST API → Copy this
 

@@ -1,4 +1,4 @@
-### [IOPaint](https://github.com/Sanster/IOPaint) (Bug)
+# [IOPaint](https://github.com/Sanster/IOPaint) (Cache)
 
 ![](https://img.shields.io/github/license/Sanster/IOPaint?style=flat-square)
 
@@ -13,19 +13,19 @@ npm run build
 cp -r dist/ ../iopaint/web_app
 npm run dev
 ```
-````
 
 ```sh
 cd ..
-uv venv
+uv venv --python 3.10
 .venv\Scripts\activate.bat
 uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 uv pip install -e .
+# uv pip install gfpgan realesrgan rembg realesrgan onnxruntime
 iopaint start --model=lama --port=8080
-# iopaint start --model=lama --device=cpu --port=8080
 ```
+````
 
-#### Optional
+## Optional
 
 With [Interactive Segmentation](https://www.iopaint.com/plugins/interactive_seg):
 

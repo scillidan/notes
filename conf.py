@@ -12,7 +12,6 @@ extensions = [
     'sphinxext.photofinish',
     'sphinxcontrib.video'
 ]
-
 exclude_patterns = [
     '_build',
     'Thumbs.db',
@@ -27,35 +26,25 @@ source_suffix = {
     '.txt': 'markdown',
     '.md': 'markdown',
 }
-
 templates_path = ['_templates']
-# html_additional_pages = {'index': 'your-custom-landing-page.html'}
-# html_sidebars = {
-#     "**": [
-#         "sidebar/scroll-start.html",
-#         "sidebar/brand.html",
-#         "sidebar/search.html",
-#         "sidebar/navigation.html",
-#         "sidebar/ethical-ads.html",
-#         "sidebar/scroll-end.html",
-#     ]
-# }
-html_css_files = [
-    'custom.css',
-    # 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css'
-]
+html_static_path = ['_static']
+
 html_title = "𝖓𝖔𝖙𝖊𝖘"
+# html_additional_pages = {'index': 'your-custom-landing-page.html'}
 html_sidebars = {
     "**": [
         "sidebar/scroll-start.html",
         "sidebar/brand.html",
         "sidebar/search.html",
-        # "sidebar/navigation.html",
+        "sidebar/navigation.html",
         "sidebar/ethical-ads.html",
         "sidebar/scroll-end.html",
     ]
 }
-html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+    # 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/fontawesome.min.css'
+]
 html_theme = 'furo'
 html_theme_options = {
 	# "announcement": "<em>Important</em> announcement!",
@@ -89,13 +78,6 @@ html_theme_options = {
 external_toc_path = "_toc.yml"
 external_toc_exclude_missing = False
 
-# datatables_version = "1.13.4"
-# datatables_class = "sphinx-datatable"
-# datatables_options = {
-#     'lengthMenu': [20, 50, 100, 200, 500],
-#     'pageLength': 50,
-# }
-
 sphinxcontrib_asciinema_defaults = {
     'theme': 'asciinema',
     'font-size': 'small',
@@ -107,3 +89,10 @@ sphinxext_photofinish = {
     'max_viewport_width': 800,
     'width_min': 300
 }
+
+# datatables_version = "1.13.4"
+# datatables_class = "sphinx-datatable"
+# datatables_options = {
+#     'lengthMenu': [20, 50, 100, 200, 500],
+#     'pageLength': 50,
+# }

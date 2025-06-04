@@ -1,4 +1,4 @@
-### [Easy Webpage Summarizer](https://github.com/cobanov/easy-web-summarizer)
+# [Easy Webpage Summarizer](https://github.com/cobanov/easy-web-summarizer)
 
 ![](https://img.shields.io/github/license/cobanov/easy-web-summarizer?style=flat-square)
 

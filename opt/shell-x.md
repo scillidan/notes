@@ -1,4 +1,4 @@
-### [Shell-X](https://github.com/oleg-shilo/shell-x)
+# [Shell-X](https://github.com/oleg-shilo/shell-x)
 
 ````{tab} From releases
 1. Download `shell-x.*.7z` ffrom [Releases](https://github.com/oleg-shilo/shell-x/releases).

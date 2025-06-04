@@ -1,4 +1,4 @@
-### [Immersive Translate](https://immersivetranslate.com/) [^1][^2][^3]
+# [Immersive Translate](https://immersivetranslate.com/) [^1][^2][^3]
 
 1. Immersive Translate → Developer settings → Enable Beta Testing Features
 2. Translation Services → Custom API → Edit → API URL → `http://127.0.0.1:11434` → Verify service

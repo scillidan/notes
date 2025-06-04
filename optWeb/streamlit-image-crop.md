@@ -1,4 +1,4 @@
-### [Streamlit Image Crop](https://github.com/mitsuse/streamlit-image-crop)
+# [Streamlit Image Crop](https://github.com/mitsuse/streamlit-image-crop)
 
 ![](https://img.shields.io/github/license/mitsuse/streamlit-image-crop)
 

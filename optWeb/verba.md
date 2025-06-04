@@ -1,4 +1,4 @@
-### [Verba](https://github.com/weaviate/Verba) (Cache)
+# [Verba](https://github.com/weaviate/Verba) (Cache)
 
 ![](https://img.shields.io/github/license/weaviate/Verba?style=flat-square)
 

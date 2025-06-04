@@ -1,4 +1,4 @@
-### [BeatPrints](https://github.com/TrueMyst/BeatPrints)
+# [BeatPrints](https://github.com/TrueMyst/BeatPrints)
 
 1. Visit [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
 2. Create app `BeatPrints`, add `http://localhost` on `Redirect URIs (required)`.
@@ -35,7 +35,7 @@ client_id = "SPOTIFY_CLIENT_ID"
 client_secret = "SPOTIFY_CLIENT_SECRET"
 ```
 
-#### Reference
+## Reference
 
 - [Add new themes to BeatPrints](https://github.com/TrueMyst/BeatPrints/issues/25)
 - [beatprints_from_csv.py](https://gist.github.com/scillidan/203fd0ce69800709e4c3057404f813be)

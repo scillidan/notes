@@ -1,6 +1,6 @@
-### [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
+# [Raspberry Pi 4](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/)
 
-#### USB host boot mode [^1][^2][^3]
+## USB host boot mode [^1][^2][^3]
 
 ```sh
 sudo vim /root/firmware/config.txt

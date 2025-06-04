@@ -1,4 +1,4 @@
-### qbittorrent-nox
+# qbittorrent-nox
 
 ````{tab} Ubuntu 22 ARM [^1][^2]
 ```sh
@@ -38,40 +38,9 @@ Password: adminadmin
 ```
 ````
 
+## Cross-reference
+
+- [flood.md](https://scillidan.github.io/notes/optWeb/flood.html)
+
 [^1]: `Running qBittorrent without X server (WebUI only, systemd service set up, Ubuntu 15.04 or newer)` on [qBittorrent - Wiki](https://github.com/qbittorrent/qBittorrent/wiki)
 [^2]: [How to Install qBittorrent-NoX, a headless and web UI Torrent Client](https://saputra.org/threads/how-to-install-qbittorrent-nox-a-headless-and-web-ui-torrent-client.1099/)
-
-#### [Flood](https://github.com/jesec/flood)
-
-````{tab} From source
-```sh
-git clone --depth=1 https://github.com/jesec/flood
-cd flood
-npm install
-npm run build
-# npm run start
-vim package.json
-```
-
-```json
-  "script": {
-    "start": "node --enable-source-maps --use_strict dist/index.js --host 0.0.0.0 --port 4321",
-```
-
-```sh
-pm2 start npm --name "flood" -- run start
-```
-````
-
-Some tips:
-
-1. Here are some important fields:
-	```
-	User for Flood: <user>
-	Password for Flood: <password>
-	URL: http://0.0.0.0:8050
-	User for qBittorrent: admin
-	Password for qBittorrent: adminadmin
-	```
-2. Default Download Directory is on `/home/qbittorrent-nox/Downloads`.
-3. If you forget `<user>` or `<password>`, delete `~/.local/shared/flood/`. Reload or re-create flood's PM2 serve.

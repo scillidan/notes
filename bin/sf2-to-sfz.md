@@ -1,4 +1,4 @@
-### [SF2 to SFZ Converter](https://github.com/bashexplode/sf2-to-sfz) (Cache)
+# [SF2 to SFZ Converter](https://github.com/bashexplode/sf2-to-sfz) (Cache)
 
 ````{tab} From source
 ```sh

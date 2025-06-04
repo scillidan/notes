@@ -1,4 +1,4 @@
-### [DeepLX](https://github.com/OwO-Network/DeepLX) (Cache)
+# [DeepLX](https://github.com/OwO-Network/DeepLX) (Cache)
 
 ````{tab} Windows 10
 Download from releases:

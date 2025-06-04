@@ -1,5 +1,5 @@
-### [LibreWolf](https://librewolf.net/)
+# [LibreWolf](https://librewolf.net/)
 
-#### Setting
+## Setting
 
 - Settings → LibreWolf → Browser Behavior → Enable Firefox Sync

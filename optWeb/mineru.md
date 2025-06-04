@@ -1,4 +1,4 @@
-### [MinerU](https://github.com/opendatalab/MinerU)
+# [MinerU](https://github.com/opendatalab/MinerU)
 
 ![](https://img.shields.io/github/license/opendatalab/MinerU?style=flat-square)
 

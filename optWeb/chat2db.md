@@ -1,4 +1,4 @@
-### [Chat2DB](https://github.com/CodePhiliaX/Chat2DB)
+# [Chat2DB](https://github.com/CodePhiliaX/Chat2DB)
 
 ![](https://img.shields.io/github/license/CodePhiliaX/Chat2DB?style=flat-square)
 

@@ -1,4 +1,4 @@
-### [ChatGPT API SRT Subtitle Translator](https://github.com/Cerlancism/chatgpt-subtitle-translator) (Cache)
+# [ChatGPT API SRT Subtitle Translator](https://github.com/Cerlancism/chatgpt-subtitle-translator) (Cache)
 
 ![](https://img.shields.io/github/license/Cerlancism/chatgpt-subtitle-translator?style=flat-square)
 

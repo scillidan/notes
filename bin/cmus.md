@@ -1,4 +1,4 @@
-### [cmus](https://cmus.github.io/)
+# [cmus](https://cmus.github.io/)
 
 ```sh
 cmus

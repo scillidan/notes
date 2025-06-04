@@ -1,4 +1,4 @@
-### [Jellyfin](https://jellyfin.org/)
+# [Jellyfin](https://jellyfin.org/)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
@@ -21,7 +21,7 @@ pause
 ```
 ````
 
-#### Reference
+## Reference
 
 - [Media - Movies](https://jellyfin.org/docs/general/server/media/movies/)
 - [Plugins](https://jellyfin.org/docs/general/server/plugins/)

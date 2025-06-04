@@ -1,4 +1,4 @@
-### [Newsboat](https://github.com/newsboat/newsboat) [^1]
+# [Newsboat](https://github.com/newsboat/newsboat) [^1]
 
 ```sh
 mkdir ~/.config/newsboat

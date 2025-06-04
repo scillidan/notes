@@ -1,6 +1,4 @@
-### [Penpot](https://github.com/penpot/penpot)
-
-#### Selfhost
+# [Penpot](https://github.com/penpot/penpot)
 
 ````{tab} Docker
 ```sh

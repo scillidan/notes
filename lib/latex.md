@@ -1,6 +1,6 @@
-### [LaTeX](https://www.latex-project.org/)
+# [LaTeX](https://www.latex-project.org/)
 
-#### Reference
+## Reference
 
 - [Choosing a LaTeX Compiler](https://www.overleaf.com/learn/latex/Choosing_a_LaTeX_Compiler)
 - [Paragraphs and new lines](https://www.overleaf.com/learn/latex/Paragraphs_and_new_lines)
@@ -16,22 +16,12 @@
 - [Screenplay template](https://www.overleaf.com/latex/templates/screenplay-template/grqmtrnytdhj)
 - [Retrotype](https://github.com/Vladar4/retrotype)
 
-#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/latex)
+## Cross-reference
 
-##### [Bible de Genève 1564](https://github.com/raphink/geneve_1564)
+- [latex.md](https://scillidan.github.io/notes/lib/neovim.html)
+- [texlive.md](https://scillidan.github.io/notes/bin/texlive.html)
 
-`fonts\*` can also be named:
+## Resource
 
-```
-EB Garamond 08 Italic.ttf
-EB Garamond 08 Regular.ttf
-EB Garamond 12 AllSC.ttf
-EB Garamond 12 Bold.ttf
-EB Garamond 12 Italic.ttf
-EB Garamond 12 Regular.ttf
-EB Garamond Initials.ttf
-EB Garamond Initials Fill1.ttf
-EB Garamond Initials Fill2.ttf
-EB Garamond SC 08 Regular.ttf
-EB Garamond SC 12 Regular.ttf
+```{include} lib/latex/geneve_1564.md
 ```

@@ -1,4 +1,4 @@
-### [Bark Web UI](https://github.com/makawy7/bark-webui)
+# [Bark Web UI](https://github.com/makawy7/bark-webui)
 
 ![](https://img.shields.io/github/license/makawy7/bark-webui?style=flat-square)
 

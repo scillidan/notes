@@ -1,5 +1,5 @@
-### [PureRef](https://pureref.com)
+# [PureRef](https://pureref.com)
 
-#### Usage
+## Usage
 
 `Ctrl+Right` → `Ctrl+Down` → `Ctrl+f` → Resize by mouse wheel → `Ctrl+Shift+r`

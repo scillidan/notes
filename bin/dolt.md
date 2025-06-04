@@ -1,4 +1,4 @@
-### [Dolt](https://www.dolthub.com/)
+# [Dolt](https://www.dolthub.com/)
 
 1. Get `dolt-windows-amd64.zip` from [Dolt - Releases](https://github.com/dolthub/dolt/releases).
 2. Decompress it to `dolt\`.

@@ -1,4 +1,4 @@
-### [TeX Live](https://www.tug.org/texlive)
+# [TeX Live](https://www.tug.org/texlive)
 
 ````{tab} Arch [^1][^2]
 ```sh
@@ -20,6 +20,11 @@ sudo /usr/local/texlive/2025/bin/x86_64-linux/tlmgr update --self --all
 luaotfload-tool -fu
 ```
 ````
+
+## Cross-reference
+
+- [latex.md](https://scillidan.github.io/notes/lib/latex.html)
+- [texlive.md](https://scillidan.github.io/notes/bin/neovim.html)
 
 [^1]: [TeX Live](https://wiki.archlinux.org/title/TeX_Live)
 [^2]: [tlmgr](https://tug.org/texlive/doc/tlmgr.html)

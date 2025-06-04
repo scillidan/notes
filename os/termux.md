@@ -1,4 +1,4 @@
-### Termux
+# Termux
 
 ```sh
 pkg update
@@ -38,11 +38,11 @@ pipx install deep-translator
 tldr --update
 ```
 
-#### About Username
+## About Username
 
 - [Termux is single-user](https://wiki.termux.com/wiki/Differences_from_Linux#Termux_is_single-user)
 
-#### Use [SSH](https://wiki.termux.com/wiki/Remote_Access#SSH)
+## Use [SSH](https://wiki.termux.com/wiki/Remote_Access#SSH)
 
 ```sh
 pkg install openssh
@@ -56,13 +56,13 @@ On PC:
 ssh -p 8022 <any_username>@<your_host>
 ```
 
-#### [Termux-setup-storage](https://wiki.termux.com/wiki/Termux-setup-storage)
+## [Termux-setup-storage](https://wiki.termux.com/wiki/Termux-setup-storage)
 
 ```sh
 termux-setup-storage
 ```
 
-#### Enable Linux file system [^1][^2]
+## Enable Linux file system [^1][^2]
 
 ```sh
 pkg install proot
@@ -70,14 +70,14 @@ termux-chroot
 ls /usr
 ```
 
-#### Install [Nerd Font](https://www.nerdfonts.com/font-downloads) [^3]
+## Install [Nerd Font](https://www.nerdfonts.com/font-downloads) [^3]
 
 ```sh
 wget https://raw.githubusercontent.com/scillidan/Nerd-Sarasa-Merge/main/MonaspiceArNFP-SarasaGothicSC-WFMSansSC.ttf -O ~/.termux/font.ttf
 termux-reload-settings
 ```
 
-#### Configure Keyboard [^4][^5]
+## Configure Keyboard [^4][^5]
 
 ```sh
 cp .termux/termux.properties .termux/termux.properties.bak
@@ -99,25 +99,25 @@ extra-keys = [[ \
 ]]
 ```
 
-#### Input Method
+## Input Method
 
 - [copy and paste using Ctrl-C Ctrl-V or right click menu](https://github.com/termux/termux-app/issues/1891)
 - [Text Input View](https://wiki.termux.com/wiki/Touch_Keyboard#Text_Input_View)
 
-#### About Desktop Environment
+## About Desktop Environment
 
 - [Graphical Environment](https://wiki.termux.com/wiki/Graphical_Environment)  
 - [Termux Desktop](https://github.com/adi1090x/termux-desktop)  
 - [termux-desktop-xfce](https://github.com/Yisus7u7/termux-desktop-xfce)
 
-#### LLM
+## LLM
 
 ```sh
 pkg install ollama
 ollama pull tinyllama
 ```
 
-#### [PRoot Distro](https://github.com/termux/proot-distro)
+## [PRoot Distro](https://github.com/termux/proot-distro)
 
 ```sh
 proot-distro install debian
@@ -130,7 +130,7 @@ proot-distro login archlinux
 pacman -Syyu
 ```
 
-#### Troubleshoot
+## Troubleshoot
 
 - [apt-get update fails to fetch files, “Temporary failure resolving …” error](https://askubuntu.com/questions/91543/apt-get-update-fails-to-fetch-files-temporary-failure-resolving-error)
 - [cargo install: specify a /tmp substitute?](https://stackoverflow.com/questions/64572901/cargo-install-specify-a-tmp-substitute/64616981#64616981)

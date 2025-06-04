@@ -1,4 +1,4 @@
-### [ArchWSL](https://github.com/yuk7/ArchWSL) [^1][^2][^3]
+# [ArchWSL](https://github.com/yuk7/ArchWSL) [^1][^2][^3]
 
 ```pwsh
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
@@ -56,7 +56,7 @@ sudo pacman -Syyu
 sudo pacman -S --needed base-devel
 ```
 
-#### Install Opts
+## Install Opts
 
 ````{tab} pacman
 ```sh
@@ -145,7 +145,7 @@ pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
 ```
 
-#### Install fonts
+## Install fonts
 
 ```sh
 mkdir -p ~/.local/share/fonts
@@ -153,7 +153,7 @@ mv <font> ~/.local/share/fonts/
 fc-cache -fv
 ```
 
-#### D-Bus [^5]
+## D-Bus [^5]
 
 ```sh
 # sudo pacman -S dbus
@@ -161,7 +161,7 @@ sudo mkdir /run/dbus -p
 sudo dbus-daemon --system
 ```
 
-#### systemd/systemctl [^5]
+## systemd/systemctl [^5]
 
 ```sh
 vim /etc/wsl.conf
@@ -172,7 +172,7 @@ vim /etc/wsl.conf
 systemd=true
 ```
 
-#### [WSLg](https://github.com/microsoft/wslg)
+## [WSLg](https://github.com/microsoft/wslg)
 
 ````{tab} Turn on [^6]
 ```sh
@@ -193,12 +193,12 @@ guiApplications=false
 ```
 ````
 
-#### Reference
+## Reference
 
 - [WSLg/WSL2 网络配置，终极解决方案 - 镜像网络](https://blog.gazer.win/essay/wsl2-mirrored-network.html) (Cache)
 - [WSL2 with GUI using Xvnc](https://gist.github.com/tdcosta100/385636cbae39fc8cd0937139e87b1c74) (Cache)
 
-#### Cross-reference
+## Cross-reference
 
 - [arch-linux.md](https://scillidan.github.io/notes/os/arch-linux.html)
 

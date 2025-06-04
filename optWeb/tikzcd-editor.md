@@ -1,4 +1,4 @@
-### [tikzcd-editor](https://github.com/yishn/tikzcd-editor)
+# [tikzcd-editor](https://github.com/yishn/tikzcd-editor)
 
 ![](https://img.shields.io/github/license/yishn/tikzcd-editor?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/tikzcd-editor/master?label=last%20commit%20(fork)&style=flat-square)
 

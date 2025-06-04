@@ -1,5 +1,5 @@
-### [Hydra Launcher](https://github.com/hydralauncher/hydra)
+# [Hydra Launcher](https://github.com/hydralauncher/hydra)
 
-#### Resource
+## Asset
 
 - [Hydra Community Links](https://hydralinks.cloud/)

@@ -1,4 +1,4 @@
-### [pdfCropMargins](https://github.com/abarker/pdfCropMargins)
+# [pdfCropMargins](https://github.com/abarker/pdfCropMargins)
 
 ```sh
 pipx install pdfCropMargins

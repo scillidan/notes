@@ -1,4 +1,4 @@
-### [code-server](https://github.com/coder/code-server/)
+# [code-server](https://github.com/coder/code-server/)
 
 ````{tab} Termux [^1][^2][^3]
 ...

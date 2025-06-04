@@ -1,4 +1,4 @@
-### [postgresql](https://www.postgresql.org/) [^1]
+# [postgresql](https://www.postgresql.org/) [^1]
 
 ````{tab} Ubuntu ARM
 ```sh

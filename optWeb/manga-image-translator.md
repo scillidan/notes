@@ -1,4 +1,4 @@
-### [Image/Manga Translator](https://github.com/zyddnys/manga-image-translator)
+# [Image/Manga Translator](https://github.com/zyddnys/manga-image-translator)
 
 ![](https://img.shields.io/github/license/zyddnys/manga-image-translator)
 

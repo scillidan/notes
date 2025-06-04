@@ -1,4 +1,4 @@
-### [MeloTTS](https://github.com/myshell-ai/MeloTTS)
+# [MeloTTS](https://github.com/myshell-ai/MeloTTS)
 
 ![](https://img.shields.io/github/license/myshell-ai/MeloTTS?style=flat-square)
 
@@ -14,7 +14,7 @@ python -m unidic download
 ```
 ````
 
-#### Usage
+## Usage
 
 ```sh
 melo "Hello" temp.wav --language EN

@@ -1,4 +1,4 @@
-### [sketch-to-lineart](https://github.com/seleb/sketch-to-lineart)
+# [sketch-to-lineart](https://github.com/seleb/sketch-to-lineart)
 
 ![](https://img.shields.io/github/license/seleb/sketch-to-lineart?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/sketch-to-lineart/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

@@ -1,4 +1,4 @@
-### [LunarVim](https://www.lunarvim.org/) [^1]
+# [LunarVim](https://www.lunarvim.org/) [^1]
 
 ````{tab} Windows 10
 Add to `cmder_mini\config\user_profile.cmd`:

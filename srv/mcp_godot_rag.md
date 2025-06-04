@@ -1,4 +1,4 @@
-### [A MCP server for Godot RAG](https://github.com/weekitmo/mcp_godot_rag)
+# [A MCP server for Godot RAG](https://github.com/weekitmo/mcp_godot_rag)
 
 ````{tab} From source
 ```sh
@@ -20,7 +20,7 @@ python main.py -d artifacts/vector_stores/chroma_db -c artifacts_chunks_SZ_400_O
 ```
 ````
 
-#### Setting
+## Setting
 
 - Extension → Cline → Manage MCP Servers → Settings → Configure MCP Servers
 	```json

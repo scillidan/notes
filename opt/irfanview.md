@@ -1,6 +1,6 @@
-### [IrfanView](https://irfanview.com)
+# [IrfanView](https://irfanview.com)
 
-#### Setting
+## Setting
 
 - Options → Properties/Settings
   - Start / Exit options → Exit options
@@ -15,7 +15,7 @@
       - Ask to rename if incorrect extension (On)
       - Others (Off)
 
-#### Usage
+## Usage
 
 1. Open a image with IrfanView
 2. (Optional) Hold and drag left mouse button → `Shift+Arrow_Key` → `Alt+Arrow_Key` → `Ctrl+y` to crop

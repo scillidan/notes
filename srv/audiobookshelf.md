@@ -1,4 +1,4 @@
-### [audiobookshelf](https://github.com/advplyr/audiobookshelf)
+# [audiobookshelf](https://github.com/advplyr/audiobookshelf)
 
 ````{tab} Docker compose
 ```sh
@@ -29,7 +29,7 @@ sudo docker compose up -d
 ```
 ````
 
-#### Reference
+## Reference
 
 - [Directory Structure](https://www.audiobookshelf.org/docs/#book-directory-structure)
 

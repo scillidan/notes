@@ -1,6 +1,4 @@
-### [Twenty](https://github.com/twentyhq/twenty) (Cache)
-
-#### Selfhost
+# [Twenty](https://github.com/twentyhq/twenty) (Cache)
 
 ````{tab} Docker compose [^1]
 ```sh

@@ -1,8 +1,8 @@
-### Lobe Chat Server Database
+# Lobe Chat Server Database
 
 ![](https://img.shields.io/github/license/lobehub/lobe-chat?style=flat-square)
 
-#### Deploy with docker compose [^1]
+## Deploy with docker compose [^1]
 
 ```sh
 mkdir lobe-chat-database
@@ -51,7 +51,7 @@ sudo docker compose up -d
 2. Casdorr → Identity → Applications → LobeChat → Edit
 3. Redirect URLs → Add → `http://<your_ip>:3210/api/auth/callback/casdoor` → Save & Exit
 
-#### Build docker image [^4] (Cache)
+## Build docker image [^4] (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/lobehub/lobe-chat
@@ -105,11 +105,11 @@ bash <(curl -fsSL https://lobe.li/setup.sh) -l en
 Remember the `username` and `password` displayed on the terminal.
 ````
 
-#### Deploy with Vercel
+## Deploy with Vercel
 
 - [Deploying Server Database Version on Vercel](https://lobehub.com/docs/self-hosting/server-database/vercel)
 
-#### Troubleshoot [^1] (Cache)
+## Troubleshoot [^1] (Cache)
 
 1. Visit `http://<your_host>:8000/login`. Login with `Username`, `Password`
 2. Casdorr → Identity → Applications → LobeChat → Edit

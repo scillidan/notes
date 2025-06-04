@@ -1,8 +1,6 @@
-### [Lobe Chat](https://github.com/lobehub/lobe-chat)
+# [Lobe Chat](https://github.com/lobehub/lobe-chat)
 
 ![](https://img.shields.io/github/license/lobehub/lobe-chat?style=flat-square)
-
-#### Selfhost
 
 ````{tab} From source
 ```sh
@@ -53,11 +51,11 @@ crontab -e
 - [Docker Compose Deployment Guide](https://lobehub.com/zh/docs/self-hosting/platform/docker-compose)
 ````
 
-#### Deploy with Vercel
+## Deploy with Vercel
 
 - [Deploy LobeChat with Vercel](https://lobehub.com/docs/self-hosting/platform/vercel)
 
-#### Reference
+## Reference
 
 - [[Bug] Ollama service is unavailable](https://github.com/lobehub/lobe-chat/issues/2337)  
 - [Hitting a Wall Trying to get Ollama to work with LobeChat or any other app (works fine in CLI in the container)](https://www.reddit.com/r/unRAID/comments/1ccxqu6/hitting_a_wall_trying_to_get_ollama_to_work_with/)

@@ -1,4 +1,4 @@
-### [Signature Pad](https://github.com/szimek/signature_pad)
+# [Signature Pad](https://github.com/szimek/signature_pad)
 
 ![](https://img.shields.io/github/license/szimek/signature_pad?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/signature_pad/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
@@ -11,7 +11,7 @@ npm run serve
 ```
 ````
 
-#### Deploy with Vercel
+## Deploy with Vercel
 
 1. When deploy with [Vercel](https://vercel.com).
 2. The Project → Settings → General → Build & Development Settings → Output Directory → `docs`.

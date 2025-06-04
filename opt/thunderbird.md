@@ -1,6 +1,6 @@
-### [Thunderbird](https://www.thunderbird.net/)
+# [Thunderbird](https://www.thunderbird.net/)
 
-#### Usage
+## Usage
 
 ````{tab} Outlook email
 1. [Outlook](https://outlook.live.com) email → Settings → Mail → Forwarding and IMAP → POP and IMAP

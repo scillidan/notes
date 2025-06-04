@@ -1,4 +1,4 @@
-### [MinIO Client](https://min.io/docs/minio/linux/reference/minio-mc.html)
+# [MinIO Client](https://min.io/docs/minio/linux/reference/minio-mc.html)
 
 ````{tab} Ubuntu 22 ARM
 ```sh

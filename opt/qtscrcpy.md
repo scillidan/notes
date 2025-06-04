@@ -1,6 +1,6 @@
-### [QtScrcpy](https://github.com/barry-ran/QtScrcpy) (Cache)
+# [QtScrcpy](https://github.com/barry-ran/QtScrcpy) (Cache)
 
-#### Usage
+## Usage
 
 1. 设置 → 连接 → WLAN → 当前网络 → IP地址
 2. 设置 → 关于手机 → 版本号(x7)

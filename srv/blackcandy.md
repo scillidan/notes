@@ -1,4 +1,4 @@
-### [Black Candy](https://github.com/blackcandy-org/blackcandy)
+# [Black Candy](https://github.com/blackcandy-org/blackcandy)
 
 ````{tab} Docker compose [^1]
 ```sh

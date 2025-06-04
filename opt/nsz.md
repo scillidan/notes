@@ -1,4 +1,4 @@
-### [NSZ](https://github.com/nicoboss/nsz)
+# [NSZ](https://github.com/nicoboss/nsz)
 
 ```sh
 git clone --depth=1 https://github.com/nicoboss/nsz

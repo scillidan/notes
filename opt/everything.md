@@ -1,6 +1,6 @@
-### [Everything](https://www.voidtools.com/)
+# [Everything](https://www.voidtools.com/)
 
-#### Setting
+## Setting
 
 - 选项 → 索引/排除列表 → 启用排除列表 → 添加筛选器
   ```
@@ -15,7 +15,7 @@
 - 索引 → 索引最近变化 Off
 - 索引 → NTFS → 自动... Off → 不搜索的本地磁盘 → 包含到数据库 Off, 启用USN日志 Off
 
-#### Reference
+## Reference
 
 - [Omit Recycle Bin Files From Search](https://www.voidtools.com/forum/viewtopic.php?t=6454)
 - [Tools Options Exclude "Exclude files" .tmp :: not working ??](https://www.voidtools.com/forum/viewtopic.php?t=11617)

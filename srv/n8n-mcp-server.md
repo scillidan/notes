@@ -1,4 +1,4 @@
-### [n8n MCP Server](https://github.com/leonardsellem/n8n-mcp-server)
+# [n8n MCP Server](https://github.com/leonardsellem/n8n-mcp-server)
 
 ````{tab} From source
 ```sh
@@ -29,7 +29,7 @@ Get `<your_n8n_api_key>` from n8n:
 node build/index.js
 ```
 
-#### Setting
+## Setting
 
 - Extension → Cline → Manage MCP Servers → Settings → Configure MCP Servers
 	```json

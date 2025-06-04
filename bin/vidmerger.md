@@ -1,4 +1,4 @@
-### [Vidmerger](https://github.com/tgotwig/vidmerger)
+# [Vidmerger](https://github.com/tgotwig/vidmerger)
 
 ````{tab} From source
 ```sh

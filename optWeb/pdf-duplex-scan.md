@@ -1,4 +1,4 @@
-### [Rearrange PDF as Duplex Scan](https://github.com/clemensheithecker/pdf-duplex-scan)
+# [Rearrange PDF as Duplex Scan](https://github.com/clemensheithecker/pdf-duplex-scan)
 
 ![](https://img.shields.io/github/license/clemensheithecker/pdf-duplex-scan?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/pdf-duplex-scan/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

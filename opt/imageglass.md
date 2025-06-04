@@ -1,6 +1,6 @@
-### [ImageGlass](https://github.com/d2phap/ImageGlass)
+# [ImageGlass](https://github.com/d2phap/ImageGlass)
 
-#### Setting
+## Setting
 
 - More → Settings
 	- Tools → Add:

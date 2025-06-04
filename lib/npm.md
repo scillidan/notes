@@ -1,6 +1,6 @@
-### [NPM](https://www.npmjs.com/)
+# [NPM](https://www.npmjs.com/)
 
-#### Publish npm package
+## Publish npm package
 
 ```sh
 npm login

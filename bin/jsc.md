@@ -1,4 +1,4 @@
-### [Jackett Search Cli](https://github.com/rodrigo-sys/jsc) (Cache)
+# [Jackett Search Cli](https://github.com/rodrigo-sys/jsc) (Cache)
 
 ````{tab} Termux
 ```sh
@@ -26,6 +26,6 @@ jsc -t nyaa-si -s "chainsaw man" | xargs -n 1 -r aria2
 ```
 ````
 
-#### Cross-reference
+## Cross-reference
 
 - [jackett.md](https://scillidan.github.io/notes/srv/jackett.html)

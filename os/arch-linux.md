@@ -1,8 +1,8 @@
-### [Arch Linux](https://archlinux.org/)
+# [Arch Linux](https://archlinux.org/)
 
-#### Init
+## Init
 
-##### Login
+### Login
 
 After boot, login with [^1]:
 
@@ -11,7 +11,7 @@ username: root
 password: root
 ```
 
-##### Wireless configure [^2] (Optional):
+### Wireless configure [^2] (Optional):
 
 ```sh
 ip link
@@ -26,7 +26,7 @@ station wlan0 connect "<ssid>"
 ping archlinux.org
 ```
 
-##### [Pacman](https://pacman.archlinux.page/) [^3][^4]
+### [Pacman](https://pacman.archlinux.page/) [^3][^4]
 
 Use repository mirror:
 
@@ -57,7 +57,7 @@ Removes older versions of packages from the cache, keeping only the two most rec
 sudo paccache -rk 2
 ```
 
-##### [Users and groups](https://wiki.archlinux.org/title/Users_and_groups)
+### [Users and groups](https://wiki.archlinux.org/title/Users_and_groups)
 
 ````{tab} useradd
 ```sh
@@ -86,7 +86,7 @@ sudousers ALL=(ALL)ALL
 reboot
 ```
 
-##### [Localization](https://wiki.archlinux.org/title/Localization) [^5]
+### [Localization](https://wiki.archlinux.org/title/Localization) [^5]
 
 ```sh
 sudo vim /etc/locale.gen
@@ -109,13 +109,13 @@ sudo vim /etc/locale.conf
 LANG=en_US.UTF-8
 ```
 
-##### [System time](https://wiki.archlinux.org/title/System_time)
+### [System time](https://wiki.archlinux.org/title/System_time)
 
 ```sh
 timedatectl set-timezone Asia/Shanghai
 ```
 
-##### [Set the hostname](https://wiki.archlinux.org/title/Network_configuration#Set_the_hostname)
+### [Set the hostname](https://wiki.archlinux.org/title/Network_configuration#Set_the_hostname)
 
 ```sh
 sudo vim /etc/hostname
@@ -129,7 +129,7 @@ sudo vim /etc/hostname
 sudo systemctl restart systemd-hostnamed
 ```
 
-##### [Domain name resolution](https://wiki.archlinux.org/title/Domain_name_resolution) [^6]
+### [Domain name resolution](https://wiki.archlinux.org/title/Domain_name_resolution) [^6]
 
 ```sh
 sudo vim /etc/hosts
@@ -145,7 +145,7 @@ sudo vim /etc/hosts
 sudo systemctl restart systemd-resolved
 ```
 
-##### [NetworkManager](https://wiki.archlinux.org/title/NetworkManager)
+### [NetworkManager](https://wiki.archlinux.org/title/NetworkManager)
 
 ```sh
 sudo pacman -S networkmanager
@@ -160,14 +160,14 @@ Enable system tray:
 sudo pacman -S network-manager-applet
 ```
 
-#### Setup
+## Setup
 
 ```sh
 sudo pacman -S mpv \
 	yt-dlp
 ```
 
-##### [yay](https://github.com/Jguer/yay)
+### [yay](https://github.com/Jguer/yay)
 
 ````{tab} pacman
 ```sh
@@ -186,13 +186,13 @@ yay
 ```
 ````
 
-##### [Paru](https://github.com/Morganamilo/paru) (Optional)
+### [Paru](https://github.com/Morganamilo/paru) (Optional)
 
 ```sh
 yay -S paru
 ```
 
-##### [Flatpak](https://github.com/flatpak/flatpak) [^7][^8] (Optional)
+### [Flatpak](https://github.com/flatpak/flatpak) [^7][^8] (Optional)
 
 ```sh
 sudo pacman -S flatpak
@@ -202,7 +202,7 @@ flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/fl
 
 You can find apps on [Flathub](https://flathub.org/).
 
-##### [Uncomplicated Firewall](https://wiki.archlinux.org/title/Uncomplicated_Firewall)
+### [Uncomplicated Firewall](https://wiki.archlinux.org/title/Uncomplicated_Firewall)
 
 ```sh
 sudo pacman -S ufw
@@ -211,7 +211,7 @@ sudo systemctl enable --now ufw
 sudo ufw status
 ```
 
-##### SSH [^8]
+### SSH [^8]
 
 ```sh
 sudo pacman -S openssh
@@ -226,24 +226,24 @@ Get your `ip` of `inet`. On client machine:
 ssh <user>@<ip>
 ```
 
-##### [Xfce](https://wiki.archlinux.org/title/Xfce) [^9]
+### [Xfce](https://wiki.archlinux.org/title/Xfce) [^9]
 
 ```sh
 sudo pacman -S xorg
 sudo pacman -S xfce4 xfce4-goodies
 ```
 
-##### i3 [^10] (Optional)
+### i3 [^10] (Optional)
 
 ```sh
 sudo pacman -S i3
 ```
 
-##### [Hyprland](https://hyprland.org/) (Cache)
+### [Hyprland](https://hyprland.org/) (Cache)
 
-##### [Sway](https://swaywm.org/) [^11] (Cache)
+### [Sway](https://swaywm.org/) [^11] (Cache)
 
-##### Thunar
+### Thunar
 
 - Thunar → View → Show Hidden Files
 - Thunar → View → Configure Toolbar
@@ -253,13 +253,13 @@ sudo pacman -S i3
 	View Switcher
 	```
 
-##### [Nemo](https://wiki.archlinux.org/title/Nemo) [^12] (Optional)
+### [Nemo](https://wiki.archlinux.org/title/Nemo) [^12] (Optional)
 
 ```sh
 sudo pacman -S nemo
 ```
 
-##### [LightDM](https://wiki.archlinux.org/title/LightDM) [^13][^14]
+### [LightDM](https://wiki.archlinux.org/title/LightDM) [^13][^14]
 
 ```sh
 sudo pacman -S lightdm lightdm-webkit2-greeter
@@ -290,7 +290,7 @@ webkit_theme = minimal
 sudo systemctl enable --now lightdm
 ```
 
-##### [xfce-tile](https://github.com/dodophoenix/xfce-tile) (Optional)
+### [xfce-tile](https://github.com/dodophoenix/xfce-tile) (Optional)
 
 ```sh
 git clone --depth=1 https://github.com/dodophoenix/xfce-tile
@@ -301,7 +301,7 @@ chmod +x ./xfce-setup-shortcuts.sh
 ./xfce-setup-shortcuts.sh
 ```
 
-##### Console font [^15][^16] (Optional)
+### Console font [^15][^16] (Optional)
 
 ```sh
 showconsolefont
@@ -310,7 +310,7 @@ sudo pacman -S terminus-font
 setfont drdos8x14 -m 8859-2
 ```
 
-##### Bluetooth [^17][^18]
+### Bluetooth [^17][^18]
 
 ```sh
 sudo pacman -S bluez bluez-utils blueman
@@ -331,7 +331,7 @@ sudo systemctl restart bluetooth
 systemctl status bluetooth
 ```
 
-##### Audio
+### Audio
 
 ````{tab} pulseaudio
 ```sh
@@ -347,7 +347,7 @@ sudo systemctl enable --now pipewire
 ```
 ````
 
-##### USB drive [^20]
+### USB drive [^20]
 
 ```sh
 sudo pacman -S udisks2
@@ -360,7 +360,7 @@ udisksctl unmount -b /dev/sda1
 udisksctl power-off -b /dev/sda
 ```
 
-##### [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) [^3]
+### [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) [^3]
 
 ```sh
 git clone --depth=1 https://github.com/AdnanHodzic/auto-cpufreq.git
@@ -371,7 +371,7 @@ sudo systemctl status auto-cpufreq
 sudo auto-cpufreq --stats
 ```
 
-##### [preload](http://sourceforge.net/projects/preload) [^3]
+### [preload](http://sourceforge.net/projects/preload) [^3]
 
 ```sh
 yay -S preload
@@ -384,7 +384,7 @@ sudo systemctl stop preload && sudo systemctl disable preload
 sudo reboot
 ```
 
-##### [Timeshift](https://github.com/teejee2008/timeshift) [^3]
+### [Timeshift](https://github.com/teejee2008/timeshift) [^3]
 
 ```sh
 yay -S timeshift
@@ -395,9 +395,9 @@ sudo timeshift --list
 sudo timeshift --restore --snapshot '20XX-XX-XX_XX-XX-XX' --skip-grub
 ```
 
-##### [restic](https://restic.net/) (Cache)
+### [restic](https://restic.net/) (Cache)
 
-##### Application Autostart
+## Application Autostart
 
 Settings → Session and Startup → Application Autostart → Add:
 
@@ -406,9 +406,9 @@ Name `<name>`
 Command `<command>`
 ```
 
-##### Configure Desktop
+## Configure Desktop
 
-###### [Materia](https://github.com/nana-4/materia-theme)
+### [Materia](https://github.com/nana-4/materia-theme)
 
 ```sh
 sudo pacman -S materia-gtk-theme
@@ -416,7 +416,7 @@ sudo pacman -S materia-gtk-theme
 
 Settings → Appearance → Style → Materia-dark-compact.
 
-###### [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+### [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 
 ```sh
 sudo pacman -S papirus-icon-theme
@@ -424,9 +424,9 @@ sudo pacman -S papirus-icon-theme
 
 Settings → Appearance → Icons → `Papirus-Dark`.
 
-###### [SIF](https://github.com/BlueManCZ/SIF) (Optional)
+### [SIF](https://github.com/BlueManCZ/SIF) (Optional)
 
-##### Configure Cursor
+## Configure Cursor
 
 ```sh
 mkdir ~/.icons
@@ -445,7 +445,7 @@ tar -xvf Chroma-Black-S.tar.xz
 
 Settings → Mouse and Touchpad → Theme → `<theme>`
 
-##### Configure applications menu
+## Configure applications menu
 
 - Settings → Panel → Appearance
 	- Style → Solid color
@@ -487,7 +487,7 @@ Settings → Mouse and Touchpad → Theme → `<theme>`
 		- Layout → Time Only
 	13. Separator → Expand (Off)
 
-##### Configure wallpaper
+## Configure wallpaper
 
 ````{tab} Thunar
 ```sh
@@ -506,13 +506,13 @@ sudo pacman -S nitrogen
 nitrogen → Preferences → Add → `~/Pictures/wallpaper` → OK → Apply.
 ````
 
-##### Disable screen lock
+## Disable screen lock
 
 - Settings → Xfce Screensaver
 	- Screensaver → Enable Screensaver (Off)
 	- Lock Screen → Enable Lock Screen (Off)
 
-##### Fonts
+## Fonts
 
 ```sh
 sudo pacman -S adobe-source-han-serif-cn-fonts \
@@ -521,28 +521,28 @@ sudo pacman -S adobe-source-han-serif-cn-fonts \
 	noto-fonts-extra
 ```
 
-#### Install Opts
+## Install Opts
 
-##### [picom](https://github.com/yshui/picom)
+### [picom](https://github.com/yshui/picom)
 
 ```sh
 sudo pacman -S picom
 ```
 
-##### [dunst](https://github.com/dunst-project/dunst)
+### [dunst](https://github.com/dunst-project/dunst)
 
 ```sh
 sudo pacman -S dunst
 ```
 
-##### [Alacritty](https://alacritty.org/)
+### [Alacritty](https://alacritty.org/)
 
 ```sh
 sudo pacman -R xfce4-terminal
 sudo pacman -S alacritty
 ```
 
-##### [Rime](https://rime.im/)
+### [Rime](https://rime.im/)
 
 ```sh
 sudo pacman -S fcitx5-im
@@ -559,26 +559,26 @@ XMODIFIERS=fcitx
 SDL_IM_MODULE=fcitx
 ```
 
-##### [Brave](https://brave.com)
+### [Brave](https://brave.com)
 
 ```sh
 yay -S brave-bin
 ```
 
-##### [qutebrowser](https://qutebrowser.org/) (Optional)
+### [qutebrowser](https://qutebrowser.org/) (Optional)
 
 ```sh
 pacman -S qutebrowser
 ```
 
-##### [mpv](https://mpv.io/)
+### [mpv](https://mpv.io/)
 
 ```sh
 sudo pacman -S mpv
 cp -r /usr/share/doc/mpv/ ~/.config/
 ```
 
-##### [ClamAV](https://www.clamav.net/)
+### [ClamAV](https://www.clamav.net/)
 
 ```sh
 sudo pacman -S clamav
@@ -595,28 +595,28 @@ If return `ERROR: Can't create freshclam.dat in /usr/local/share/clamav` [^21]:
 sudo chown -R <user> /usr/local/share/clamav
 ```
 
-##### Clipboard
+### Clipboard
 
 ```sh
 sudo pacman -R xfce4-clipman-plugin
 sudo pacman -S copyq
 ```
 
-##### [qView](https://interversehq.com/qview/) (Optional)
+### [qView](https://interversehq.com/qview/) (Optional)
 
 ```sh
 yay -S qview
 ```
 
-##### [Flameshot](https://flameshot.org/) (Optional)
+### [Flameshot](https://flameshot.org/) (Optional)
 
-##### [Snipaste](https://www.snipaste.com/)
+### [Snipaste](https://www.snipaste.com/)
 
 ```sh
 yay -S snipaste
 ```
 
-##### [eSearch](https://github.com/xushengfeng/eSearch) (Optional)
+### [eSearch](https://github.com/xushengfeng/eSearch) (Optional)
 
 ```sh
 git clone --depth=1 https://aur.archlinux.org/e-search-bin.git
@@ -632,7 +632,7 @@ makepkg
 sudo pacman -U e-search-bin-*-1-x86_64.pkg.tar.zst
 ```
 
-##### [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
+### [Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
 
 ````{tab} yay
 ```sh
@@ -650,7 +650,7 @@ mv Umi-OCR_Linux_Paddle_* Umi-OCR_Linux_Paddle
 ```
 ````
 
-##### [Goldendict](https://github.com/goldendict/goldendict)
+### [Goldendict](https://github.com/goldendict/goldendict)
 
 ````{tab} pacman
 ```sh
@@ -668,13 +668,13 @@ yay -Ql goldendict
 ```
 ````
 
-##### [Rofi](https://github.com/davatorium/rofi)
+### [Rofi](https://github.com/davatorium/rofi)
 
 ```sh
 sudo pacman -S rofi
 ```
 
-###### [rofi-shortcuts](https://github.com/Zeioth/rofi-shortcuts) (Optional)
+#### [rofi-shortcuts](https://github.com/Zeioth/rofi-shortcuts) (Optional)
 
 ````{tab} From source
 ```sh
@@ -693,20 +693,20 @@ ln -sf ~/.local/share/rofi/rofi-shortcuts/rofi-shortcuts.sh ~/.local/bin/rofi-sh
 rofi-shortcuts
 ```
 
-###### [rofi-calc](https://github.com/svenstaro/rofi-calc) (Optional)
+#### [rofi-calc](https://github.com/svenstaro/rofi-calc) (Optional)
 
 ```sh
 sudo pacman -S rofi-calc
 rofi -show calc -modi calc -no-show-match -no-sort
 ```
 
-###### [Rofimoji](https://github.com/fdw/rofimoji)
+#### [Rofimoji](https://github.com/fdw/rofimoji)
 
 ```sh
 sudo pacman -S rofimoji
 ```
 
-###### [rofi-copyq](https://github.com/cjbassi/rofi-copyq)
+#### [rofi-copyq](https://github.com/cjbassi/rofi-copyq)
 
 ```sh
 git clone --depth=1 https://github.com/cjbassi/rofi-copyq
@@ -714,20 +714,20 @@ cd rofi-copyq
 ./rofi-copyq
 ```
 
-##### [AHK_X11](https://github.com/phil294/AHK_X11) (Cache)
+### [AHK_X11](https://github.com/phil294/AHK_X11) (Cache)
 
 ```sh
 yay -S ahk_x11-bin
 ```
 
-##### [keymapper](https://github.com/houmain/keymapper) (Wait)
+### [keymapper](https://github.com/houmain/keymapper) (Later)
 
 ```sh
 yay -S keymapper
 sudo systemctl enable --now keymapperd
 ```
 
-##### [Input Leap](https://github.com/input-leap/input-leap) (Optional)
+### [Input Leap](https://github.com/input-leap/input-leap) (Optional)
 
 ```sh
 yay -S input-leap-git
@@ -736,26 +736,26 @@ input-leap
 
 On Client PC, install [Barrier](https://github.com/debauchee/barrier).
 
-##### [WeChat](https://flathub.org/apps/com.tencent.WeChat)
+### [WeChat](https://flathub.org/apps/com.tencent.WeChat)
 
 ```sh
 flatpak install flathub com.tencent.WeChat
 ```
 
-##### Photoshop CC (Cache)
+### Photoshop CC (Cache)
 
 - [Photoshop CC v19 installer for Linux](https://github.com/Gictorbit/photoshopCClinux)
 - [error: sorry something went wrong during download photoshopCC-V19.1.6-2018x64.tgz](https://github.com/Gictorbit/photoshopCClinux/issues/175)
 - [Dropbox link to download photoshopCC-V19.1.6-2018x64.tgz is broken](https://github.com/Gictorbit/photoshopCClinux/issues/40)
 
-#### Reference
+## Reference
 
 - [Desktop entries](https://wiki.archlinux.org/title/desktop_entries)
 - [My workstation configs](https://github.com/bibjaw99/workstation)
 - [vim_styled](https://github.com/qxb3/conf/tree/vim_styled)
 - [dotfiles-x220](https://github.com/diffficult/dotfiles_220)
 
-#### Cross-reference
+## Cross-reference
 
 - [archwsl.md](https://scillidan.github.io/notes/os/archwsl.html)
 

@@ -1,4 +1,4 @@
-### [Projz - RenyPy Translation Toolkit](https://github.com/abse4411/projz_renpy_translation) (Later)
+# [Projz - RenyPy Translation Toolkit](https://github.com/abse4411/projz_renpy_translation) (Later)
 
 ````{tab} From source
 ```sh

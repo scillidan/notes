@@ -1,4 +1,4 @@
-### [CasaOS](https://github.com/IceWhaleTech/CasaOS)
+# [CasaOS](https://github.com/IceWhaleTech/CasaOS)
 
 ````{tab} Ubuntu 24 ARM
 ```sh

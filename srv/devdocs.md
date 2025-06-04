@@ -1,4 +1,4 @@
-### [DevDocs](https://github.com/freeCodeCamp/devdocs)
+# [DevDocs](https://github.com/freeCodeCamp/devdocs)
 
 ````{tab} Windows 10
 ```sh

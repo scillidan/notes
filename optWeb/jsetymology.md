@@ -1,4 +1,4 @@
-### [jsetymology](https://github.com/myrriad/jsetymology)
+# [jsetymology](https://github.com/myrriad/jsetymology)
 
 ![](https://img.shields.io/github/license/myrriad/jsetymology?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/jsetymology/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

@@ -1,5 +1,5 @@
-### [T-Clock](https://github.com/White-Tiger/T-Clock)
+# [T-Clock](https://github.com/White-Tiger/T-Clock)
 
-#### Setting
+## Setting
 
 - Options → Time → Format → Time options → Only keep `Hour`, `Minute` on

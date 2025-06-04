@@ -1,6 +1,4 @@
-### [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
-
-#### Selfhost
+# [Paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
 
 ````{tab} Docker compose [^1] [^2]
 ```sh
@@ -39,6 +37,6 @@ sudo docker compose up -d
 [^2]: [Paperless-ngx - Bare Metal Route](https://docs.paperless-ngx.com/setup/#bare_metal)
 ````
 
-#### Reference
+## Reference
 
 - [Scanner & Software Recommendations](https://github.com/paperless-ngx/paperless-ngx/wiki/Scanner-&-Software-Recommendations)

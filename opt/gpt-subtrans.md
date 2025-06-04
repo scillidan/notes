@@ -1,4 +1,4 @@
-### [GPT-Subtrans](https://github.com/machinewrapped/gpt-subtrans)
+# [GPT-Subtrans](https://github.com/machinewrapped/gpt-subtrans)
 
 ![](https://img.shields.io/github/license/machinewrapped/gpt-subtrans?style=flat-square)
 
@@ -14,13 +14,13 @@ gui-subtrans
 ```
 ````
 
-#### Setting
+## Setting
 
 - Settings → Processing
 	- Preprocess Subtitles (On)
 	- Postprocess Translation (On)
 	- Save Preprocessed Subtitles (On)
 
-#### Usage
+## Usage
 
 - Open file → Select `<subtitle>` → Project Settings → Entry `Movie Name`, `Target Language` → Start

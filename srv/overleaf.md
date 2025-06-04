@@ -1,4 +1,4 @@
-### [Overleaf](https://github.com/overleaf/overleaf) (Cache)
+# [Overleaf](https://github.com/overleaf/overleaf) (Cache)
 
 ````{tab} ArchWSL
 ```sh

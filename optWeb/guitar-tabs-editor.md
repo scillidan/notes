@@ -1,4 +1,4 @@
-### [Guitar Editor](https://github.com/haixiangyan/guitar-tabs-editor)
+# [Guitar Editor](https://github.com/haixiangyan/guitar-tabs-editor)
 
 ![](https://img.shields.io/github/license/haixiangyan/guitar-tabs-editor?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/guitar-tabs-editor/master?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 

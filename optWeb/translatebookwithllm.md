@@ -1,4 +1,4 @@
-### [TBL](https://github.com/hydropix/TranslateBookWithLLM) (Cache)
+# [TBL](https://github.com/hydropix/TranslateBookWithLLM) (Cache)
 
 ![](https://img.shields.io/github/license/hydropix/TranslateBookWithLLM?style=flat-square)
 

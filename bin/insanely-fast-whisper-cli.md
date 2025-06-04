@@ -1,4 +1,4 @@
-### [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli)
+# [insanely-fast-whisper-cli](https://github.com/ochen1/insanely-fast-whisper-cli)
 
 ````{tab} From source
 ```sh

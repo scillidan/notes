@@ -1,6 +1,6 @@
-### [Datasette](https://datasette.io)
+# [Datasette](https://datasette.io)
 
-#### Data processing
+## Data processing
 
 ```sh
 pipx install sqlite-utils
@@ -10,7 +10,7 @@ sqlite-utils enable-fts database.db table column_1 column_2
 # sqlite-utils insert-files resource.db latex media/*.jpg
 ```
 
-#### Selfhost [^1]
+## Selfhost [^1]
 
 ```sh
 mkdir <dir>
@@ -26,7 +26,7 @@ datasette serve database.db
 datasette serve database_1.db database_2.db -m metadata.yml
 ```
 
-#### Deploy to Vercel [^3]
+## Deploy to Vercel [^3]
 
 Create `.github/workflows/vercel.yml`
 
@@ -69,11 +69,9 @@ jobs:
 
 Vercel → Project `database` → Settings → Build and Deployment → Node.js Version → 18.x
 
-#### Reference
+## Reference
 
 - [Configuring FTS using sqlite-utils](https://docs.datasette.io/en/stable/full_text_search.html#configuring-fts-using-sqlite-utils)
-
-#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/datasette)
 
 [^1]: [Metadata](https://docs.datasette.io/en/stable/metadata.html)
 [^2]: [sqlite-utils](https://github.com/simonw/sqlite-utils)

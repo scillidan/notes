@@ -1,4 +1,4 @@
-### [MarkItDown](https://github.com/microsoft/markitdown)
+# [MarkItDown](https://github.com/microsoft/markitdown)
 
 ```sh
 git clone --depth=1 https://github.com/microsoft/markitdown

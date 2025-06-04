@@ -1,4 +1,4 @@
-### [Image Deduplicator](https://github.com/idealo/imagededup) (Cache)
+# [Image Deduplicator](https://github.com/idealo/imagededup) (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/idealo/imagededup

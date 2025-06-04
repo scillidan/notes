@@ -1,4 +1,4 @@
-### [Programming Fonts](https://github.com/braver/programmingfonts)
+# [Programming Fonts](https://github.com/braver/programmingfonts)
 
 ![](https://img.shields.io/github/license/braver/programmingfonts) ![](https://img.shields.io/github/last-commit/scillidan/programmingfonts/gh-pages) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

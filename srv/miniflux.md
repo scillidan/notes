@@ -1,4 +1,4 @@
-### [Miniflux](https://miniflux.app/)
+# [Miniflux](https://miniflux.app/)
 
 ````{tab} Windows 10
 1. Get `miniflux-windows-amd64` from [releases](https://github.com/miniflux/v2/releases), rename it to `miniflux.exe`.
@@ -120,7 +120,7 @@ sudo systemctl enable --now postgresql
 ```
 ````
 
-#### Tips
+## Tips
 
 ```sh
 # Backup data
@@ -137,7 +137,7 @@ sudo pg_dropcluster 16 main --stop
 sudo apt-get remove --purge postgresql-16
 ```
 
-#### Reference
+## Reference
 
 - [Feed Filtering Rules](https://miniflux.app/docs/rules.html#feed-filtering-rules)
 

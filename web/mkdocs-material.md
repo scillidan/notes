@@ -1,4 +1,4 @@
-### [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
+# [Material for MkDocs](https://github.com/squidfunk/mkdocs-material)
 
 ```sh
 mkdir <site>
@@ -15,7 +15,7 @@ theme:
   name: material
 ```
 
-#### Reference
+## Reference
 
 - [Pymdown extensions dependency issue](https://github.com/squidfunk/mkdocs-material/issues/5526)
 - [Changing the logo and icons](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)

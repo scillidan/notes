@@ -1,4 +1,4 @@
-### [Lipsync Generator: Rhubarb & Whisper AI](https://github.com/fralapo/LipSyncify) (Cache)
+# [Lipsync Generator: Rhubarb & Whisper AI](https://github.com/fralapo/LipSyncify) (Cache)
 
 ````{tab} From source
 ```sh

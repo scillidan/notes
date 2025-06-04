@@ -1,4 +1,4 @@
-### [fzf](https://github.com/junegunn/fzf)
+# [fzf](https://github.com/junegunn/fzf)
 
 ````{tab} Ubuntu 22 ARM
 Get `fzf-*-linux_arm64.tar.gz` from [fzf - Releases](https://github.com/junegunn/fzf/releases).

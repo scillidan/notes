@@ -1,4 +1,4 @@
-### [Kiwix JS](https://github.com/kiwix/kiwix-js-pwa)
+# [Kiwix JS](https://github.com/kiwix/kiwix-js-pwa)
 
 ![](https://img.shields.io/github/license/kiwix/kiwix-js-pwa?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/kiwix-js-pwa/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 
@@ -18,7 +18,7 @@ pm2 serve dist 5173 --name kiwix-js-pwa --spa --env production
 ```
 ````
 
-#### Usage
+## Usage
 
 1. Visit `http://localhost:5173`
 2. Setting → Use Private File System → Add file(s) → Add to OPFS → Select your `.zim` → Wait for it to complete

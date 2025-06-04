@@ -1,4 +1,4 @@
-### [autoflow](https://github.com/pingcap/autoflow) (Cache)
+# [autoflow](https://github.com/pingcap/autoflow) (Cache)
 
 ![](https://img.shields.io/github/license/pingcap/autoflow?style=flat-square)
 

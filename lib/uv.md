@@ -1,4 +1,4 @@
-### [uv](https://docs.astral.sh/uv/)
+# [uv](https://docs.astral.sh/uv/)
 
 ````{tab} Arch
 ```sh

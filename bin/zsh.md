@@ -1,4 +1,4 @@
-### [Zsh](https://www.zsh.org/)
+# [Zsh](https://www.zsh.org/)
 
 ````{tab} Ubuntu 22 ARM
 ```sh
@@ -10,28 +10,13 @@ source .zshrc
 ```
 ````
 
-#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/zsh)
+## Plugin
 
-##### [zenquotes](https://github.com/aminelch/zenquotes)
-
-```sh
-cd $ZSH/custom/plugins
-git clone https://github.com/aminelch/zenquotes
+```{include} bin/zsh/zenquotes.md
 ```
-
-##### [zsh-abbr](https://github.com/olets/zsh-abbr)
-
-- [abbr c does not clear abbreviations created with the pattern abbr x=y](https://github.com/olets/zsh-abbr/issues/88)
-
-##### [zsh-proxy](https://github.com/SukkaW/zsh-proxy)
-
-```sh
-init_proxy
-config_proxy
-proxy
-# noproxy
+```{include} bin/zsh/zsh-abbr.md
 ```
-
-##### [zsh-ssh](https://github.com/sunlei/zsh-ssh)
-
-- [Using the SSH Config File](https://linuxize.com/post/using-the-ssh-config-file/)
+```{include} bin/zsh/zsh-proxy.md
+```
+```{include} bin/zsh/zsh-ssh.md
+```

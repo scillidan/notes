@@ -1,4 +1,4 @@
-### [FastKokoro](https://github.com/remsky/Kokoro-FastAPI)
+# [FastKokoro](https://github.com/remsky/Kokoro-FastAPI)
 
 `````{tab} From source [^1]
 ```sh

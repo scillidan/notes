@@ -1,4 +1,4 @@
-#### [Translate Shell](https://github.com/soimort/translate-shell)
+## [Translate Shell](https://github.com/soimort/translate-shell)
 
 ```sh
 mkdir ~/.config/translate-shell

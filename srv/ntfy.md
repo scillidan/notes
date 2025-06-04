@@ -1,4 +1,4 @@
-### [ntfy.sh](https://ntfy.sh/)
+# [ntfy.sh](https://ntfy.sh/)
 
 ````{tab} Ubuntu 24 ARM [^1]
 ```sh

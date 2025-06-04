@@ -1,4 +1,4 @@
-### [nvm](https://github.com/nvm-sh/nvm)
+# [nvm](https://github.com/nvm-sh/nvm)
 
 ````{tab} Arch
 ```sh
@@ -27,6 +27,6 @@ nvm use lts
 # nvm install hydrogen
 ```
 
-#### Reference
+## Reference
 
 - [Node.js Releases](https://nodejs.org/en/about/previous-releases)

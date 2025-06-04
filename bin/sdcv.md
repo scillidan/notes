@@ -1,4 +1,4 @@
-### [sdcv](https://github.com/Dushistov/sdcv) [^1]
+# [sdcv](https://github.com/Dushistov/sdcv) [^1]
 
 1. Get [ecdict-stardict-28.zip](https://github.com/skywind3000/ECDICT/releases) form [ECDICT](https://github.com/skywind3000/ECDICT).
 2. Depress it into `files_sdcv/stardict-ecdct-2.4.2`

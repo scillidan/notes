@@ -1,6 +1,6 @@
-### [JPEGView](https://github.com/sylikc/jpegview)
+# [JPEGView](https://github.com/sylikc/jpegview)
 
-#### Setting
+## Setting
 
 - 右键
   - 显示导航面板 (Off)

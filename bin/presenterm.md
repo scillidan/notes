@@ -1,4 +1,4 @@
-### [presenterm](https://github.com/mfontanini/presenterm)
+# [presenterm](https://github.com/mfontanini/presenterm)
 
 ````{tab} ArchWSL
 ```sh
@@ -6,7 +6,7 @@ sudo pacman -S presenterm
 ```
 ````
 
-#### Usage
+## Usage
 
 ```sh
 git clone --depth=1 https://github.com/mfontanini/presenterm

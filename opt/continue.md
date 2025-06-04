@@ -1,6 +1,6 @@
-### [Continue](https://github.com/continuedev/continue) [^1]
+# [Continue](https://github.com/continuedev/continue) [^1]
 
-#### Setting
+## Setting
 
 - VSCode/VSCodium → Sidebar → Continue → Configure Continue:
   ```sh
@@ -23,8 +23,8 @@
   }
   ```
 
-[^1]: [Configuring Ollama and Continue VS Code Extension for Local Coding Assistant](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)
-
-#### Reference
+## Reference
 
 - [开源 AI 编程工具（一） Continue](https://www.rectcircle.cn/posts/open-source-ai-code-tool-1-continue/)
+
+[^1]: [Configuring Ollama and Continue VS Code Extension for Local Coding Assistant](https://dev.to/manjushsh/configuring-ollama-and-continue-vs-code-extension-for-local-coding-assistant-48li)

@@ -1,4 +1,4 @@
-### [Yomi-Reader](https://github.com/ShaddyDC/Yomi-Reader)
+# [Yomi-Reader](https://github.com/ShaddyDC/Yomi-Reader)
 
 ![](https://img.shields.io/github/license//ShaddyDC/Yomi-Reader?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/Yomi-Reader/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
 

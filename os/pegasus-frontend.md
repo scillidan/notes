@@ -1,4 +1,4 @@
-### [Pegasus Frontend](https://github.com/mmatyas/pegasus-frontend)
+# [Pegasus Frontend](https://github.com/mmatyas/pegasus-frontend)
 
 On Windows:
 
@@ -34,7 +34,7 @@ Then:
 
 For me, I used [setup_pegasus-frontend.bat](https://github.com/scillidan/My_Setup/blob/main/setup_pegasus-frontend.bat) to do them. And I have made a [desktop record](#).
 
-#### Reference
+## Reference
 
 - [Pegasus Tools Collection](https://pegasus-frontend.org/tools/)
 - [Skyscraper](https://github.com/muldjord/skyscraper)

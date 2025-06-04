@@ -1,5 +1,5 @@
-### [ExifGlass](https://github.com/d2phap/ExifGlass)
+# [ExifGlass](https://github.com/d2phap/ExifGlass)
 
-#### Setting
+## Setting
 
 - Menu → Settings → Executable Path → Select → `exiftool.exe`

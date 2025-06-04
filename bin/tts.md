@@ -1,4 +1,4 @@
-### [TTS](https://github.com/coqui-ai/TTS) [^1]
+# [TTS](https://github.com/coqui-ai/TTS) [^1]
 
 ```sh
 scoop install espeak-ng
@@ -14,7 +14,7 @@ uv pip install -e .
 ```
 ````
 
-#### Usage
+## Usage
 
 ```sh
 tts --list_models
@@ -26,7 +26,7 @@ tts --model_name "tts_models/multilingual/multi-dataset/xtts_v2" --list_language
 tts --device cuda --model_name "tts_models/multilingual/multi-dataset/xtts_v2" --speaker_idx "Claribel Dervla" --language_idx "en" --text "<text>" --out_path temp.wav
 ```
 
-#### Sample
+## Sample files
 
 - [file_tts](https://github.com/scillidan/file_tts)
 

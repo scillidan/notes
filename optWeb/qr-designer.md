@@ -1,4 +1,4 @@
-### [QR code designer](https://github.com/kochrt/qr-designer)
+# [QR code designer](https://github.com/kochrt/qr-designer)
 
 ![](https://img.shields.io/github/license/kochrt/qr-designer?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/qr-designer/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
 

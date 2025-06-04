@@ -1,4 +1,4 @@
-### [pyenv](https://github.com/pyenv/pyenv) (Cache)
+# [pyenv](https://github.com/pyenv/pyenv) (Cache)
 
 ````{tab} Ubuntu 22 ARM [^1][^2]
 ```sh
@@ -22,7 +22,7 @@ source ~/.zshrc
 ```
 ````
 
-#### [pyenv for Windows](https://github.com/pyenv-win/pyenv-win) [^3][^4]
+## [pyenv for Windows](https://github.com/pyenv-win/pyenv-win) [^3][^4]
 
 ```sh
 git clone --depth=1 https://github.com/pyenv-win/pyenv-win ~/.pyenv
@@ -33,7 +33,7 @@ pyenv install 3.11.9
 pyenv shell <version>
 ```
 
-#### Usage
+## Usage
 
 ```sh
 # mkdir ~/.pyenv/cache

@@ -1,4 +1,4 @@
-### [Anki Sync Server](https://docs.ankiweb.net/sync-server.html)
+# [Anki Sync Server](https://docs.ankiweb.net/sync-server.html)
 
 ````{tab} Ubuntu 22 ARM [^1]
 ```sh
@@ -40,7 +40,7 @@ sudo systemctl enable --now anki-sync-server
 ```
 ````
 
-#### Cross-reference
+## Cross-reference
 
 - [anki.md](https://scillidan.github.io/notes/opt/anki.html)
 - [ankidroid.md](https://scillidan.github.io/notes/opt/ankidroid.html)

@@ -1,4 +1,4 @@
-### [Godot MCP](https://github.com/Coding-Solo/godot-mcp)
+# [Godot MCP](https://github.com/Coding-Solo/godot-mcp)
 
 ````{tab} From source
 ```sh
@@ -9,7 +9,7 @@ npm run build
 ```
 ````
 
-#### Setting in VScode/VScodium
+## Setting in VScode/VScodium
 
 - Extension → Cline → Manage MCP Servers → Settings → Configure MCP Servers
 	```json

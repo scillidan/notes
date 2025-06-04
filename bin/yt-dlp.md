@@ -1,4 +1,4 @@
-### [yt-dlp](https://github.com/yt-dlp/yt-dlp)
+# [yt-dlp](https://github.com/yt-dlp/yt-dlp)
 
 ````{tab} scoop
 ```sh
@@ -12,7 +12,7 @@ sudo pacman -S yt-dlp
 ```
 ````
 
-#### Install plugins[^1] (Optional)
+## Install plugins[^1] (Optional)
 
 ````{tab} Windows 10
 1. Get `yt-dlp-ChromeCookieUnlock.zip` from [release](https://github.com/seproDev/yt-dlp-ChromeCookieUnlock)
@@ -20,7 +20,7 @@ sudo pacman -S yt-dlp
 3. Move `yt-dlp-ChromeCookieUnlock\` into `C:\Users\User\AppData\Roaming\yt-dlg\plugins\`
 ````
 
-#### Usage
+## Usage
 
 ```sh
 yt-dlp -F <url_1>
@@ -28,7 +28,7 @@ yt-dlp -f <video_id>+<audio_id> <url_1>
 yt-dlp -f bestvideo+bestaudio <url_1>
 ```
 
-#### Record
+## Terminal record
 
 ```{eval-rst}
 .. asciinema :: Z9w9zQTrS7IJ6wfbGZxrlN8pR

@@ -1,4 +1,4 @@
-### [Open Codex CLI](https://github.com/ymichael/open-codex) (Cache)
+# [Open Codex CLI](https://github.com/ymichael/open-codex) (Cache)
 
 ````{tab} ArchWSL
 ```sh
@@ -6,7 +6,7 @@ pnpm i -g open-codex
 ```
 ````
 
-#### Usage
+## Usage
 
 ````{tab} ArchWSL
 ```sh

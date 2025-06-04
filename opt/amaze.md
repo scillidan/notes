@@ -1,6 +1,6 @@
-### [Amaze](https://github.com/TeamAmaze/AmazeFileManager)
+# [Amaze](https://github.com/TeamAmaze/AmazeFileManager)
 
-#### Usage
+## Usage
 
 - 新建 → 网盘 → SMB共享连接 → 使用自定义IP
 	```

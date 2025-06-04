@@ -1,5 +1,5 @@
-### [BleachBit](https://bleachbit.org/)
+# [BleachBit](https://bleachbit.org/)
 
-#### Usage
+## Usage
 
 - Windows Explorer → 缩略图(On) → 清空

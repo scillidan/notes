@@ -1,4 +1,4 @@
-### [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
+# [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
 
 ![](https://img.shields.io/github/license/chatchat-space/Langchain-Chatchat?style=flat-square)
 

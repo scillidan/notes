@@ -1,4 +1,4 @@
-### [MiKTeX](https://miktex.org)
+# [MiKTeX](https://miktex.org)
 
 ````{tab} Scoop
 ```sh
@@ -14,12 +14,12 @@ scoop install miktex
 ```
 ````
 
-#### Setting
+## Setting
 
 1. Settings → General → Package Install → Retrieve from ... → Change → Next → ...
 2. Packages → Search `latexmk` → Select the `latexmk` → Content Menu → Install package
 
-#### Usage
+## Usage
 
 - Tasks
 	- Update package database

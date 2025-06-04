@@ -1,6 +1,6 @@
-### [Thorium](https://github.com/edrlab/thorium-reader)
+# [Thorium](https://github.com/edrlab/thorium-reader)
 
-#### Usage
+## Usage
 
 - Catalogs → Add an OPDS feed:
 	```

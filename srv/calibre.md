@@ -1,6 +1,4 @@
-### [Calibre](https://calibre-ebook.com/)
-
-#### Selfhost
+# [Calibre](https://calibre-ebook.com/)
 
 ````{tab} Windows 10
 1. Calibre → Preferences → Sharing → Sharing over ht net → The port on which to listen for connections `<port>`
@@ -38,7 +36,7 @@ sudo docker compose up -d
 2. The opds serve is on `http://<your_host>:8081/opds`.
 3. Calibre → Control bar → Enable Audio
 
-#### Setting [^3][^4]
+## Setting [^3][^4]
 
 1. Calibre → Select your book → View → View with calibre E-book viewer
 2. Stay at the top of the reader → Show controls → Preferences
@@ -63,16 +61,14 @@ sudo docker compose up -d
   URL `http://<your_host>:<port>/?models=librarian%3Alatest-clone&q={word}`
   ```
 
-#### Usage
+## Usage
 
 1. Calibre → Get books → Configure → `Project Gutenberg` (Enable)
 2. Title → Entry `<book_name>` → Search
 3. Select a book → Enter → Check book format → Download
 4. Select book → View → View with calibre E-book viewer
 
-#### [Resource](https://www.dolthub.com/repositories/scillidan/resource/data/main/calibre)
-
-#### Cross-reference
+## Cross-reference
 
 - [silverdict.md](https://scillidan.github.io/notes/srv/silverdict.html)
 

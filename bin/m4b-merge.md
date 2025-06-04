@@ -1,4 +1,4 @@
-### [m4b-merge](https://github.com/djdembeck/m4b-merge) (Cache)
+# [m4b-merge](https://github.com/djdembeck/m4b-merge) (Cache)
 
 ````{tab} Docker
 ```sh

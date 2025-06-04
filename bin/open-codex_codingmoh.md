@@ -1,4 +1,4 @@
-### [Open Codex CLI](https://github.com/codingmoh/open-codex) (Cache)
+# [Open Codex CLI](https://github.com/codingmoh/open-codex) (Cache)
 
 ```sh
 git clone --depth=1 https://github.com/codingmoh/open-codex

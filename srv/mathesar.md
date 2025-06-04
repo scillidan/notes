@@ -1,6 +1,4 @@
-### [Mathesar](https://github.com/mathesar-foundation/mathesar) (Wait)
-
-#### Selfhost
+# [Mathesar](https://github.com/mathesar-foundation/mathesar) (Cache)
 
 ```sh
 mkdir mathesar

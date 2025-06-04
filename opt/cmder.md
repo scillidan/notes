@@ -1,10 +1,10 @@
-### [Cmder](https://cmder.app/)
+# [Cmder](https://cmder.app/)
 
-#### Setting
+## Setting
 
 - Settings → Import → `user-ConEmu.xml`
 
-#### Reference
+## Reference
 
 - [Shortcut to open Cmder in a chosen folder](https://github.com/cmderdev/cmder#shortcut-to-open-cmder-in-a-chosen-folder)
 - [set PATH with multiple lines](https://stackoverflow.com/questions/40909459/set-path-with-multiple-lines)

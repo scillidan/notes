@@ -1,4 +1,4 @@
-### [Zellij](https://github.com/zellij-org/zellij)
+# [Zellij](https://github.com/zellij-org/zellij)
 
 ````{tab} Ubuntu 22 ARM
 Get `zellij-aarch64-unknown-linux-musl.tar.gz` from [Zellij - Releases](https://github.com/zellij-org/zellij/releases).
@@ -16,7 +16,7 @@ mv zjframes.wasm ~/.config/zellij/plugins
 mv zjstatus.wasm ~/.config/zellij/plugins
 ```
 
-#### Reference
+## Reference
 
 - [Configuration](https://zellij.dev/documentation/configuration)
 - [Configuration - Options](https://zellij.dev/documentation/options)

@@ -1,4 +1,4 @@
-### [headscale](https://github.com/juanfont/headscale) (Cache)
+# [headscale](https://github.com/juanfont/headscale) (Cache)
 
 ````{tab} Ubuntu 24 ARM [^1][^2]
 Get `headscale_<version>_linux_arm64` from [Headscale - Releases](https://github.com/juanfont/headscale/releases).
@@ -27,7 +27,7 @@ systemctl status headscale
 [^1]: [Using standalone binaries (advanced)](https://headscale.net/stable/setup/install/official/#using-standalone-binaries-advanced)
 [^2]: [How To Install Headscale on Ubuntu 24.04|22.04|20.04](https://computingforgeeks.com/install-and-configure-headscale-on-ubuntu/)
 
-#### [Headscale-UI](https://github.com/gurucomputing/headscale-ui) (Cache)
+## [Headscale-UI](https://github.com/gurucomputing/headscale-ui) (Cache)
 
 ````{tab} From source
 ```sh

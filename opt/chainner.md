@@ -1,4 +1,4 @@
-### [chaiNNer](https://chainner.app/)
+# [chaiNNer](https://chainner.app/)
 
 1. Get `chaiNNer-windows-x64-**.zip` from [Releases](https://github.com/chaiNNer-org/chaiNNer/releases).
 2. Decompress `.zip` to `chaiNNer\`.
@@ -6,7 +6,7 @@
 4. Decompress `.tar.gz` to `python\`.
 5. Put `python\` into `chaiNNer\python\`.
 
-#### Enable model architecture support
+## Enable model architecture support
 
 ```sh
 cd chaiNNer\python\python
@@ -25,7 +25,7 @@ python -m pip install onnx==1.16.0 onnxoptimizer==0.3.13 onnxruntime-gpu==1.17.1
 4. Restart chaiNNer.
 5. Usage with `LOAD MODEL` node and corresponding node for `PROCESSING`.
 
-#### Reference
+## Reference
 
 - [What is the difference between PyTorch, NCNN, ONNX?](https://github.com/scillidan/dictionary/blob/main/chat/what-difference/pytorch%2Cncnn%2Connx.md)
 - [What is the difference between Inpainting, Denoising, DeJPEG, Colorization, Dehazing, Low-light Enhancement?](https://github.com/scillidan/dictionary/blob/main/chat/what-difference/inpainting%2Cdenoising%2Cdejpeg%2Ccolorization%2Cdehazing%2Clow-light-enhancement.md)

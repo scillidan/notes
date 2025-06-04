@@ -1,4 +1,4 @@
-### [Album App for Django](https://github.com/jobsta/albumapp-django)
+# [Album App for Django](https://github.com/jobsta/albumapp-django)
 
 ![](https://img.shields.io/github/license/jobsta/albumapp-django?style=flat-square)
 
