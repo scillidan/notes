@@ -1,5 +1,7 @@
 # [Graphite](https://github.com/GraphiteEditor/Graphite) (Cache)
 
+![](https://img.shields.io/github/license/GraphiteEditor/Graphite?style=flat-square)
+
 ````{tab} Ubuntu 24 ARM [^1]
 ```sh
 cargo install cargo-watch
@@ -15,5 +17,9 @@ npm run build
 pm2 serve dist 4321 --name graphite --spa
 ```
 ````
+
+## Deploy with Vercel (Cache)
+
+Settings → Build and Deployment → Output Directory → `website/other/dist`
 
 [^1]: [Project setup](https://graphite.rs/volunteer/guide/project-setup/)

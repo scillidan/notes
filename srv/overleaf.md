@@ -1,15 +1,5 @@
-# [Overleaf](https://github.com/overleaf/overleaf) (Cache)
+# [Overleaf](https://github.com/overleaf/overleaf) (Later)
 
-````{tab} ArchWSL
-```sh
-mkdir overleaf
-cd overleaf
-vim docker-compose.yml
-```
+## Reference
 
-Copy from [here](https://github.com/overleaf/overleaf/blob/main/docker-compose.yml).
-
-```sh
-sudo docker compose up -d
-```
-````
+- [Quick-Start Guide](https://github.com/overleaf/toolkit/blob/master/doc/quick-start-guide.md)

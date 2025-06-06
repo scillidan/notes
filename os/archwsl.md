@@ -193,11 +193,6 @@ guiApplications=false
 ```
 ````
 
-## Reference
-
-- [WSLg/WSL2 网络配置，终极解决方案 - 镜像网络](https://blog.gazer.win/essay/wsl2-mirrored-network.html) (Cache)
-- [WSL2 with GUI using Xvnc](https://gist.github.com/tdcosta100/385636cbae39fc8cd0937139e87b1c74) (Cache)
-
 ## Cross-reference
 
 - [arch-linux.md](https://scillidan.github.io/notes/os/arch-linux.html)
