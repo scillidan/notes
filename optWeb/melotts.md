@@ -2,17 +2,15 @@
 
 ![](https://img.shields.io/github/license/myshell-ai/MeloTTS?style=flat-square)
 
-````{tab} From source
 ```sh
 git clone --depth=1 https://github.com/myshell-ai/MeloTTS
-uv venv
+uv venv --python 3.10
 .venv\Scripts\activate.bat
 uv pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 uv pip install -e .
 uv pip install hf_transfer
 python -m unidic download
 ```
-````
 
 ## Usage
 

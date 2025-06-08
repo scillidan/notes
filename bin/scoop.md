@@ -54,10 +54,18 @@ git clone --depth=1 https://github.com/Calinou/scoop-games
 
 ## Cteate your bucket
 
-- [Scoop Bucket Template](https://github.com/ScoopInstaller/BucketTemplate)
 - [CONTRIBUTING.md](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-- [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-- [App Manifest Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
+	- [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
+	- [App Manifest Autoupdate](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
+- [Scoop Bucket Template](https://github.com/ScoopInstaller/BucketTemplate)
+- References
+	- [7zip.json](https://github.com/ScoopInstaller/Main/blob/master/bucket/7zip.json)
+	- [alacritty.json](https://github.com/ScoopInstaller/Extras/blob/master/bucket/alacritty.json)
+	- [calibre.json](https://github.com/ScoopInstaller/Extras/blob/master/bucket/calibre.json)
+	- [handbrake.json](https://github.com/ScoopInstaller/Extras/blob/master/bucket/handbrake.json)
+	- [mpv.json](https://github.com/ScoopInstaller/Extras/blob/master/bucket/mpv.json)
+	- [neovim.json](https://github.com/ScoopInstaller/Main/blob/master/bucket/neovim.json)
+	- [sumatrapdf-installer.json](https://github.com/ScoopInstaller/Versions/blob/master/bucket/sumatrapdf-installer.json)
 
 ## Install package
 
