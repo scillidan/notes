@@ -105,7 +105,15 @@ bash <(curl -fsSL https://lobe.li/setup.sh) -l en
 Remember the `username` and `password` displayed on the terminal.
 ````
 
-## Deploy with Vercel
+## Update
+
+```sh
+sudo docker compose down
+sudo docker compose pull
+sudo docker compose up -d
+```
+
+## Reference
 
 - [Deploying Server Database Version on Vercel](https://lobehub.com/docs/self-hosting/server-database/vercel)
 

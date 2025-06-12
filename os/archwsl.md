@@ -147,7 +147,9 @@ pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
 
 ## Remove Windows 10's PATH [^5][^6]
 
-Edit `~/.wslconfig`:
+```sh
+sudo vim /etc/wsl.config
+```
 
 ```
 [interop]
