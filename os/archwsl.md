@@ -145,6 +145,11 @@ pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
 ```
 
+```sh
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
+# rustup default nightly
+```
+
 ## Remove Windows 10's PATH [^5][^6]
 
 ```sh
