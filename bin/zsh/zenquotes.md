@@ -1,6 +1,5 @@
 # [zenquotes](https://github.com/aminelch/zenquotes)
 
 ```sh
-cd $ZSH/custom/plugins
-git clone https://github.com/aminelch/zenquotes
+git clone --depth=1 https://github.com/aminelch/zenquotes ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zenquotes
 ```

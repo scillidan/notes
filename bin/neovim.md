@@ -86,24 +86,28 @@ neovide --server <your_host>:1234
 ## Reference
 
 - [Copy all the lines to clipboard](https://ctan.org/tex-archive/macros/latex/contrib/gitinfo2)
+- [优化neovim启动速度](https://www.bilibili.com/video/BV1ohWqeSETr)
+- [neovim的LSP配置这一块](https://www.bilibili.com/video/BV1iG7rzTEaz)
 
 ## Resource
 
-```{include} opt/neovim/lazy.nvim.md
+```{include} bin/neovim/blink.cmp.md
 ```
-```{include} opt/neovim/packer.nvim.md
+```{include} bin/neovim/lazy.nvim.md
 ```
-```{include} opt/neovim/mason.nvim.md
+```{include} bin/neovim/packer.nvim.md
 ```
-```{include} opt/neovim/nvim-treesitter.md
+```{include} bin/neovim/mason.nvim.md
 ```
-```{include} opt/neovim/nvim-devdocs.md
+```{include} bin/neovim/nvim-treesitter.md
 ```
-```{include} opt/neovim/cmp-lsp-rimels.md
+```{include} bin/neovim/nvim-devdocs.md
 ```
-```{include} opt/neovim/telescope.nvim.md
+```{include} bin/neovim/cmp-lsp-rimels.md
 ```
-```{include} opt/neovim/latex.md
+```{include} bin/neovim/telescope.nvim.md
+```
+```{include} bin/neovim/latex.md
 ```
 
 ## Troubleshoot

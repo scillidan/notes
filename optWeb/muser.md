@@ -1,6 +1,6 @@
 # [Muser](https://github.com/jonshamir/muser)
 
-![](https://img.shields.io/github/license/jonshamir/muser) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/jonshamir/muser)
 
 ```sh
 git clone --depth=1 https://github.com/jonshamir/muser

@@ -1,6 +1,6 @@
 # [finetuneas](https://github.com/ozdefir/finetuneas)
 
-![](https://img.shields.io/github/license/ozdefir/finetuneas?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/finetuneas/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/ozdefir/finetuneas?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/finetuneas/main?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source
 ```sh

@@ -1,6 +1,6 @@
 # [REAFLOW](https://github.com/reaviz/reaflow)
 
-![](https://img.shields.io/github/license/reaviz/reaflow?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/reaflow/master?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)
+![](https://img.shields.io/github/license/reaviz/reaflow?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/reaflow/master?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source
 ```sh

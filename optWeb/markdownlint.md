@@ -1,6 +1,6 @@
 # [markdownlint](https://github.com/DavidAnson/markdownlint)
 
-![](https://img.shields.io/github/license/DavidAnson/markdownlint?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/markdownlint/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/DavidAnson/markdownlint?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/markdownlint/main?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source
 ```sh

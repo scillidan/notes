@@ -1,6 +1,6 @@
 # [JS IMAGE CARVER](https://github.com/trekhleb/js-image-carver)
 
-![](https://img.shields.io/github/license/trekhleb/js-image-carver?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/js-image-carver/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/trekhleb/js-image-carver?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/js-image-carver/main?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source
 ```sh

@@ -1,6 +1,6 @@
 # [GIT.RAWify](https://github.com/emmanpbarrameda/GIT.RAWify)
 
-![](https://img.shields.io/github/license/emmanpbarrameda/GIT.RAWify?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/GIT.RAWify/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/emmanpbarrameda/GIT.RAWify?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/GIT.RAWify/main?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source
 ```sh

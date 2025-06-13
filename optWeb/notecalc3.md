@@ -1,6 +1,6 @@
 # [NoteCalc](https://github.com/bbodi/notecalc3)
 
-![](https://img.shields.io/github/license/bbodi/notecalc3) ![](https://img.shields.io/github/last-commit/scillidan/notecalc3/develop) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/bbodi/notecalc3) ![](https://img.shields.io/github/last-commit/scillidan/notecalc3/develop)
 
 ````{tab} From source
 ```sh

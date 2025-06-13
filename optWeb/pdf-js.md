@@ -1,6 +1,6 @@
 # [PDF.js](https://github.com/mozilla/pdf.js)
 
-![](https://img.shields.io/github/license/mozilla/pdf.js?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/pdf.js/main?label=last%20commit%20(fork)&style=flat-square) ![](https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white)
+![](https://img.shields.io/github/license/mozilla/pdf.js?style=flat-square) ![](https://img.shields.io/github/last-commit/scillidan/pdf.js/main?label=last%20commit%20(fork)&style=flat-square)
 
 ````{tab} From source [^1]
 Install [GTK 2](https://github.com/Automattic/node-canvas/wiki/Installation:-Windows#2-installing-gtk-2).

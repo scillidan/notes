@@ -99,6 +99,7 @@ sudo pacman -S \
 	git \
 	github-cli \
 	harper \
+	less \
 	neovim \
 	newsboat \
 	nvm \
@@ -107,8 +108,9 @@ sudo pacman -S \
 	pnpm \
 	presenterm \
 	python-pipx \
-	rust \
 	rbenv \
+	ripgrep \
+	rust \
 	sdcv \
 	starship \
 	tere \
