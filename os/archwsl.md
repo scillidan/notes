@@ -84,6 +84,7 @@ For example:
 ```sh
 sudo pacman -S \
 	asciinema \
+	ast-grep \
 	atuin \
 	bat \
 	cargo \
@@ -119,6 +120,7 @@ sudo pacman -S \
 	tmux \
 	tmuxinator \
 	translate-shell \
+	tree-sitter \
 	uv \
 	wget \
 	yq \
@@ -141,15 +143,21 @@ win32yank
 ````
 
 ```sh
-pipx install deep-translator pip_search
-cargo install autocast grex pipe-rename tidy-viewer trashy
-pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
-pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
+pyenv global 3.10
+hererocks lua51 -l5.1 -rlatest
+source lua51/bin/activate
+luarocks install luacheck
+# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
+# rustup default nightly
 ```
 
 ```sh
-# curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain none -y
-# rustup default nightly
+pipx install deep-translator pip_search
+pip install codespell isort
+sudo /home/<username>/.pyenv/shims/pip install hererocks
+cargo install autocast grex pipe-rename tidy-viewer trashy
+pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
+pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
 ```
 
 ## Remove Windows 10's PATH [^5][^6]

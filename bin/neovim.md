@@ -91,21 +91,23 @@ neovide --server <your_host>:1234
 
 ## Resource
 
-```{include} bin/neovim/blink.cmp.md
-```
 ```{include} bin/neovim/lazy.nvim.md
 ```
 ```{include} bin/neovim/packer.nvim.md
 ```
-```{include} bin/neovim/mason.nvim.md
-```
 ```{include} bin/neovim/nvim-treesitter.md
 ```
-```{include} bin/neovim/nvim-devdocs.md
+```{include} bin/neovim/mason.nvim.md
+```
+```{include} bin/neovim/blink.cmp.md
 ```
 ```{include} bin/neovim/cmp-lsp-rimels.md
 ```
 ```{include} bin/neovim/telescope.nvim.md
+```
+```{include} bin/neovim/nvim-dap.md
+```
+```{include} bin/neovim/nvim-devdocs.md
 ```
 ```{include} bin/neovim/latex.md
 ```
