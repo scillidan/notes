@@ -1,4 +1,4 @@
-# [Neovim](https://neovim.io/)
+# [Neovim](https://neovim.io/) (Later)
 
 ## Install
 
@@ -88,6 +88,7 @@ neovide --server <your_host>:1234
 - [Copy all the lines to clipboard](https://ctan.org/tex-archive/macros/latex/contrib/gitinfo2)
 - [优化neovim启动速度](https://www.bilibili.com/video/BV1ohWqeSETr)
 - [neovim的LSP配置这一块](https://www.bilibili.com/video/BV1iG7rzTEaz)
+- [neovim的代码折叠](https://www.bilibili.com/video/BV1JfMWzzEr1)
 
 ## Resource
 

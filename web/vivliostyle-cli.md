@@ -76,3 +76,7 @@ jobs:
 ```
 
 Visit [Vivliostyle Viewer](https://vivliostyle.org/viewer/). Enter your `gh-pages` URL liked `https://<User>.github.io/<Repository>`.
+
+## Reference
+
+- [Option to use a specific Vivliostyle Viewer version or its URL](https://github.com/vivliostyle/vivliostyle-cli/issues/232)
