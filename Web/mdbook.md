@@ -2,7 +2,6 @@
 
 ```sh
 cargo install mdbook
-# cargo install mdbook-epub
 mdbook init <yourbook>
 cd <yourbook>
 mdbook serve --open

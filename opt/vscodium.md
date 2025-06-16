@@ -32,5 +32,5 @@ Settings → Open Settings (JSON)
 
 ## Resource
 
-```{include} opt/vscodium/ltex-ls-plus.md
+```{include} vscodium/ltex-ls-plus.md
 ```

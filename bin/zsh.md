@@ -12,21 +12,21 @@ source .zshrc
 
 ## Plugin
 
-```{include} bin/zsh/minimal.md
+```{include} zsh/minimal.md
 ```
-```{include} bin/zsh/zenquotes.md
+```{include} zsh/zenquotes.md
 ```
-```{include} bin/zsh/zsh-abbr.md
+```{include} zsh/zsh-abbr.md
 ```
-```{include} bin/zsh/zsh-help.md
+```{include} zsh/zsh-help.md
 ```
-```{include} bin/zsh/zsh-nvm-auto-use.md
+```{include} zsh/zsh-nvm-auto-use.md
 ```
-```{include} bin/zsh/zsh-nvm-pnpm-auto-switch.md
+```{include} zsh/zsh-nvm-pnpm-auto-switch.md
 ```
-```{include} bin/zsh/zsh-proxy.md
+```{include} zsh/zsh-proxy.md
 ```
-```{include} bin/zsh/zsh-smart-files.md
+```{include} zsh/zsh-smart-files.md
 ```
-```{include} bin/zsh/zsh-ssh.md
+```{include} zsh/zsh-ssh.md
 ```

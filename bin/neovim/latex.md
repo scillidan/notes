@@ -1,5 +1,3 @@
-# LaTeX
-
 ````{tab} Arch
 ```sh
 sudo pacman -S texlab zathura

@@ -38,7 +38,12 @@ jobs:
       - name: Install dependencies
         run: |
           pip install furo myst-parser
-          pip install sphinx-copybutton sphinx-inline-tabs sphinx-external-toc sphinxcontrib.asciinema sphinxext-photofinish sphinxcontrib-video
+          pip install sphinx-copybutton \
+            sphinx-inline-tabs \
+            sphinx-external-toc \
+            sphinxcontrib.asciinema \
+            sphinxext-photofinish \
+            sphinxcontrib-video
       - name: Build html
         run: make clean && make html
       - name: Setup Pages

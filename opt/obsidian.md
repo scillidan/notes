@@ -8,5 +8,5 @@
 
 ## Resource
 
-```{include} opt/obsidian/obsidian-kokoro-tts-plugin.md
+```{include} obsidian/obsidian-kokoro-tts-plugin.md
 ```

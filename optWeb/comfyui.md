@@ -31,9 +31,9 @@ python main.py --directml
 
 ## Workflow
 
-```{include} optWeb/comfyui/comfyui-auto_installer.md
+```{include} comfyui/comfyui-auto_installer.md
 ```
-```{include} optWeb/comfyui/comfyui-tell-the-difference.md
+```{include} comfyui/comfyui-tell-the-difference.md
 ```
 
 ## Optional

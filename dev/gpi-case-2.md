@@ -22,9 +22,9 @@ RetroPie used [EmulationStation](https://gitlab.com/es-de/emulationstation-de) a
 
 ## OS
 
-```{include} dev/gpi-case-2/recalbox.md
+```{include} gpi-case-2/recalbox.md
 ```
-```{include} dev/gpi-case-2/retropie.md
+```{include} gpi-case-2/retropie.md
 ```
 
 ## Emulator [Löve](https://love2d.org/) (Experimental) [^1][^2] (Cache)

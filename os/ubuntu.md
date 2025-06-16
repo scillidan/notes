@@ -68,7 +68,7 @@ sudo apt update
 
 ## Ubuntu 24
 
-```{include} os/ubuntu/flatpak.md
+```{include} ubuntu/flatpak.md
 ```
 
 ## Ubuntu 24 ARM (Cache)

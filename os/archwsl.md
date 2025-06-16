@@ -133,6 +133,7 @@ sudo pacman -S \
 ```sh
 yay -S --noconfirm \
 act \
+carapace-bin \
 gvm \
 lazydocker-bin \
 paru \

@@ -23,5 +23,5 @@
 
 ## Resource
 
-```{include} lib/latex/geneve_1564.md
+```{include} latex/geneve_1564.md
 ```
