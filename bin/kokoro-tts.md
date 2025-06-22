@@ -18,3 +18,9 @@ wget https://github.com/nazdridoy/kokoro-tts/releases/download/v1.0.0/kokoro-v1.
 python kokoro-tts input.txt output.wav --speed 1.2 --lang en-us --voice af_alloy
 python kokoro-tts input.txt output.wav --speed 1 --lang en-us --voice af_sarah
 ```
+
+<!-- ```sh
+git clone --depth=1 https://github.com/skywind3000/ECDICT
+cd ECDICT
+xan select word ecdict.csv -o ecdcit_word.csv
+``` -->

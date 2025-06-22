@@ -84,28 +84,38 @@ For example:
 ```sh
 sudo pacman -S \
 	asciinema \
+	aspell \
+	aspell-en \
 	ast-grep \
 	atuin \
 	bat \
 	cargo \
+	chafa \
 	chezmoi \
 	cmus \
 	cronie \
 	curl \
+	dictd \
+	difftastic \
 	docker \
 	docker-compose \
 	eza \
 	fd \
+	ffmpegthumbnailer \
 	fzf \
 	git \
 	github-cli \
+	glow \
 	harper \
+	lazygit \
 	less \
 	neovim \
 	newsboat \
 	nvm \
+	imagemagick \
 	openssh \
 	pandoc-cli \
+	pdftoppm \
 	pnpm \
 	presenterm \
 	python-pipx \
@@ -120,10 +130,10 @@ sudo pacman -S \
 	tmux \
 	tmuxinator \
 	translate-shell \
-	tree-sitter \
 	uv \
 	wget \
 	yq \
+	zoxide \
 	zsh
 	# go
 ```
@@ -134,12 +144,16 @@ sudo pacman -S \
 yay -S --noconfirm \
 act \
 carapace-bin \
+epub-thumbnailer-git \
+epy-ereader-git \
+fontpreview \
 gvm \
 lazydocker-bin \
 paru \
 ruby-build \
 texlive-installer \
-win32yank
+win32yank \
+wordnet-common
 ```
 ````
 

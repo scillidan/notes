@@ -6,7 +6,7 @@
 
 ## Reference
 
-- [neovim的代码折叠](https://www.bilibili.com/video/BV1JfMWzzEr1)
+- [tree-sitter executable not found](https://github.com/nvim-treesitter/nvim-treesitter/issues/1097)
 
 ## Troubleshoot
 

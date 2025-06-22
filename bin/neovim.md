@@ -62,8 +62,11 @@ neovide --server <your_host>:1234
 - [Install a Nerd Font](https://www.lunarvim.org/docs/installation/post-install#install-a-nerd-font)
 - [Only just discovered 'set signcolumn=number', I like it](https://www.reddit.com/r/neovim/comments/neaeej/only_just_discovered_set_signcolumnnumber_i_like/)
 - [Copy all the lines to clipboard](https://ctan.org/tex-archive/macros/latex/contrib/gitinfo2)
+- [Why does `ESC` move the cursor back in vim?](https://unix.stackexchange.com/questions/11402/why-does-esc-move-the-cursor-back-in-vim)
 - [优化neovim启动速度](https://www.bilibili.com/video/BV1ohWqeSETr)
-- (Windows 10) [Neovim configuration on Windows 10](https://jdhao.github.io/2018/11/15/neovim_configuration_windows/)
+- [重写neovim配置，新的开始](https://www.bilibili.com/video/BV1UHWoetEz3)
+- [Neovim configuration on Windows 10](https://jdhao.github.io/2018/11/15/neovim_configuration_windows/)
+- [How to use WSL's bash shell as default terminal of gvim/windows 10?](https://vi.stackexchange.com/questions/16386/how-to-use-wsls-bash-shell-as-default-terminal-of-gvim-windows-10)
 
 ### Configure LSP
 

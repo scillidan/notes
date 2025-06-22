@@ -11,7 +11,7 @@ sudo apt install dictd
 For used serve on LAN:
 
 ```sh
-sudo vim /etc/dictd/dictd.conf
+sudo vim /etc/dict/dictd.conf
 ```
 
 ```
@@ -71,6 +71,19 @@ database wikdict-en-zh {
 
 ```sh
 sudo systemctl enable --now dictd.service
+```
+````
+
+````{tab} Arch
+```sh
+sudo vim /etc/dict/dictd.conf
+```
+
+```
+database ecdict {
+data /mnt/c/Users/User/Usr/File/file_dictd/ecdict.dict.dz
+index /mnt/c/Users/User/Usr/File/file_dictd/ecdict.index
+}
 ```
 ````
 
