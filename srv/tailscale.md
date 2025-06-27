@@ -7,7 +7,16 @@ curl -fsSL https://pkgs.tailscale.com/stable/ubuntu/noble.tailscale-keyring.list
 sudo apt-get update
 sudo apt-get install tailscale
 sudo tailscale up
-ip addr show tailscale0
-sudo tailscale login
 ```
 ````
+
+````{tab} ArchWSL / RaspArch
+```sh
+sudo pacman -S tailscale
+sudo systemctl enable --now tailscaled
+```
+````
+
+```sh
+sudo tailscale login
+```

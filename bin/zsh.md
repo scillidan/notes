@@ -18,6 +18,8 @@ source .zshrc
 ```
 ```{include} zsh/zsh-abbr.md
 ```
+```{include} zsh/zsh-chezmoi.md
+```
 ```{include} zsh/zsh-help.md
 ```
 ```{include} zsh/zsh-nvm-auto-use.md

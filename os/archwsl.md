@@ -82,6 +82,7 @@ For example:
 
 ````{tab} pacman
 ```sh
+# sudo pacman -S --needed git base-devel
 sudo pacman -S \
 	asciinema \
 	aspell \
@@ -127,6 +128,7 @@ sudo pacman -S \
 	rust \
 	sdcv \
 	starship \
+	tailscale \
 	tere \
 	tldr \
 	texlab \
@@ -147,18 +149,18 @@ sudo pacman -S \
 ````{tab} yay
 ```sh
 yay -S --noconfirm \
-act \
-carapace-bin \
-epub-thumbnailer-git \
-epy-ereader-git \
-fontpreview \
-gvm \
-lazydocker-bin \
-paru \
-ruby-build \
-texlive-installer \
-win32yank \
-wordnet-common
+	act \
+	carapace-bin \
+	epub-thumbnailer-git \
+	epy-ereader-git \
+	fontpreview \
+	gvm \
+	lazydocker-bin \
+	paru \
+	ruby-build \
+	texlive-installer \
+	win32yank \
+	wordnet-common
 ```
 ````
 
