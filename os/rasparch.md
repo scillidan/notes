@@ -39,5 +39,11 @@ sudo vim /etc/pacman.d/mirrorlist
 Server = https://mirrors.ustc.edu.cn/archlinuxarm/$repo/os/$arch
 ```
 
+## Setup
+
+```sh
+pacman -S tailscale
+```
+
 - [[SOLVED] pacman 7 - landlock is not supported by the kernel!](https://bbs.archlinux.org/viewtopic.php?id=299402)
 - [Arch Linux ARM](https://mirrors.ustc.edu.cn/help/archlinuxarm.html)
