@@ -30,3 +30,7 @@
 
 [^1]: [Omit Recycle Bin Files From Search](https://www.voidtools.com/forum/viewtopic.php?t=6454)
 [^2]: [Tools Options Exclude "Exclude files" .tmp :: not working ??](https://www.voidtools.com/forum/viewtopic.php?t=11617)
+
+## Reference
+
+- [INI](https://www.voidtools.com/support/everything/ini/)

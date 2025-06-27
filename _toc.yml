@@ -27,6 +27,9 @@ subtrees:
 - caption: srv
   entries:
   - glob: srv/*
+- caption: script
+  entries:
+  - glob: script/*
 - caption: web
   entries:
   - glob: web/*

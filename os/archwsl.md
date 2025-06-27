@@ -100,12 +100,14 @@ sudo pacman -S \
 	docker \
 	docker-compose \
 	eza \
+	fastfetch \
 	fd \
 	ffmpegthumbnailer \
 	fzf \
 	git \
 	github-cli \
 	glow \
+	gnupg \
 	harper \
 	lazygit \
 	less \
@@ -115,6 +117,7 @@ sudo pacman -S \
 	imagemagick \
 	openssh \
 	pandoc-cli \
+	pass \
 	pdftoppm \
 	pnpm \
 	presenterm \
@@ -132,10 +135,12 @@ sudo pacman -S \
 	translate-shell \
 	uv \
 	wget \
+	xsel \
 	yq \
 	zoxide \
 	zsh
-	# go
+	# go \
+	# dedoc \
 ```
 ````
 
@@ -170,7 +175,7 @@ luarocks install luacheck
 pipx install deep-translator pip_search
 pip install codespell isort
 sudo /home/<username>/.pyenv/shims/pip install hererocks
-cargo install autocast grex pipe-rename tidy-viewer trashy
+cargo install autocast grex pipe-rename tidy-viewer thumbs trashy
 pnpm add -g clean-css html-minifier js-beautify prettier svgo terser
 pnpm add -g degit echo-cli npms-cli markserv open-cli png-to-ico serve
 ```

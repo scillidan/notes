@@ -1,4 +1,4 @@
-# [Local RAG Chatbot](https://github.com/datvodinh/rag-chatbot)
+# [Local RAG Chatbot](https://github.com/datvodinh/rag-chatbot) (Cache)
 
 ![](https://img.shields.io/github/license/datvodinh/rag-chatbot?style=flat-square)
 

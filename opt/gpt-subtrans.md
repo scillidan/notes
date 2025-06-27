@@ -1,4 +1,4 @@
-# [GPT-Subtrans](https://github.com/machinewrapped/gpt-subtrans)
+# [GPT-Subtrans](https://github.com/machinewrapped/gpt-subtrans) (Cache)
 
 ![](https://img.shields.io/github/license/machinewrapped/gpt-subtrans?style=flat-square)
 

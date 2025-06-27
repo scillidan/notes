@@ -31,3 +31,8 @@ dolt commit -m "add table_1"
 # dolt pull origin main
 dolt push origin main
 ```
+
+```sh
+# export
+dolt sql -r csv -q "SELECT * FROM `blog` > file.csv
+```
